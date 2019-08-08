@@ -1,0 +1,33 @@
+digraph G {
+  rankdir="TB"
+  splines=spline
+  node [ shape=record ]
+
+Healthy2 [label="Healthy (10+ HP)"]
+Wounded2a [label="Wounded (&lt; 10 damage)"]
+Wounded2b [label="Wounded (10+ damage)"]
+Incap2 [label="Incapacitated (zero HP)"]
+Injury2a [label="Gain 1 Injury"]
+Injury2b [label="Gain 1 more Injury (2 total)"]
+Healed2a [label="Healed before Incap"]
+Healed2b [label="Healed after Incap"]
+Healed2c [label="Healed before 10 damage"]
+SecondWind2 [label="Second Wind (Gain 1 more Injury, 3 total)"]
+
+Healthy2 -> Wounded2a -> Wounded2b -> Injury2a -> Incap2 -> Injury2b
+Wounded2a -> Healed2c -> Healthy2
+Healed2a -> Healthy2
+Injury2a -> Healed2a
+Injury2b -> Healed2b -> Healthy2
+Injury2b -> SecondWind2 -> Healthy2
+
+Rest [label="Rest (Removes Exhausted, not Injury points or Damage)"]
+Exhausted [label="Exhausted (slow movement, any attack drops to Incap)"]
+Fatigued [label="Fatigued (slow movement)"]
+
+SecondWind2 -> Exhausted [style=dashed]
+Healed2b -> Exhausted [style=dashed]
+Exhausted -> Fatigued -> Rest [style=dashed]
+
+
+}

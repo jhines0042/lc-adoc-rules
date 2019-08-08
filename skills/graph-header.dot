@@ -1,0 +1,5 @@
+digraph G {
+  rankdir="LR"
+  splines=spline
+
+  { rank=same; "Academics Guild"; "Medicus Guild"; "Ritualist Guild"; "Crafting Guild"; "Explorers Guild"; "Acquisitions Guild"; "Military Orders" }

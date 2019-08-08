@@ -1,0 +1,64 @@
+= *Chapter 1: Introduction*
+:imagesdir: images
+:linkcss:
+
+You are a colonist and an explorer in a strange new land. You were selected from among many applicants for a challenging and specialized role in a place far from your home. By the light of day, you are working a trade, gathering supplies, or guarding the colony, and by candle light at night you puzzle over relics found in this new world, craft poultices, conduct rituals, or defend your fellow colonists from strange new things that lurk in the darkness. You were selected in part because your talents are various, spanning beyond your primary trade or craft. Welcome to Flint, where you will need to do whatever you can to ensure the survival of the colony.
+
+== What is Live Action Role Playing?
+
+Like most role playing games, Live Action Role Playing (LARP, Larp, or larp) puts you in the role of a Character, but instead of sitting around a table and describing your actions or controlling them on a computer screen, you get to act them out and actively participate in the world.  Where you stand, what you say, the actions you take all represent your character’s personality, opinions, and choices. Think of it as a form of improvisational theater.
+
+== Cultures and Costuming
+
+The world we present is a fictional one, designed from the ground up to be accessible to a wide variety of participants. The characters in this world come from a variety of diverse fictional countries and cultures inspired by both history and high fantasy. The clothing for each region is based mostly on its climate, resources, history, and technology. In building our world, we deliberately chose to incorporate some familiar aesthetic elements from real-world cultures as a practical way to make it easier for players to find costumes. We specifically advise, however, that when creating their costumes, players avoid cliches or harmful stereotypes associated with the costuming they have chosen, and present themselves in a respectful and culturally sensitive way.
+
+== General Costuming Guidelines
+
+Lost Colonies Larp is a colonial fantasy setting. To encourage immersion in this setting, it is expected that participants make a good attempt at wearing costuming suitable for the setting. Each region (see Chapter 3) has detailed guidelines for on costuming for that region, but here are some general guidelines:
+
+* In general, costumes inspired by pre-1800s clothing from anywhere in the world is acceptable.
+* While steampunk is a great aesthetic, this is not a steampunk larp, and steampunk-inspired costuming is not appropriate for Lost Colonies. 
+* Any clothing that appears distinctly modern in nature or that goes into the realm of fetish gear is also unacceptable.
+
+
+== Statement on Colonialism
+
+The Lost Colonies Larp is NOT an alternate history larp. We do not in any way condone or glorify the acts of genocide and slavery that have accompanied historical colonizations of various places on Earth. The story we intend to tell celebrates the spirit of adventure, exploration, and discovery, and takes place in a strictly fictional setting. *Stories of genocide or maltreatment of native populations will never be presented as part of the story and they are expressly prohibited as choices available to the players to make.*
+
+To be very clear, *there are no natives to the lands that the player characters inhabit.*
+
+The lands surrounding the colony are dangerous and full of wildlife and other hazards. The Colony of Flint is not alone however. There are other pockets of civilization on Torakand and we will refer to these other pockets of civilization as neighbors. Exactly who these neighbors are is a subject for plot to explore but one thing is very important to state up front, they are NOT an analog for "people to be subjugated, conquered, exploited or killed". 
+
+Eventually players will be able to make characters that come from these neighboring regions. And yes, we are going to introduce new playable ancestries at some point too. This is all part of the exploration and discoverys aspect of the Lost Colonies Larp.  As we reveal these changes we will be updating the rulebooks to include the new choices.
+
+tag::full[]
+
+== How to use this Document
+
+This rulebook is intended to provide the essential information you will need to participate in a Lost Colonies Larp event.
+
+* Safety and Community Standards: these explain the fundamentals of our gameplay philosophy and the culture that we aspire to achieve and maintain here at Lost Colonies. 
+* Character Creation: this is a step-by-step guide to creating your unique character. This section explains the mechanical and roleplay components that go into your character, starting with Region, Ancestry, Background, and Guild. You will also select your character’s starting Attributes. These traits help define your character and their role in the colony. Once you have created your character, you will be ready to explore sections that describe the elements of gameplay.
+* Combat: this section includes information about Wounds, Injuries, Scars, and Death, and explains our unique way of handling the bad stuff that can happen to a character. 
+* Reference: this is where we list many of the details that flesh out the world of Lost Colonies. This includes sample recipes for crafting and rituals, how to make mundane and magical items or effects, and a list of effects and skills which define all the things that characters can do or the effects they may be subject to.
+* Out of Game Errata: This section explains NPC shift, camp cleanup, service points, and other rules and expectations that come with being part of the Lost Colonies player community.
+
+Now that you know what this book will explore, let us cover what is not included here:
+
+* This book is not a comprehensive guide to roleplay or character acting, and gives only a brief overview of larping as a hobby, if you are interested in further resources or tips, there are many excellent resources available online
+* Skills will continue to evolve, and our rules system is designed to give players the freedom to invent new recipes, use skills in innovative ways, and even develop new skills through roleplay and storytelling. As such, players should expect that the list of available skills and their limitations will grow over time.
+* We do not attempt to address all possible rules conflicts. While we have tried to create a simple, cooperative system, we cannot foresee all eventualities. If conflicts or confusion should arise, Marshals will determine an appropriate course of action, and will have final say in all decision-making.
+
+
+end::full[]
+
+tag::quick[]
+
+== How to Use the Quickstart Rules
+
+This rules reference is a short introduction to the most important things you will need to know for getting started at Lost Colonies.  Please refer to the full rulebook for any topics that you want a more indepth exploration of.  Any differences between the Quickstart rules and the Full rules are resolved by using the version in the Full rules.
+
+end::quick[]
+
+include::changes.adoc[tag=added]
+

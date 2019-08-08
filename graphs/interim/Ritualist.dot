@@ -1,0 +1,75 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+{ rank = same; "Initiate Rituals", "Adept Rituals", "Master Rituals" }
+	"Initiate Rituals"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Initiate ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Rituals"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Adept ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 7, Resolve 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 7, Agility 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 7, Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Initiate Rituals" -> "Adept Rituals";
+	"Master Rituals"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Master ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 11, Resolve 7</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 11, Agility 7</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 11, Wits 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Rituals" -> "Master Rituals";
+	"Ritual Linking"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Linking</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Harmony 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Rituals" -> "Ritual Linking";
+	"Ritual Quickening"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Quickening</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Focus 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Rituals" -> "Ritual Quickening";
+	"Ritual Empowerment"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Empowerment</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Strength 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Rituals" -> "Ritual Empowerment";
+	"Initiate Thaumaturgist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Initiate Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 15, Wits 6</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Master Rituals" -> "Initiate Thaumaturgist"	 [style=dashed];
+	"Adept Thaumaturgist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Adept Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 17, Wits 9</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Initiate Thaumaturgist" -> "Adept Thaumaturgist";
+	"Master Thaumaturgist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 20, Wits 12</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Adept Thaumaturgist" -> "Master Thaumaturgist";
+}

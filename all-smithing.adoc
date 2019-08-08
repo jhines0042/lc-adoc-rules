@@ -1,0 +1,417 @@
+= Smithing Recipes
+:notitle:
+
+== Smithing Recipes
+
+The following entries represent those recipes that are readily known by the Smiths of Torakand.
+
+=== Blacksmith Recipes
+
+==== Metal Trade Goods
+*Rank:* Blacksmith +
+*Materials:* Any 2 Metal Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Metal Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Metal Components into Metal trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Mineral Trade Goods
+*Rank:* Blacksmith +
+*Materials:* Any 2 Mineral Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Mineral Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Mineral Components into Mineral trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Mess Kit
+*Skill:* Brightsmith* or Blacksmith +
+*Materials:* 1 Steel +
+*Type:* Creation +
+*Creates:* 1 Mess Kit +
+*Time:* 4 minutes
+ 
+_This lets you work a piece of steel into a functional, stacking, and compact, set of cooking and eating gear suitable for one soldier to carry. *A Brightsmith working this recipe can produce 5 Mess Kits using only 3 Steel._
+
+[cols="1,5"]
+|===
+| *Item* 		| Steel Mess Kit
+| *Qty* 		| 1
+| *Type*		| Steel
+| *Effect*		| Useful in the field. 
+| *Expiration*	| Never
+| *Research*	| Known
+|=== 
+
+==== Tool for the Job
+*Skill:* Blacksmith +
+*Materials:* Any one Metal, any one Mineral +                         
+*Type:* Creation +
+*Creates:* One Tool +
+*Time:* 2 minutes
+
+_This  is the crafting recipe for creating a useful tool of any type. You may use this item card in two ways. One, you may consume this item to have, in game, a specific that happens to be precisely the tool you needed for the job, no larger than something you’d find in an average toolbox- Such as a hammer, a wrench, a drill, and so forth, regardless of whether or not you have a physical representation of it. If used as part of a test in the scene, you gain a +1 bonus to your Destiny Draw. If you already possess the prop of the tool you use this item card with, the bonus doubles to +2. The item card is consumed on use, representing the need to repair or re-hone the tool in question. Only one bonus from Tool for the Job can be applied to any given task, and this does not apply to known Crafts or other Destiny Draws where an existing item or skill already provides the bonus._
+
+Suggested Process:
+
+[cols="1,5"]
+|===
+| *Item* 		| Tool for the Job
+| *Qty* 		| 1 Tool
+| *Type*		| Consumable 
+| *Effect*		| Destroy this card to gain +1 on a Destiny Deck draw. If you have an appropriate physrep for the tool you need, or you designated a specific type of tool on this card when it was made, gain +2 instead.
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Create Basic Armament
+*Skill:* Blacksmith +
+*Materials:* 2 of any Mineral, and 2 common metals or one uncommon metal. +
+*Type:* Creation +
+*Creates:* 1 Weapon +
+*Time:* 2 minutes
+ 
+_This recipe creates a standard melee or thrown weapon of a type described below- between Small, Medium, and Large melee. It deals its normal damage, and must meet the size requirement listed in the rulebook.  Weapons with item cards may be modified by Procedures. List the type of weapon on the item card below._
+
+Recommended Process: 
+
+[cols="1,5"]
+|===
+| *Item* 		| [Type of Weapon]
+| *Qty* 		| 1 Weapon
+| *Type*		| Equipment 
+| *Effect*		| Acts as a Basic Weapon of the type noted. Weapons with cards can be enhanced by Procedures.
+| *Expiration*	| None
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Create Basic Firearm
+*Skill:* Blacksmithing OR Gunsmithing +
+*Materials:* 2 of any metal, and 2 common minerals or one uncommon Mineral. +
+*Type:* Creation +
+*Creates:* 1 Firearm +
+*Time:* 
+ 
+_This recipe creates a standard firearm  of a type described below- between Side Arm, Long Gun, or Shotgun. It deals its normal damage, and must meet the size and firing requirements listed in the rulebook. Firearms with item cards may be modified by Procedures.  List the type of weapon on the item card below. _
+
+Recommended Process: 
+
+[cols="1,5"]
+|===
+| *Item* 		| [Type of Firearm]
+| *Qty* 		| 1 Firearm
+| *Type*		| Equipment 
+| *Effect*		| Acts as a Basic Firearm of the type noted. Firearms with cards can be enhanced by Procedures.
+| *Expiration*	| None
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Create Armor
+*Skill*: Blacksmith +
+*Materials:* One common metal, one common mineral, one uncommon metal or mineral. +
+*Type:* Creation +
+*Creates:* 1 Armor set +
+*Time:* 
+
+_Creates an item card for armor. Armor requires a physical representation. Armor with an item card can be modified by Procedures or used as a replacement._
+
+Recommended Process:
+
+[cols="1,5"]
+|===
+| *Item* 		| Armor
+| *Qty* 		| 1 Set of Armor
+| *Type*		| Equipment 
+| *Effect*		| Acts as Basic Armor. Armor with cards can be enhanced by Procedures.
+| *Expiration*	| None
+| *Research*	| Known
+|=== 
+
+<<< 
+
+==== Capture Chains
+*Skill:* Blacksmith +
+*Materials:* 1 Iron or 2 of any Metal +
+*Type:* Creation +
+*Creates:* 1 set of Chains +
+*Time:* 
+ 
+_Enough chains and handcuffs to restrain up to 3 NPCs or one particularly dangerous animal. The target must be incapacitated or unable to resist for the duration of their chaining, which takes 10 seconds per set of limbs._
+
+Suggested Process:
+
+[cols="1,5"]
+|===
+| *Item* 		| Capture Chains
+| *Qty* 		| 1 set of Chains
+| *Type*		| Creation 
+| *Effect*		| Enough chains and handcuffs to restrain up to 3 NPCs or one particularly dangerous animal.
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+<<< 
+
+==== Repair Armament 
+*Skill:* Blacksmith +
+*Materials:*  Any Metal +
+*Type:*  Procedure +
+*Time:* 
+ 
+_This procedure targets an item and removes the Broken condition from it._
+
+Suggested Process:
+
+. Examine the item to be repaired
+. If it is a multi part item, break it down to its basic parts
+. Locate the broken parts
+. Fix each part
+. Reassemble
+
+<<<
+
+==== Field Repair Kit
+*Skill:* Blacksmith +
+*Materials:* 1 Flint or any 2 Minerals, 1 Lead or any two Metals  +
+*Type:* Creation +
+*Creates:* 2 Kits +
+*Time:* 2 minutes
+ 
+_Creates an item that can be used in 1 minute to temporarily remove the Broken condition from a target object. If done by someone with the appropriate smithing specialization (e.g. Gunsmith for a broken Side Arm, the repair takes only 30 seconds and is permanent._
+
+Suggested Process:
+
+[cols="1,5"]
+|===
+| *Item* 		| Field Repair Kit
+| *Qty* 		| 2 Kits
+| *Type*		| Consumable 
+| *Effect*		| Use this item to remove the Broken Condition from one object for one hour. If you have a Crafting skill that allows you to craft the target object then the Broken Condition is removed permanently.
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+<<<
+
+=== Gunsmith Recipes
+
+==== Weighted Bullets
+*Skill:* Gunsmith +
+*Materials:* 1 uncommon Mineral, 1 common Metal  +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Your next 2 shots apply Shove in addition to their normal effects. May be applied to any Firearm. Lasts for 2 Combats._
+
+==== Customize Barrel
+*Skill:* Gunsmith +
+*Materials:* 2 common Metal, 1 Flint or Chalk +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Your first shot in a combat deals +1 Damage._
+
+==== Bola Round
+*Skill:* Gunsmith +
+*Materials:* 1 Lead, 1 common Metal, and either 1 Copper or 1 Fiber +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Once, in your next combat, you may fire a shot that applies Trip in addition to its normal effects, including damage. Lasts for one combat._
+
+==== Capsule Rounds
+*Skill:* Gunsmith +
+*Materials:* 1 Lead, 1 Mineral, 1 target Item +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_You may convert a dangerous compound into a form that may be fired by a firearm. You may call the effects of the compound upon firing a dart. This effect does NOT stack with any other effects, including damage. The dangerous compound card is consumed in the process. The number of shots created in this manner is equal to the number of uses of the dangerous compound with a minimum of 2 and a maximum of 6._
+
+[cols="1,5"]
+|===
+| *Item* 		| Capsule Rounds [compound]
+| *Qty* 		| 2 to 6 rounds
+| *Type*		| Consumable 
+| *Effect*		| These shots deliver the following effect: [Write the effects of the compound on this card, then add the following text] Does NOT stack with any other effects, including damage.
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+<<<
+
+=== Weaponsmith Recipes
+
+==== Weapon Honing
+*Skill:* Weaponsmith +
+*Materials:* 1 Chalk and either 1 Steel or 2 Copper +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Your first attack in combat with a honed weapon deals +1 damage. This procedure lasts for the remainder of the current event._
+
+
+==== Counterweights
+*Skill:* Weaponsmith +
+*Materials:* 1 Lead, 1 uncommon Mineral +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Once per combat, after performing a Strike, you may repeat the same strike on a different target within 3 seconds. This procedure lasts for two combats_
+
+==== Reflex Plating
+*Skill:* Weaponsmith +
+*Materials:* 2 common Minerals, 1 common Metal +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_If this weapon is Sundered, the source of the Sunder must defend against a Sunder effect. Call this as "Reflex Plating, Sunder". This procedure expires once used or at the end of the event._
+
+
+==== Weapon Chain
+*Skill:* Weaponsmith +
+*Materials:* 1 Mineral and either 2 common Metals or 1 Steel +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Once per combat you may call "Save, Weapon Chain" to defend against a Disarm effect. This procedure lasts until the end of the event._
+
+
+=== Armorer Recipes
+
+==== Proofed Armor
+*Skill:* Armorer +
+*Materials:* Any 3 Minerals +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Once per combat: You may call a "Physical Save" that can only be used against a firearm attack. This procedure lasts for 2 combats._
+
+==== Reinforced Armor
+*Skill:* Armorer +
+*Materials:* 1 Steel or 3 of any Metal +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_The first damage you recieve in a scene that is greater than 1 damage is reduced to 1 damage. This procedure lasts for 2 combats._
+
+
+==== Hazard Protection
+*Skill:* Armorer +
+*Materials:* 1 Potash and either 1 Chalk or 1 uncommon Metal +
+*Type:* Procedure +
+*Time:* 4 minutes
+ 
+_Your armor no longer grants you a Physical Save against attacks. Instead it grants you 2 Physical Saves against environmental effects and dangers. You still gain the benefits of wearing armor for other effects such as Armor Training. This procedure lasts until the end of the event but it may also be removed with 1 minute of roleplay._
+
+<<<
+
+=== Brightsmith Recipes
+
+==== Create Jewelry
+*Skill:* Brightsmith +
+*Materials:* 2 uncommon Metals, and 1 uncommon or rare Metal or Mineral +
+*Type:* Creation +
+*Creates:* 1 Jewelry +
+*Time:* 4 minutes
+ 
+_This lets you work a piece of metal or mineral into a work of wearable art. The jewelry can still be used as one unit of the target material if used in a recipe. The value of the resulting item is treated as if it was one level more expensive._
+
+[cols="1,5"]
+|===
+| *Item* 		| [Material] Jewelry
+| *Qty* 		| 1
+| *Type*		| [Material]
+| *Effect*		| This piece of jewelry encapsulates a piece of [Material] and shows off its beauty.
+| *Expiration*	| Never
+| *Research*	| Known
+|=== 
+
+==== Create Lock
+*Skill:* Brightsmith +
+*Materials:* 1 uncommon Metal, 1 common Mineral +
+*Type:* Creation +
+*Creates:* 1 Lock, and 2 Keys +
+*Time:* 4 minutes
+ 
+_Create a lock that secures a container from being easily opened. The base difficulty to open a Lock is 10. Opening a locked container requires the designated key, or the Devices skill. Attempting to smash through a lock requires one minute spent violently breaking the lock, during which the criminal must loudly announce “Smashing Lock!” at the start, halfway through, and at the end._
+
+[cols="1,5"]
+|===
+| *Item* 		| Lock
+| *Qty* 		| 1
+| *Type*		| [Metal used]
+| *Effect*		| Difficulty 10 Lock
+| *Expiration*	| Never
+| *Research*	| Known
+|=== 
+
+
+==== Medical Darts
+*Skill:* Brightsmith +
+*Materials:* 1 uncommon Metal, target compound +
+*Type:* Creation +
+*Creates:* 2 darts +
+*Time:* 4 minutes
+ 
+_You may convert a beneficial compound into a format that may be applied and thrown via packet. You may call the effects of the compound upon throwing the packet and they will apply to the target hit. The number of uses is equal to the number of uses on the target compound +1. The original compound card is used up in the process._
+
+[cols="1,5"]
+|===
+| *Item* 		| Medical Darts [Target Compound]
+| *Qty* 		| Special
+| *Type*		| Consumable
+| *Effect*		| Deliver the following effect by thrown packet: [List original effects]
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+==== Mechanical Timer
+*Skill:* Brightsmith +
+*Materials:* 1 rare Mineral and one common Metal, or one rare Metal and one common Mineral.  +
+*Type:* Creation +
+*Creates:* 1 Mechanical Timer +
+*Time:* 4 minutes
+ 
+_ This creates an incredibly precise winding timer that, when used, may call a precise pause in the middle of any Craft. If anyone invokes a Mechanical Timer, the Craft is considered paused for exactly one minute, and the invoker should strive to keep an accurate count. Any participants in the Craft may act freely during the minute of the timer, and as long as all participants are back in their original places by the time it expires, the Craft may continue without penalty. You may only use one Timer per Craft._
+
+[cols="1,5"]
+|===
+| *Item* 		| Mechanical Timer
+| *Qty* 		| 1
+| *Type*		| Consumable
+| *Effect*		| Pause any Craft for 1 Minute to avoid an interruption.
+| *Expiration*	| This Event
+| *Research*	| Known
+|=== 
+
+
+==== Create Warding Implement
+*Rank:* Brightsmith +
+*Materials:* 1 Common, 1 Uncommon, and 1 Rare Material, with least one Metal and one Mineral +
+*Type:* Creation +
+*Creates:* 1 Ritual Implement 
+*Time:* 4 minutes
+ 
+_This item refines materials into a single use Implement for the performance of Binding rituals. When using this implement, you may either gain a +2 on your Destiny Draw, or spend a point of Grit in place of any common or uncommon material in the ritual. This implement may serve as a Wand for rituals that require it. _
+
+
+[cols="1,5"]
+|===
+| *Item:*		| Warding Implement
+| *Qty:*		| 1
+| *Type:*		| Creation
+| *Effect:*		| A single use implement for Binding Rituals that can gain +2 on a Destiny Draw for a ritual or replace a common or uncommon material. Can be empowered into a Wand. 
+| *Expiration:*	| Current Event
+| *Research:*	| Known
+|===
+
+
+
+

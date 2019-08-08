@@ -1,0 +1,691 @@
+digraph G {
+  rankdir="LR"
+  splines=spline
+  pack=1
+
+  "Academics Guild" [shape=rectangle]
+  "Smithing Guild" [shape=rectangle]
+  "Citizens Brigade" [shape=rectangle]
+  "Resources Guild" [shape=rectangle]
+  "Explorers Guild" [shape=rectangle]
+  "Acquisitions Guild" [shape=rectangle]
+  "Traditions Guild" [shape=rectangle]
+
+  "Order Engineers" [shape=rectangle]
+  "Order Medicus" [shape=rectangle]
+  "Order Guards" [shape=rectangle]
+  "Order Scouts" [shape=rectangle]
+  "Order Adjutants" [shape=rectangle]
+  "Order Proteger" [shape=rectangle]
+
+
+  "Academics Guild"     -> { "Physician", "Field Medicine", "Logistics", "Scholar" } 
+  "Smithing Guild"      -> { "Smithing",            "Production" }
+  "Citizens Brigade"    -> { "Formations", "Field Medicine" }
+  "Resources Guild"     -> { "Survival",            "Logistics",          "Production" }
+  "Explorers Guild"     -> { "Scholar",             "Survival" }
+  "Acquisitions Guild"  -> { "Merchant",            "Scholar",            "Rogue" }
+  "Traditions Guild"    -> { "Alchemy",             "Herbalism",          "Rituals" }
+  
+  "Order Guards"        -> { "Formations" }
+  "Order Adjutants"     -> { "Formations",          "Logistics" }
+  "Order Proteger"      -> { "Formations",          "Proteger Rituals" }
+  "Order Engineers"     -> { "Engineering" } 
+  "Order Scouts"        -> { "Survival",            "Field Medicine" }
+  "Order Medicus"       -> { "Medicus Traditions",  "Field Medicine", "Physician" }
+  
+
+  "Order Engineers" -> "All Armaments"
+  "Order Guards" -> "All Armaments"
+  "Order Scouts" -> "Scout Armaments"
+  "Order Adjutants" -> "Adjutant Armaments"
+  "Order Proteger" -> "Proteger Armaments"
+  "Explorers Guild" -> "Explorer Armaments"
+  "Citizens Brigade" -> "Brigade Armaments"
+
+
+  "All Armaments" -> "All Melee" -> "All Ranged" [ style=invis ]
+  "All Armaments" -> "Heavy Armor Training" -> "Light Armor Training" [ style=invis ]
+  "Scout Armaments" -> "Scout Melee" -> "Scout Ranged" -> "Light Armor Training"  [ style=invis ]
+  "Adjutant Armaments" -> "Adjutant Melee" -> "Adjutant Ranged" -> "Light Armor Training"  [ style=invis ]
+  "Proteger Armaments" -> "Proteger Melee" -> "Proteger Ranged" -> "Light Armor Training"  [ style=invis ]
+  "Explorer Armaments" -> "Explorer Melee" -> "Explorer Ranged" -> "Light Armor Training"  [ style=invis ]
+  "Brigade Armaments" -> "Brigade Melee" -> "Brigade Ranged" -> "Light Armor Training"  [ style=invis ]
+
+
+  
+
+  "Alchemy" -> "Alchemist I, II, III" -> "Artisan Alchemist I, II, III" -> "Master Alchemist I, II, III" 
+  "Engineering" -> "Alchemist I, II, III Limited" -> "Applied Alchemist I, II, III" 
+
+  "Herbalism" -> "Herbalist I, II, III" -> "Artisan Herbalist I, II, III" -> "Master Herbalist I, II, III"
+
+  "Rituals" -> "Initiate I, II, III" -> { "Forces I, II, III", "Spirits I, II, III", "Ancestors I, II, III", "Objects I, II, III" } -> "Thaumaturge I, II, III"
+  "Proteger Rituals" -> "Initiate I, II, III Proteger" -> "Forces I, II, III Proteger" -> "Proteger I, II, III" 
+
+  "Engineering" -> "Master of Arms I, II"
+
+  "Medicus Traditions" -> "Herbalist I, II, III"
+
+  "Formations" -> "Formation Training" -> "Formation Captain" -> "Formation Mastery"
+  "Formations" -> "Inspire Courage"
+
+  "Field Medicine" -> "Splint Injuries"
+  "Field Medicine" -> "Revive" -> "Remove Poison"
+  "Physician" -> "Expert Application" -> "Dissect" -> "Surgery"
+  "Physician" -> "Third Eye"
+    "Remove Poison" ->  "Third Eye" [ style=invis ]
+
+  "Logistics" -> "Cooking"
+  "Logistics" -> "Basic Logistics" -> "Advanced Logistics"
+  "Logistics" -> "Semaphores"
+    "Cooking" -> "Semaphores" [ style=invis ]
+
+  "Scholar" -> "Languages" -> "Ciphers"
+  "Scholar" -> "Cartography" -> "Specimen Collection"
+  "Scholar" -> "Orienteering" -> "Dowsing"
+  "Scholar" -> "History" -> "Research"
+    "Specimen Collection" -> "Archaeology" [ style=dashed ]
+    "Research" -> "Archaeology" [ style=dashed ]
+
+  "Rogue" -> { "Sneak", "Sleight of Hand", "Devices", "Games" }
+    "Sleight of Hand" -> "Devices" [ style=invis ]
+    "Rogue" -> "Games" -> "Sneak" [ style=invis ]
+
+  "Survival" -> "Animal Handling"
+  "Survival" -> "Trapping and Foraging"
+  "Trapping and Foraging" -> "Sneak"
+  "Animal Handling" -> "Wilderness Survival"
+  "Trapping and Foraging" -> "Tracking and Alertness"
+
+  "Merchant" -> "Appraise"
+  "Merchant" -> "Import Export"
+  "Appraise" -> "Inventory"
+  "Import Export" -> "Smuggle"
+
+  "Production" -> "Basic Production" -> "Advanced Production" -> "Assembly Line"
+
+  "Smithing" -> "Smith I, II, III"
+  "Smithing" -> "Armament Training"
+  "Armament Training" -> "Armament Finesse"
+  "Smith I, II, III" -> "Smithing Specializations"
+  "Smithing Specializations" -> "Master Smith I, II, III"
+
+  "Sneak" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Sneak</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD>Agility 7</TD></TR>
+  </TABLE>>];
+
+/* tag::sneak[]
+
+=== Sneak
+
+Rank: 2
+
+Prerequisites: Agility 7
+
+Effect: You have practiced moving around quietly in order to avoid detection.  To initiate this skill, raise your arm up with a bent elbow so that your forearm crosses in front of your nose and is horizontal.  This indicates that you are moving around stealthily.  You must move slowly to remain sneaky.  The marshal for a scene may indicate if you are moving too quickly and require you to slow down or lose your hidden condition.  There will be only one warning.  If you are going to remain still while hidden you may also put on a Yellow Headband so that you can retain use of both arms (and not tire out the one arm).  Marshals may limit the use of this skill on a per scene basis at their discretion based on the scenario at hand.
+
+Duration: Continuous
+
+Special: Sneak Attack -- You may attack once from Yellow Headband as a Surprise Attack.  Your weapon does +2 damage on this strike.  Doing this removes your hidden condition and you must remove your Yellow Headband if you had one on.
+
+Hidden: Yellow Headband -- you are difficult to see or hear.  To maintain Yellow Headband you must continuously meet the following conditions:
+
+. Walk slowly with arm in front of face -or- remain still while wearing a Yellow Headband
+. Not attack
+. Not talk above a whisper
+. Maintain some kind of concealment including:
+.. Be within arms length of trees, bushes or a wall sufficient to hide a person
+.. Be within an area of darkness
+.. Laying down on the ground
+If someone catches you breaking one of these conditions they may call “I see you” and you must remove the Yellow Headband.  This is a difficult bit of collaborative roleplay that requires all parties to follow the rules and be considerate of each other.
+
+end::sneak[] */
+
+  "Basic Production" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Basic Production</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 5</TD></TR>
+  </TABLE>>];
+
+  "Advanced Production" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Advanced Production</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Harmony 7</TD></TR>
+  </TABLE>>];
+
+  "Assembly Line" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Assembly Line</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O1">Harmony 10</TD></TR>
+  </TABLE>>];
+
+  "Smith I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Apprentice Smith</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Strength 10</TD></TR>
+  </TABLE>>];
+
+  "Smithing Specializations" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Smithing Specializations</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 10, Harmony 5</TD></TR>
+  </TABLE>>];
+
+  "Master Smith I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Master Smith</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 13, Harmony 7</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Strength 15, Harmony 10</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Strength 20, Harmony 12</TD></TR>
+  </TABLE>>];
+
+
+  "Armament Training" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Armament Training</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 5</TD></TR>
+  </TABLE>>];
+
+  "Armament Finesse" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Armament Finesse</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Harmony 7</TD></TR>
+  </TABLE>>];
+
+
+  "Alchemist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Apprentice Alchemist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Focus 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Focus 10</TD></TR>
+  </TABLE>>];
+
+  "Alchemist I, II, III Limited" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Apprentice Alchemist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Focus 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Focus 10</TD></TR>
+  </TABLE>>];
+
+  "Artisan Alchemist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Artisan Alchemist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 10, Essence 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Focus 13, Essence 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Focus 15, Essence 10</TD></TR>
+  </TABLE>>];
+
+  "Applied Alchemist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Applied Alchemist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 10, Essence 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Focus 13, Essence 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Focus 15, Essence 10</TD></TR>
+  </TABLE>>];
+
+  "Master Alchemist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Master Alchemist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 20, Essence 12</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Focus 25, Essence 16</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Focus 30, Essence 20</TD></TR>
+  </TABLE>>];
+
+  "Herbalist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Herbalist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Harmony 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Harmony 10</TD></TR>
+  </TABLE>>];
+
+  "Artisan Herbalist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Artisan Herbalist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 10, Wits 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Harmony 13, Wits 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Harmony 15, Wits 10</TD></TR>
+  </TABLE>>];
+
+  "Master Herbalist I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Master Herbalist</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 20, Wits 12</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Harmony 25, Wits 16</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Harmony 30, Wits 20</TD></TR>
+  </TABLE>>];
+
+  "Initiate I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Initiate</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 10</TD></TR>
+  </TABLE>>];
+
+  "Initiate I, II, III Proteger" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Initiate</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 10</TD></TR>
+  </TABLE>>];
+
+  "Spirits I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Spirits</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 10, Agility 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 13, Agility 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 15, Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Forces I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Forces</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 10, Agility 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 13, Agility 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 15, Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Forces I, II, III Proteger" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Forces</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 10, Agility 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 13, Agility 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 15, Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Ancestors I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Ancestors</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 10, Agility 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 13, Agility 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 15, Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Objects I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Objects</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 10, Agility 5</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 13, Agility 7</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 15, Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Thaumaturge I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Thaumaturge</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 20, Agility 12</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 25, Agility 16</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 30, Agility 20</TD></TR>
+  </TABLE>>];
+
+  "Proteger I, II, III" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Proteger</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 20, Agility 12</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O2">Essence 25, Agility 16</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O3">Essence 30, Agility 20</TD></TR>
+  </TABLE>>];
+
+  "Cartography" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Cartography</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Resolve 5</TD></TR>
+  </TABLE>>];
+
+  "Dowsing" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Dowsing</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 5</TD></TR>
+  </TABLE>>];
+
+  "Orienteering" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Orienteering</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Resolve 7</TD></TR>
+  </TABLE>>];
+
+  "Archaeology" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Archaeology</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O1">Wits 10</TD></TR>
+  </TABLE>>];
+
+  "Specimen Collection" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Specimen Collection</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Resolve 7</TD></TR>
+  </TABLE>>];
+
+  "Research" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Research</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Wits 7</TD></TR>
+  </TABLE>>];
+
+  "History" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">History</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Wits 5</TD></TR>
+  </TABLE>>];
+
+  "Languages" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Languages</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Harmony 5</TD></TR>
+  </TABLE>>];
+
+  "Expert Application" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Expert Application</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+  </TABLE>>];
+
+  "Dissect" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Dissect</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Focus 7</TD></TR>
+  </TABLE>>];
+
+  "Surgery" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Surgery</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O1">Focus 10</TD></TR>
+  </TABLE>>];
+
+  "Third Eye" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Third Eye</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O1">Essence 10</TD></TR>
+  </TABLE>>];
+
+  "Revive" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Revive</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Essence 5</TD></TR>
+  </TABLE>>];
+
+  "Remove Poison" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Remove Poison</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Essence 7</TD></TR>
+  </TABLE>>];
+
+  "Splint Injuries" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Splint Injuries</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+  </TABLE>>];
+
+  "Basic Logistics" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Basic Logistics</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 5</TD></TR>
+  </TABLE>>];
+
+  "Advanced Logistics" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Advanced Logistics</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Strength 7</TD></TR>
+  </TABLE>>];
+
+  "Semaphores" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Semaphores</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Agility 7</TD></TR>
+  </TABLE>>];
+
+  "Cooking" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Cooking</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Agility 5</TD></TR>
+  </TABLE>>];
+
+  "Ciphers" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Ciphers</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Wits 7</TD></TR>
+  </TABLE>>];
+
+/* tag::ciphers[]
+
+=== Ciphers
+
+Rank: 2
+
+Prerequisites: Wits 7
+
+The ability to code and decode messages.  Mechanics are TBD
+
+end::ciphers[] */
+
+  "Inspire Courage" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Inspire Courage</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 5</TD></TR>
+  </TABLE>>];
+
+  "Formation Training" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Formation Training</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+  </TABLE>>];
+
+  "Formation Captain" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Formation Captain</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Focus 7</TD></TR>
+  </TABLE>>];
+
+  "Formation Mastery" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Formation Mastery</TD></TR>
+    <TR><TD PORT="I1">Rank 3</TD><TD PORT="O1">Focus 10</TD></TR>
+  </TABLE>>];
+
+  "Master of Arms I, II" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Master of Arms</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Strength 7</TD></TR>
+  </TABLE>>];
+
+  "Heavy Armor Training" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Heavy Armor Training</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Resolve 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Resolve 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Resolve 10</TD></TR>
+  </TABLE>>];
+
+  "Light Armor Training" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Light Armor Training</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD PORT="O2">Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD PORT="O3">Agility 10</TD></TR>
+  </TABLE>>];
+
+  "Import Export" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Import Export</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Strength 5</TD></TR>
+  </TABLE>>];
+
+  "Smuggle" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Smuggle</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Strength 7</TD></TR>
+  </TABLE>>];
+
+  "Appraise" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Appraise</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Wits 5</TD></TR>
+  </TABLE>>];
+
+  "Inventory" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Inventory</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Wits 7</TD></TR>
+  </TABLE>>];
+
+  "Sleight of Hand" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Sleight of Hand</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Agility 5</TD></TR>
+  </TABLE>>];
+
+  "Devices" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Devices</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Agility 7</TD></TR>
+  </TABLE>>];
+
+  "Games" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Games</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Focus 5</TD></TR>
+  </TABLE>>];
+
+  "Trapping and Foraging" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Trapping and Foraging</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Wits 5</TD></TR>
+  </TABLE>>];
+
+  "Animal Handling" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Animal Handling</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD PORT="O1">Agility 5</TD></TR>
+  </TABLE>>];
+
+  "Wilderness Survival" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Wilderness Survival</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Agility 7</TD></TR>
+  </TABLE>>];
+
+  "Tracking and Alertness" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="2">Tracking and Alertness</TD></TR>
+    <TR><TD PORT="I1">Rank 2</TD><TD PORT="O1">Wits 7</TD></TR>
+  </TABLE>>];
+
+  "All Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">All Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Small Melee, Medium Melee, Long Melee</TD></TR>
+  </TABLE>>];
+
+  "All Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">All Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms, Longgun, Shotgun, Thrown Weapons</TD></TR>
+  </TABLE>>];
+
+  "Scout Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Scout Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Small Melee, Medium Melee</TD></TR>
+  </TABLE>>];
+
+  "Scout Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Scout Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms, Longgun, Thrown Weapons</TD></TR>
+  </TABLE>>];
+
+  "Explorer Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Explorer Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Medium Melee</TD></TR>
+  </TABLE>>];
+
+  "Explorer Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Explorer Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms</TD></TR>
+  </TABLE>>];
+
+
+  "Proteger Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Proteger Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Small Melee, Medium Melee</TD></TR>
+  </TABLE>>];
+
+  "Proteger Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Proteger Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms</TD></TR>
+  </TABLE>>];
+
+  "Brigade Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Citizens Brigade Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Medium Melee, Long Melee</TD></TR>
+  </TABLE>>];
+
+  "Brigade Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Citizens Brigade Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms, Longgun, Shotgun</TD></TR>
+  </TABLE>>];
+
+  "Adjutant Melee" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Adjutant Melee Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Strength 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Strength 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Strength 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Small Melee, Medium Melee</TD></TR>
+  </TABLE>>];
+
+  "Adjutant Ranged" [shape=plaintext; label=<
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR><TD PORT="I0" COLSPAN="3">Adjutant Ranged Weapons</TD></TR>
+    <TR><TD PORT="I1">Rank 1</TD><TD>Weapon Training</TD><TD>Agility 5</TD></TR>
+    <TR><TD PORT="I2">Rank 2</TD><TD>Weapon Finesse</TD><TD>Agility 7</TD></TR>
+    <TR><TD PORT="I3">Rank 3</TD><TD>Weapon Mastery</TD><TD>Agility 10</TD></TR>
+    <TR><TD PORT="I0" COLSPAN="3">pick from: Sidearms</TD></TR>
+  </TABLE>>];
+
+}

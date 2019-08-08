@@ -1,0 +1,196 @@
+= Fiber Arts Recipes
+:notitle:
+
+== Fiber Arts Recipes
+
+The following entries represent those recipes that are readily known by the Fiber Artists and Weavers of Torakand.
+
+=== Fiber Arts Recipes
+
+==== Gathering Satchel  
+*Skill:* Fiber Arts +
+*Materials:* Any 1 Fiber +
+*Type:* Creation +
+*Creates:* 1 Satchel +
+*Time:* 2 minutes
+ 
+_This is a helpful satchel. You may consume this item to redraw the results of a Gathering related Destiny Draw card, or gain an additional item of the lowest rarity you obtained, as long as one was gained. Only one can be used per gathering attempt._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Gathering Satchel
+| *Qty* 		| 1 Satchel
+| *Type*		| Creation 
+| *Effect*		| 
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+==== Camouflage Hood 
+*Skill:* Fiber Arts +
+*Materials:* Any 2 Fibers +
+*Type:* Creation +
+*Creates:* 1 Hood+
+*Time:* 2 minutes
+ 
+_Allows the owner to gain the Hidden status once, the Hidden status persists as long as the owner remains stationary and does not interact with another living thing, at which point it ends immediately._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Camoflage Hood
+| *Qty* 		| 1 Hood
+| *Type*		| Consumable 
+| *Effect*		| Use to gain the Hidden Condition.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<                 
+
+==== Rope
+*Skill:* Fiber Arts +
+*Materials:* 1 Hemp or any 2 Fibers +
+*Type:* Creation +
+*Creates:* 3 Ropes +
+*Time:* 2 minutes
+ 
+_This item may be consumed to gain the use of 10 feet of rope. Rope is very useful for explorers! If you have a rope prop and use this item card, you can count your rope as three times its physical length instead of 10 feet._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Rope
+| *Qty* 		| 3 Uses
+| *Type*		| Consumable 
+| *Effect*		| Per Use: Counts as rope or triples the length of a provided rope prop.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+
+<<<
+
+==== Heavy Coat
+*Skill:* Fiber Arts +
+*Materials:* Wool or any 2 Fibers +
+*Type:* Creation +
+*Creates:* 1 Coat +
+*Time:* 4 minutes
+ 
+_You can use this item to protect yourself against all environmental effects caused by cold for one scene. It does not protect you against magical ice effects or ice-based attacks from opponents, merely the environment._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Heavy Coat
+| *Qty* 		| 1 Coat
+| *Type*		| Consumable 
+| *Effect*		| Per Use: Use this item to ignore all environmental cold effects for one scene.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+
+<<<
+
+==== Protective Gloves
+*Skill:* Fiber Arts +
+*Materials:* One Leather, one other Fiber	 +
+*Type:* Creation +
+*Creates:* 2 sets of gloves +
+*Time:* 2 minutes
+ 
+_This item card may be consumed to allow the user to Save against damage or ill effects caused by touching something they really should not have. You must declare the use of the item before touching the object in question, unless you have a physical representation for the gloves. If you have a set of prop gloves, you may consume this item in reaction._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Protective Gloves
+| *Qty* 		| 2 sets of gloves
+| *Type*		| Creation
+| *Effect*		| Once per scene, allows the user to ignore one instance of damage caused by touching something you really shouldn’t. Must be declared before use without a prop.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Animal Hood
+*Skill:* Fiber Arts +
+*Materials:* 1 Silk or any 3 Fibers +
+*Type:* Creation +
+*Creates:* 1 Animal Hood +
+*Time:* 2 minutes
+ 
+_Placing this over the head of a creature will render it Stunned but otherwise unharmed. The user must slowly place two empty hands palm down over and above the creature's shoulders to roleplay covering its head. It may be applied from Hidden. Once applied, the animal must expend a Mental Save or be rendered blinded and docile until the animal hood is removed._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Animal Hood
+| *Qty* 		| 1 Animal Hood
+| *Type*		| Creation
+| *Effect*		| The user must slowly place two empty hands palm down over and above the creature's shoulders to roleplay covering its head. It may be applied from Hidden. Once applied, the animal must expend a Mental Save or be rendered blinded and docile until the animal hood is removed.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Comfortable Blanket
+*Skill:* Fiber Arts +
+*Materials:* 1 Uncommon Fiber or 1 Rare Fiber +
+*Type:* Creation +
+*Creates:* 2 Blankets +
+*Time:* 2 minutes
+ 
+_You may consume this item once per event. By using it, it reduces your resting time by 10 minutes, or removes 15 minutes from the Injury recovery time. Reduce each time by a further 5 minutes if you have a blanket prop with you or are actually lying down during your Rest or Injury recover time. This does not stack with other Rest or Injury time reductions._
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Comfortable Blanket
+| *Qty* 		| 2 blankets
+| *Type*		| Creation
+| *Effect*		| Expend this item card to reduce your Rest time by 10 minutes or to reduce your Injury recovery time by 15 minutes. Reduce each time by a further 5 minutes if you have a blanket prop with you or are actually lying down during your Rest or Injury recover time. This does not stack with other Rest or Injury time reductions.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+
+<<<
+
+==== Fiber Trade Goods
+*Rank:* Fiber Arts +
+*Materials:* Any 2 Fiber Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Fiber Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Fiber Components into Fiber trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Herbal Trade Goods
+*Rank:* Fiber Arts +
+*Materials:* Any 2 Herbal Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Herbal Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Herbal Components into Herbal trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._

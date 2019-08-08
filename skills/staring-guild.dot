@@ -1,0 +1,36 @@
+"Staring Guild" [shape=rectangle]
+"Staring Guild" -> { "Staring", "Field Medicine" }
+"Staring" -> "Gaze" -> "Beam"
+"Staring" -> "Gawk" -> "Glare"
+  "Beam" -> "Turn to Stone" [ style=dashed ]
+  "Glare" -> "Turn to Stone" [ style=dashed ]
+  
+"Gaze" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Gaze</TD></TR>
+  <TR><TD ALIGN="LEFT">Rank 1</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>];
+
+"Beam" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Beam</TD></TR>
+  <TR><TD ALIGN="LEFT">Rank 2</TD><TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>];
+
+"Gawk" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Gawk</TD></TR>
+  <TR><TD ALIGN="LEFT">Rank 1</TD><TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>];
+
+"Glare" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Glare</TD></TR>
+  <TR><TD ALIGN="LEFT">Rank 2</TD><TD ALIGN="LEFT">Strength 7</TD></TR>
+</TABLE>>];
+
+"Turn to Stone" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Turn to Stone</TD></TR>
+  <TR><TD ALIGN="LEFT">Rank 3</TD><TD ALIGN="LEFT">NunYa 11</TD></TR>
+</TABLE>>];

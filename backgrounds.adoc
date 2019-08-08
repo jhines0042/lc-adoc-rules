@@ -1,0 +1,28 @@
+= Backgrounds
+
+A background is a job or living situation that helped define your Character before they left for the Colony.  
+
+[cols="1,2"]
+|===
+| Carpenter				 	| gain the skill _Basic Production_
+| Cook 						| gain the skill _Cooking_
+| Criminal 					| gain the skill _Sleight of Hand_
+| Educated 					| gain the skill _Lore_
+| Exiled					| gain the skill _Wilderness Survival_
+| Farmer 					| gain the skill _Basic Logistics_
+| Fiber Crafter 			| gain the skill _Fiber Arts_
+| Healer            		| gain the skill _First Aid_
+| Herder 					| gain the skill _Creature Handling_
+| Jeweler           		| gain the skill _Brightsmith_
+| Merchant 					| gain the skill _Appraise_
+| Miner 					| gain the skill _Mining_
+| Musician 					| gain the skill _Inspire Courage_
+| Nobility 					| gain the skill _Import Export_
+| Sailor 					| gain the skill _Games_
+| Smith 					| gain the skill _Blacksmith_
+| Soldier					| gain the skill _Basic Melee or Ranged Style_
+| Spiritualist      		| gain the skill _Initiate Spirit Rituals_
+| Trapper 					| gain the skill _Trapping and Foraging_
+|===
+
+NOTE: If you do not see a background that makes sense for your character there are still options. Option 1 is to pick a Skill from the above list that you do like and simply share with us how your character learned that skill from their background.  Maybe instead of a carpenter they were a barrel maker or something like that. The important thing is that the background adds to your character's depth and gives you one skill from the above list. Option 2 is to propose a new background and skill pairing to the Directors and see if you get approval.

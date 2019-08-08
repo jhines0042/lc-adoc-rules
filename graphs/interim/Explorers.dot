@@ -1,0 +1,101 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+{ rank = same; "Sneak", "Tracking and Alertness" }
+	Cartography	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Cartography</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Specimen Collection"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Specimen Collection</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Cartography -> "Specimen Collection";
+	Archaeology	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Archaeology</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Specimen Collection" -> Archaeology	 [style=dashed];
+	Lore	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Lore</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Research	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Research</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Lore -> Research;
+	Research -> Archaeology	 [style=dashed];
+	Ciphers	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ciphers</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Research -> Ciphers	 [style=invis];
+	"Creature Handling"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Creature Handling</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Wilderness Survival"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Wilderness Survival</TD></TR>
+  <TR><TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Creature Handling" -> "Wilderness Survival";
+	Orienteering	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Orienteering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Dowsing	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Dowsing</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Orienteering -> Dowsing;
+	Semaphores	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Semaphores</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Orienteering -> Semaphores;
+	Sneak	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sneak</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Sneak -> Ciphers	 [style=invis];
+	"Trapping and Foraging"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Trapping and Foraging</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Tracking and Alertness"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Tracking and Alertness</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Trapping and Foraging" -> "Tracking and Alertness";
+}

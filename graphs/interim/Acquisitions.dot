@@ -1,0 +1,72 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+	Commerce	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Commerce</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Inventory	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Inventory</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Commerce -> Inventory;
+	Tycoon	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Tycoon</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Inventory -> Tycoon;
+	"Import Export"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Import Export</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Smuggle	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Smuggle</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Import Export" -> Smuggle;
+	Ciphers	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ciphers</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Devices	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Devices</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Games	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Games</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Sneak	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sneak</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Games -> Sneak	 [style=invis];
+	Sneak -> Ciphers	 [style=invis];
+	"Sleight of Hand"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sleight of Hand</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Sleight of Hand" -> Devices	 [style=invis];
+}

@@ -1,0 +1,44 @@
+digraph G {
+  rankdir="LR"
+  splines=line
+  node [ shape=record ]
+  edge [ arrowhead=none; ]
+
+
+primary [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="7">
+
+  <TR><TD PORT="header" BGCOLOR="cornsilk">Primary Attributes</TD></TR>
+
+  <TR><TD PORT="Strength">Strength</TD></TR>
+  <TR><TD PORT="Essence">Essence</TD></TR>
+  <TR><TD PORT="Agility">Agility</TD></TR>
+  <TR><TD PORT="Resolve">Resolve</TD></TR>
+  <TR><TD PORT="Wits">Wits</TD></TR>
+  <TR><TD PORT="Focus">Focus</TD></TR>
+  <TR><TD PORT="Harmony">Harmony</TD></TR>
+</TABLE>>];
+
+secondary [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="40" CELLPADDING="7">
+
+  <TR><TD PORT="header" BGCOLOR="cornsilk">Secondary Attributes</TD></TR>
+
+  <TR><TD PORT="HP">Hit Points</TD></TR>
+  <TR><TD PORT="PS">Physical Saves</TD></TR>
+  <TR><TD PORT="MS">Mental Saves</TD></TR>
+  <TR><TD PORT="GR">Grit</TD></TR>
+</TABLE>>];
+
+
+  primary:header -> secondary:header [ style=invis ]
+
+  primary:Strength ->  secondary:HP
+  primary:Essence -> secondary:HP
+  primary:Agility ->  secondary:PS
+  primary:Resolve -> secondary:PS
+  primary:Wits ->  secondary:MS
+  primary:Focus -> secondary:MS
+  primary:Harmony ->  secondary:GR
+
+}

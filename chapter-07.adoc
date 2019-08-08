@@ -1,0 +1,24 @@
+= *Chapter 7: The End*
+:imagesdir: images
+:linkcss:
+
+tag::full[]
+
+== Glossary
+
+include::glossary.adoc[tags=**]
+
+== Appendices
+
+include::appendices.adoc[tags=**]
+
+end::full[]
+
+== Thank you
+
+This is the current end of the rulebook
+
+
+tag::quick[]
+
+end::quick[]

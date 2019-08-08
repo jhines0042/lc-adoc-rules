@@ -1,0 +1,370 @@
+= Rituals
+:notitle:
+
+== Rituals
+
+The following entries represent those rituals that are readily known by the three schools of Rituals in Torakand.
+
+=== Any Initiate Rituals
+
+==== Binder Trade Goods
+*Rank:* Any Initiate Rituals +
+*Materials:* Any 2 Binder Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Binder Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Binder Components into Binder trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Mineral Trade Goods
+*Rank:* Any Initiate Rituals +
+*Materials:* Any 2 Mineral Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Mineral Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Mineral Components into Mineral trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+
+=== Initiate Spirit Rituals
+
+==== Lesser Ancestral Guidance
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _Those who came before us can tell us many things, albeit through vague hints and hallucinations._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. The next time the person with this Blessing makes a draw from the Destiny Deck, if they draw a card with a value of zero they may discard one zero card and redraw from the deck. +
+*Prop Requirements*: A piece of paper +
+*Component Requirements*: Lavender +
+*Time Requirement*: 2 minutes
+
+==== Martial Prowess
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _The instinct of warriors past easily flows through the living._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. Upon finishing the ritual, choose one Basic Strike. The one with this Blessing may expend it to call that Strike. +
+*Prop Requirements*: A weapon +
+*Component Requirements*: Iron +
+*Time Requirement*: 2 minutes
+
+==== Glance the Third Eye
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _Open your mind and peek into the infinite realm of spirits. Look not too long for there are things that look back._ +
+*Destiny Draw DC*: 4 +
+*Rules*: Upon completing the ritual, the caster may bid this ritual to staff to detect the presence of any spirits in the area that should not belong. Powerful spirits can hide from this ability. +
+*Prop Requirements*: A piece of glass or crystal +
+*Component Requirements*: Copper +
+*Time Requirement*: 2 minutes
+
+==== Chiminage
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _The whims of spirits are strong and temperamental. Offerings and words can help ease their mood._ +
+*Destiny Draw DC*: Varies (3 to 9) +
+*Rules*: Upon completing the ritual, communicate with Staff and choose one spirit within line of sight and draw from the Destiny Deck. Based on the draw total the mood of the spirit will improve and become more friendly and cooperative. +
+*Prop Requirements*: Money and a compliment +
+*Component Requirements*: Money or other objects appropriate to the spirit +
+*Time Requirement*: 2 minutes
+
+==== Calm Passing
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: There is often little dignity or forewarning in death. Many ghosts have trouble passing on and refuse to let go. It is our duty to help guide them to a more peaceful existence. +
+*Destiny Draw DC*: N/A +
+*Rules*: Done on a recently slain body. The spirit passes on and is unlikely to naturally become corrupted due to the trauma of dying. This ritual cannot be done in a dangerous or combative environment. +
+*Prop Requirements*: A candle +
+*Component Requirements*: Lavender +
+*Time Requirement*: 2 minutes
+
+==== Enchant Wand
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _We all are connected to the spirits, but sometimes we need help in using our spirits to fight. Wands are how we channel our will to fight._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, the wand that was the prop is enchanted. Until the next dawn, whoever is wielding the wand in their hand may spend 5 sec RP focusing and then throw a packet for 3 damage. +
+*Prop Requirements*: A wand +
+*Component Requirements*: Pitch +
+*Time Requirement*: 2 minutes
+
+==== Terrifying Visage
+*Rank*: Initiate Spirit Ritual +
+*Aspiration*: _Coaxing a spirit to haunt someone is an easy way to dissuade or horrify._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual you may call, “[Target] Auto-Hit Fear” on a target in visual range. +
+*Prop Requirements*: A feather +
+*Component Requirements*: Copper +
+*Time Requirement*: 2 minutes
+
+<<<
+
+==== Adept Spirit Rituals
+
+==== Dispelling Wand
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _The means we use to harm others can also dispel lingering spirits._ +
+*Destiny Draw DC*: N/A +
+*Rules*: After completing this ritual you may perform a 15 sec RP focusing with an enchanted wand to call “Disperse” via packet for the remainder of the event. 
+
+Every subsequent event you may repeat this ritual to continue the effect. To continue the effect you only need to use any Common Component of your choice. +
+*Prop Requirements*: A leaf and an enchanted wand +
+*Component Requirements*: Clay +
+*Time Requirement*: 4 minutes
+
+==== Spirit Guard
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _Some spirits value free will above all else. Make friends and they will preserve your mind._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. The one with this Blessing may expend it to call Mental Save. +
+*Prop Requirements*: A candle and piece of jewelry +
+*Component Requirements*: Purified Salt and Steel +
+*Time Requirement*: 4 minutes
+
+==== Sphere of the Blind Eye
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _Our perception is colored by many things and guided by the unseen._ +
+*Destiny Draw DC*: 6 +
+*Rules*: Create a clearly visible circle on the ground no larger than 10 feet in diameter. So long as the ritualist is inside, anyone or anything inside is considered Hidden to both mundane and spiritual senses. This circle lasts until the end of the Scene or one hour, whichever is longer. +
+*Prop Requirements*: A piece of glass or crystal and a blindfold +
+*Component Requirements*: Tallow +
+*Time Requirement*: 4 minutes
+
+==== Greater Martial Prowess
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _Spirits can lend more than instinct. Some can imbue strength and a lifetime of prowess._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. Upon finishing the ritual, choose one Advanced Strike. The one with this Blessing may expend it to call that Strike. +
+*Prop Requirements*: Two weapons +
+*Component Requirements*: Firebloom +
+*Time Requirement*: 4 minutes
+
+==== Foreboding
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _The spirits are tempermental with decisions or at least are aware of more than us._ +
+*Destiny Draw DC*: 6 +
+*Rules*: Upon completing the ritual, describe an action to staff and they will describe the most likely immediate consequence of that action. +
+*Prop Requirements*: A mirror +
+*Component Requirements*: Kingsfoil and Watermint +
+*Time Requirement*: 4 minutes
+
+==== Sympathy
+*Rank*: Adept Spirit Ritual +
+*Aspiration*: _Spirits heed our call when we are in need. Do not betray their kindness._ +
+*Destiny Draw DC*: 6 +
+*Rules*: Upon completing the ritual, inform Staff and choose one court of spirits. A random spirit of that court will appear to converse with. Any attacks made to the summoned spirit by the caster or their allies will result in the loss of all Spirit Tokens of the caster and their allies. +
+*Prop Requirements*: Three candles +
+*Component Requirements*: TBD +
+*Time Requirement*: 4 minutes
+
+
+<<<
+
+
+=== Initiate Forces Rituals
+
+==== Enchant Wand
+*Rank*: Initiate Forces Ritual +
+*Aspiration*: _We all are connected to the spirits, but sometimes we need help in using our spirits to fight. Wands are how we channel our will to fight._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, the wand that was the prop is enchanted. Until the next dawn, whoever is wielding the wand in their hand may spend 5 sec RP focusing and then throw a packet for 3 damage. +
+*Prop Requirements*: A wand +
+*Component Requirements*: Pitch +
+*Time Requirement*: 2 minutes
+
+==== Branded Weapon
+*Rank*: Initiate Forces Ritual +
+*Aspiration*: _Summon the spirits of clash and conflict. When blades and bullets fly so too do their power._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. Upon finishing this ritual, choose one element. The one with this Blessing may expend it to add the chosen element to damage and effects they deliver with any weapon they wield for the next Scene. +
+*Prop Requirements*: A weapon and a candle +
+*Component Requirements*: Sulfur +
+*Time Requirement*: 2 minutes
+
+==== Hand of the Wind
+*Rank*: Initiate Forces Ritual +
+*Aspiration*: _The wind carries words, worries, and now its share of the burden._ +
+*Destiny Draw DC*: Varies +
+*Rules*: Upon completing this ritual you may bid this ritual to Staff to interact with an object within line of sight. This ritual performs a single action that a hand could perform. The ritual can only manipulate up to 10 lbs of weight and ends immediately once the task has been completed or attempted. +
+*Prop Requirements*: A glove +
+*Component Requirements*: Clay +
+*Time Requirement*: 2 minutes
+
+==== Elemental Lance
+*Rank*: Initiate Forces Ritual +
+*Aspiration*: _The spirits connect us all and through them we can sometimes throw acid in peoples faces._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual you may call, “[Target] Auto-Hit [Element] 5” on a target in visual range. +
+*Prop Requirements*: A crystal +
+*Component Requirements*: Flint +
+*Time Requirement*: 2 minutes
+
+==== Elemental Implement
+*Rank*: Initiate Forces Ritual +
+*Aspiration*: _Wands are an extension of our own spirit. With some help we can adopt the same unusual qualities as some spirits._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, choose one element. For the next Scene, add the chosen elemental modifier to damage and effects delivered by enchanted wands you wield. +
+*Prop Requirements*: Enchanted wand +
+*Component Requirements*: Tallow +
+*Time Requirement*: 2 minutes
+
+<<<
+
+
+==== Adept Forces Rituals
+
+==== Endure Elements
+*Rank*: Adept Forces Ritual +
+*Aspiration*: _Some spirits guide us to strange and dangerous places. Be sure to call upon others to protect you when you stray into hazards._ +
+*Destiny Draw DC*: 6 +
+*Rules*: Blessing. When struck by an effect caused by the environment that has an elemental modifier, the one with this Blessing may expend it to call Physical or Mental Save. +
+*Prop Requirements*: A scarf and a candle +
+*Component Requirements*: Steel +
+*Time Requirement*: 4 minutes
+
+==== Kinetic Implement
+*Rank*: Adept Forces Ritual +
+*Aspiration*: _So much movement is wasted. With our guidance, the spirits will gather it up and release it in one blow._ +
+*Destiny Draw DC*: 6 +
+*Rules*: After completing this ritual you may perform a 15 sec RP focusing with an enchanted wand to call “Repel” via packet for the remainder of the event. 
+
+Every subsequent event you may repeat this ritual to continue the effect. To continue the effect you only need to use any Common Component of your choice. +
+*Component Requirements*: Flint and Potash +
+*Time Requirement*: 4 minutes
+
+==== Prismatic Rain
+*Rank*: Adept Forces Ritual +
+*Aspiration*: _It is often common to see Forces ritualists line the edges of battlefields and send multi-colored rain hurtling into the fight._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual you may call “[Target] Auto-Hit [Element] 4” on a target in visual range. You may repeat this call up to two more times on different targets or you may spend 15 seconds RP focusing to make the call on the same target for each additional call.
+
+If you are struck by an undefended effect or damage before delivering all the effects of this ritual the ritual immediately ends and you lose any further effects you may have been able to call. +
+*Prop Requirements*: A candle and compass +
+*Component Requirements*: Sulfur +
+*Time Requirement*: 4 minutes
+
+==== Primal Endurance
+*Rank*: Adept Forces Ritual +
+*Aspiration*: _The elements are tempermental. To reach their full potential sometimes they need a helping hand._ +
+*Destiny Draw DC*: 6 +
+*Rules*: Self-Only Blessing. Upon completing the ritual, choose one element. So long as the caster has this Blessing, add 1 to any damage dealt via the chosen element. The caster also takes one additional damage from any source while using this Blessing. +
+*Prop Requirements*: TBD +
+*Component Requirements*: Saltpeter +
+*Time Requirement*: 4 minutes
+
+
+<<<
+
+
+=== Initiate Binding Rituals
+
+==== Enchant Wand
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _We all are connected to the spirits, but sometimes we need help in using our spirits to fight. Wands are how we channel our will to fight._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, the wand that was the prop is enchanted. Until the next dawn, whoever is wielding the wand in their hand may spend 5 sec RP focusing and then throw a packet for 3 damage. +
+*Prop Requirements*: A wand +
+*Component Requirements*: Pitch +
+*Time Requirement*: 2 minutes
+
+==== Lesser Transmutation
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _Spirits respond to the meaning of objects. Ritualists can adjust that meaning for a cost._ +
+*Destiny Draw DC*: 3 +
+*Rules*: Blessing. The person with this Blessing may expend it to swap any Common Component requirement in a ritual with another Common Component of their choice. +
+*Prop Requirements*: A scale +
+*Component Requirements*: Any Common Component +
+*Time Requirement*: 2 minutes
+
+==== Reinforce Vitality
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _Matron spirits can guide a weary body to the proper course of recovery._ +
+*Destiny Draw DC*: 4 +
+*Rules*: Blessing. Upon completing this ritual, choose one target within arms reach. The one with this Blessing may ignore the negative effect of one Injury they have for the next Scene so long as they have this Blessing on them. +
+*Prop Requirements*: Bandages and water +
+*Component Requirements*: Kingsfoil +
+*Time Requirement*: 2 minutes
+
+==== Crumble
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _While all objects have meaning, spirits understand that everything returns to dust._ +
+*Destiny Draw DC*: 4 +
+*Rules*: Upon completing the ritual you may call, “[Target] Auto-Hit Sunder” to one target within visual range. +
+*Prop Requirements*: Crumbled leaves +
+*Component Requirements*: Clay +
+*Time Requirement*: 2 minutes
+
+==== Transfer Structure
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _The physical form is often a reflection of its spirit. Sympathetic spirits will often help if able._ +
+*Destiny Draw DC*: 3 +
+*Rules*: Upon completing the ritual you may call, “Remove Sunder” on an object within arms reach and “Sunder” on a different object within reach. +
+*Prop Requirements*: A crafting tool +
+*Component Requirements*: Iron +
+*Time Requirement*: 2 minutes
+
+==== Reinforced Material
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _Spirits within a vessel have a vested interest in keeping the vessel intact._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. The one with this Blessing may expend it to call Physical Save when struck by the Sunder effect. +
+*Prop Requirements*: A crafting tool +
+*Component Requirements*: Flint +
+*Time Requirement*: 2 minutes
+
+==== Read Object
+*Rank*: Initiate Binding Ritual +
+*Aspiration*: _Even the rock under your foot remembers who stepped upon it._ +
+*Destiny Draw DC*: 3 +
+*Rules*: Upon completing the ritual, the spirit of an object within arms reach is awakened for a short time. You may bid this ritual to Staff to speak with the spirit and ask it questions about recent events. +
+*Prop Requirements*: A quill or hearing horn +
+*Component Requirements*: Chalk +
+*Time Requirement*: 2 minutes
+
+<<<
+
+
+==== Adept Binding Rituals
+
+==== Spiritual Anchor
+*Rank*: Adept Binding Ritual +
+*Aspiration*: _Spirits tend to wander, but by having the spirit of an object restrain or coerce, wayward spirits will linger a while longer._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, choose a spirit within arms reach. That spirit will not be able to move more than 10 feet away from the chosen object used in the Prop Requirements for the next day. The spirit will become unable to interact with that object.
+
+The chosen object must remain in the same place or it can be moved by a Binding ritualist if they move as if under the Slow effect. If the object is moved and these conditions are not met, the ritual is broken. +
+*Prop Requirements*: A nail and a chosen object +
+*Component Requirements*: Lead, Pitch, and one Spirit Token +
+*Time Requirement*: 4 minutes
+
+==== Chameleonic Skin
+*Rank*: Adept Binding Ritual +
+*Aspiration*: _Spirits cloak your skin and clothing, bending and changing light until you match your surroundings._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. The one with this Blessing may expend it to become Hidden for one Scene.
+
+Alternatively, if you are already Hidden, you may expend this Blessing to move without Slow for 30 seconds. +
+*Prop Requirements*: Ointment and coloring sticks +
+*Component Requirements*: Copper and Chalk +
+*Time Requirement*: 4 minutes
+
+==== Shattering Implement
+*Rank*: Adept Binding Ritual +
+*Aspiration*: _The spirits shake an sunder at our beckoning. All we have to do is will it._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. When using a wand, you may perform a 15 sec RP focusing and call Sunder with a packet. +
+*Prop Requirements*: A soft rock or metal and an enchanted wand +
+*Component Requirements*: 2 Iron +
+*Time Requirement*: 4 minutes
+
+==== Material Longevity
+*Rank*: Adept Binding Ritual +
+*Aspiration*: _Quick concoctions tend to fade. The spirits know a trick or two in how to preserve them._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Upon completing the ritual, the crafted item that was used in the Prop Requirement is imbued with spiritual fortification. If it would expire at the end of the event, it instead will expire at the end of the next event. +
+*Prop Requirements*: Ice and a crafted item +
+*Component Requirements*: Iron and Pitch +
+*Time Requirement*: 4 minutes
+
+==== Aegis
+*Rank*: Adept Binding Ritual +
+*Aspiration*: _Whether by speed or endurance, spirits can aid us in defending ourselves. Wearing armor helps too._ +
+*Destiny Draw DC*: N/A +
+*Rules*: Blessing. The one with this Blessing may expend it to call Physical Save. If the person with this Blessing is wearing armor they may expend this Blessing to call two Physical Saves against two separate physical effects within 3 seconds of one another. +
+*Prop Requirements*:  +
+*Component Requirements*: Steel +
+*Time Requirement*: 4 minutes

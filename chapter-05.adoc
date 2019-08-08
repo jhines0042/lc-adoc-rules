@@ -1,0 +1,252 @@
+= *Chapter 5: More Rules*
+:imagesdir: images
+:linkcss:
+
+
+tag::wounds-injuries-scars-death[]
+
+== Wounds, Injuries, Scars and Death
+
+The world is full of dangers, and even the heartiest person can only endure so much. Every character has a certain number of Hit Points. When a character is reduced to 0 Hit Points they sustain an Injury, and become Incapacitated. At this point, the character is injured and the player must lie upon the ground until the Incapacitated condition is removed by the restoration of Hit Points through healing skills or items. 
+
+If you are Incapacitated and you have sustained 3 or more Injuries since your last Rest, you become Exhausted as you are overwhelmed by the volume of your wounds and injuries. An Exhausted character may not receive any beneficial effects except for those that remove the Exhausted Condition. An Exhausted character may not gain any more injuries or take any other actions.
+
+Once the scene has ended an Exhausted character may get up and move at a slow pace toward the Triage. A character who is Incapacitated, but has not yet reached Exhausted may voluntarily gain the Exhausted condition as soon as it is clear to them that no healing assistance is coming. The goal of this is to not have players laying around waiting for healing to come, rather to get the player to the area where they can start to roleplay their recovery. If it looks like healing might be coming soon, stick around and allow the healers to have their roleplay.
+
+=== Things to Remember
+
+NOTE: If it is unsafe to lay down to represent being Incapacitated then either take a knee until it is safe or stagger away to a safe spot and then lie down. If it ever becomes unsafe, feel free to move to ensure your safety. 
+
+NOTE: Another character may help an Incapacitated character move at a walking pace. 
+
+NOTE: If you are Incapacitated and another character tries to heal you, you are completely allowed to refuse the effect if you wish. You may choose to exercise this option if you fear you will simply sustain further Injuries if brought out of being Incapacitated. If you refuse an effect, any items or abilities that were used on you are considered unexpended.
+
+=== Triage and Injuries
+
+Injuries represent lasting wounds that must be properly examined and treated before they can be healed. In Lost Colonies this is represented by going to the Triage are of the event site. Once you arrive at the Triage, your Injuries will be diagnosed, and you will receive makeup, costuming, or both, to depict your wounds. You will also be informed of any mechanical consequences that afflict you during your recovery time. After one hour, you may recover from one Injury, or, if you have multiple, you may recover from all Injuries in two hours. When you recover from an injury, it is removed from your character, along with the penalties (We ask that you return the costuming to the Triage as soon as it is convenient!). 
+
+Aside from the specific penalties assigned for your injuries, nothing prevents you from continuing to act, explore, or take additional risks once your injuries are diagnosed. However, if you sustain any additional Injuries, it will reset the recovery time for ALL of them. 
+
+You may also choose to “Sleep off your wounds”, and leave play for a voluntary 2 Hour NPC shift. If you do so, you will recover from all injuries when you return. Similarly, your time spent on your scheduled NPC shift counts toward recovering from treated Injuries. 
+
+You may continue to act with untreated Injuries, but you may not Rest until your injuries are diagnosed at the Triage.
+
+=== Resting and Grit
+
+When a character takes time away from heavy activities they are said to be resting. The basic Rest time is 30 minutes, though abilities and skills may modify this. During a Rest, you should generally remain within the same location and may not use any skills or abilities except for completing standard Crafting Recipes,  or skills that specifically can be used during a Rest. If your rest is interrupted, you must start over. 
+
+Once your Rest is complete, you can restore any missing Hit Points and regain any lost Saves, as well as use of any Skills that have a Once per Rest limitation on them. 
+
+Grit is a special resource that every character possesses that represents an inner reserve of strength, resourcefulness and determination. Rests do not restore Grit, only effects that specifically restore Grit do. You may spend a point of Grit at any time to gain an additional use of any Skill you have with the Once Per Rest limit. You may decide which skill you are applying this to at the time you use the point. You may also gain additional uses for Grit through your other Skills, such as Combat Strikes or even Rituals. 
+
+== Character Scars
+
+Throughout your time in Torakand, you will sustain injuries and, barring disaster, recover from them. However, circumstances and the story of your character may make you decide that a particular injury is too important to forget. In those moments you may instead choose to take the Injury as a permanent part of your character- a Scar. 
+
+Any Injury sustained by the character may be converted to a Scar, though no more than one per Event. The decision comes with significant benefits and significant consequences. Taking a scar is a permanent decision that counts as an unhealable Injury. In short, you come that much closer to risking death, as your capacity for raw punishment is permanently reduced. You gain two significant benefits. Firstly, you gain a permanent benefit to your character, symbolizing the lesson they have learned from this. As you sustain further Scars, your choices increase, but no selection can be chosen more than once (with one exception.) Secondly, any other remaining injuries fade after ten minutes- learning a permanent lesson makes the temporary pains easy to ignore. 
+
+NOTE: No character can have more than five Scars. 
+
+Scars must be costumed, and permanently incorporated into your character’s costuming and roleplay going forward, be it through makeup, clothing, armor, or all of the above. 
+
+=== Scar Benefits
+
+You may choose one of the following. All effects are permanent.
+
+* +2 Grit 
+* +1 Skill Slot
+* Increase your HP cap by 5, to 20.
+* Veteran’s Save - You gain one Save that can be used as either a Physical or a Mental Save, once per Rest. This Save cannot be modified or restored by any effect other than a Rest. 
+* +6 to your Build Cap
+
+For your third and subsequent Scars, you may add the below choices to your list of options. 
+
+* A Unique Skill, the details of which are related to the injury you have taken, to be discussed with the Directors. 
+* A Second Chance - When you take this Scar, you identify the source of the failure that resulted in your current injury- be it a failed project, a particular adversary, or a specific creature. As a result of this Scar, Fate will conspire to give you a second chance toward settling the score, if not making things right. You may take this choice multiple times, but never twice over the same affair. 
+
+For your Fifth Scar, you may also add the below choices to your list of options. 
+
+* Create a Legacy - When you take this Scar, your actions echo long past your presence in Flint. You may design a unique, long-term or permanent effect for the entire colony, to be manifested upon your death. The details of this Scar must be discussed with Directors between events. 
+* Unbending Oath - When you take this Scar, you may declare a single, straightforward, achievable task, such as the defeat of a certain enemy or completion of a project. Until that task is completed, you cannot die: Taking your seventh Injury will result in you being unable to participate in the remainder of the event as that character, but you cannot die until that task is completed. The time limit on this effect is to be discussed with Directors but likely within the next game year, at which point the task must either be finished, or you retire your character as normal.
+* Passing the Torch - When you take this scar, your character has become too important to Flint for them to be in further danger. You effectively retire your character from normal play, but can continue to make appearances to teach, dispense information, and participate in Role-Playing focused events such as the Governor’s Dinner. 
+
+== Death
+
+A character who has seven total Injury points, including Scars, at any one time dies. The death happens at the end of the scene in which they received their seventh injury point. 
+
+This is a permanent effect. 
+
+We at Lost Colonies want to reassure you that we are not trying to kill your characters. In fact we have designed the Injury, Scar, and Death systems in such a way as to give you, the player, agency over when and how your character meets their end. The Injury points are designed to allow your character time to reflect on how their choices led them to be so harmed. The Scar points allow your character to hold on to, and grow from, lessons learned through having faced challenges that have left them marked for life. And finally there are ways to gain Injury points that allow you to choose when your character's last breath will be. What hill will they die on? Who will be at their side? What will be the thing that was more important than themselves? We like to think that our Injury, Scar, and Death systems puts the power of those decisisons in your hands. 
+
+=== Certain Death Scenarios
+
+Now, imagine a scenario where your character would almost certainly die, but they are not near enough to seven injury points to mechanically die, what happens? You are allowed to work with the Storytellers to narrate how you narrowly escape the certain death situation.  For example, if you are fighting a giant monster on the rim of an active volcano and are thrown off the edge, logically, you should be burnt to a crisp. If you are overrun by a herd of ravenous beasts, you should be their next meal. But, there is an aspect of cinematics at play symbolising that you have some luck on your side, reflected in the gaining of Injury Points. So instead of being hurled fully into the volcano and dying, you are caught in a craggy outcropping, or an avalanche scares the herd away instead of you being eaten. You may always choose to follow a direct route and accept the circumstances as death, but remember that death is permanent. 
+
+== Final Death
+
+For a character to die, they must have a total of seven Injuries (including Scars)  as we stated before. What happens next? 
+
+If your character dies we ask that someone is sent to get one of the Directors. We will help you through the next part of your character's journey. Once the Director is there they will have a quick conversation with you about the manner in which your character died and they will ask you to make a choice right then. Your options are to continue to play the spirit of your now dead character for a time, to switch to an NPC role for a time, or to head to logistics to make up a new character for the remainder of the event. If you do choose to play the spirit of your deceased character you will be asked to put on a blue headband to indicate that you cannot be interacted with in any fashion. You retain the memories of your character up to and including the moment of their death. You may speak with anyone and everyone can see you, but you may not invoke any effects aside from speech. 
+
+If you have been playing your spirit character there will come a time during that event when its spirit may no longer linger. This time may come at a moment of your choosing, or when the Directors tell you it is time. But it most certainly will come no later than the end of the event in which your Character dies. After the end of that event the spirit may only return when summoned by an active Character or when the Directors or Storyteller staff asks you to return as the spirit of the deceased. 
+
+end::wounds-injuries-scars-death[]
+
+== Resting
+
+include::glossary.adoc[tag=Rest]
+
+After thirty (30) minutes of resting any used "per Rest" skill becomes usable again.  Generally speaking a character is resting when they are not in combat and are not using any skills.  *Exception: Crafting skills may be used while resting.*  Rituals most definitely require exertion and so Rituals, unlike crafting, do not count towards resting time. 
+
+== Sneaking Around
+
+The Sneak skill is one way to gain the Hidden condition.  There may be other ways.  Regardless of the method used the following rules apply to the condition Hidden.
+
+tag::hidden[]
+
+In order to communicate to everyone around you that you are hidden you must use one of these two methods.
+
+* Option 1: Raise your arm up with a bent elbow so that your forearm crosses in front of your nose and is horizontal.  
+* Option 2: If you are going to remain hidden for a while you may also put on a Yellow Headband so that you can retain use of both arms (and not tire out the one arm).  
+
+You must move slowly to remain sneaky, slower than a walking pace.  A marshal may indicate if you are moving too quickly and require you to slow down or lose your hidden condition.  There will be only one warning. Marshals may declare that the use of Hidden abilities do not work on a per scene basis, at their discretion, based on the scenario at hand.
+
+end::hidden[]
+
+== Crafting
+
+Any skill with the keyword "Crafting" is a crafting skill.  Crafting skills all require that the characters have a recipe of some sort to follow.  The recipe will indicate what Components are required, will say how much time the roleplay should take, will give a guideline for the roleplay to follow, and will tell you what to write on the resulting Item Card.  Once you have completed the recipe you are to write up your own Item Card and you will initial it, date it, and include your Player number on the card.  Any Component cards that are used up in the process should be placed into an Out-of-Game pocket or pouch so that they do not get confused with your remaining supplies.  The next time you visit the Quartermaster you can turn in these used Components so that the game can return them to circulation again later.
+
+Crafting skills do not require Marshals or Staff to complete.  But if you need assistance as you get used to the skill or if you have a question about a recipe, please feel free to ask a Marshal for help.
+
+=== Crafting and Experiments
+
+Whatever crafts your character may possess, they did not begin learning these difficult skills just to follow known recipes. Whether you wish to create an improved version of an existing recipe or design something new altogether, you can do this through the Experimentation process. Experimentation allows you to form a plan for your new design along with the materials, and consult a Marshal to prepare a Destiny Draw.  Skills or Items with the tag “Experimentation” can improve the results of these Draws. 
+
+Experimentation can produce unexpected, dramatic, or even dangerous outcomes based on your materials, cleverness, and luck, good or ill. Because of the volatility of each experiment, it is difficult to reproduce the process exactly each time- so repeated attempts at the same product may not result in the same outcome. Turning one of your experimental results into a new recipe repeatable by anyone is a long term project requiring the highest levels of skill, typically through the ability Path to Discovery.
+
+== Rituals
+
+Any skill with the keyword "Ritual" is a ritual skill.  Many ritual skills are like crafting skills in that they produce an Item Card.  For these rituals you can simply follow the Crafting guidelines above to produce your own Item Cards.  However, there are rituals that can only be done with the presence of a Marshal or Storyteller.  If these rituals are conducted without a Marshal or Storyteller present they will simply fail.
+
+== Props and Item Cards
+
+Weapons and Armor must be represented by physical props.  Not all weapons or armor will have item cards to go with them.  
+
+* A weapon without an item card is treated as a basic weapon of the type represented by the prop.  
+* Armor without an item card is treated as basic armor. 
+* Enchanted items require props and cards both.  A magic wand without a card is just a fancy stick.  An "Enchanted Item" card without a prop is not considered to be in game.  The card does not need to be attached to the prop, but if there is a question of legitimacy, the card needs to be able to be produced in short order.
+* All other Item cards do not require a prop.  As a guideline, you should limit yourself to carrying about 10 "un-propped" Item cards per pouch or pocket.  If you have a larger container, it is reasonable to carry more un-propped cards in it.  While we recommend having as many things represented by props as possible we also recognize that that is not practical for all situations.
+
+== Gathering 
+
+Expeditions to gather resources or other adventures into the wilderness will result in opportunities to gather Resources. Unless modified by the circumstances of the story as directed by a Marshal, Gathering works as follows: 
+
+At the end of the gathering scene, the Marshal will declare what resources are available in the scene. If your character possesses the necessary skill to harvest one of those resources, they may make a Destiny Draw. Higher results indicate the discovery of more or rarer resources. If you do not possess a relevant gathering skill, you may choose to either make a single card draw with your final possible result limited to +1 (A single common resource), or contribute to someone else’s efforts, adding a +1 to their final total. Up to two unskilled gatherers can assist one skilled one. 
+
+tag::components-list[]
+
+== Components
+
+The following list contains all of the standardized Component Cards, their rarity level, and what they are frequently used for.
+
+=== Metals
+
+Bonus to gathering for Miners and Smiths
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Copper			| common		| conductive, malleable, not especially hard, oxidizes, green pigments
+| Iron				| common		| hard but somewhat brittle, versatile, cheaper than steel, good for tools
+| Lead				| common		| very soft, very heavy, poisonous, used for white pigment
+| Steel				| uncommon		| hard and flexible, expensive, used for weapons, armor, and tools
+| Cobalt			| rare			| extremely brittle, blue pigment, invisible ink
+|===
+
+=== Minerals
+
+Bonus to gathering for Miners, Smiths, Alchemists and Ritualists
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Flint				| common		| fire starter, construction material, knives/arrowheads, flintlock guns
+| Chalk				| common		| medicine/antacid, obviously leaves marks
+| Potash			| common		| potassium, used for fertilizer and soap
+| Sulfur			| uncommon		| stinky, flammable, mixed with stuff for explosives,
+| Obsidian			| rare			| mirrors, tools/knives, fortune telling/ritual uses
+|===
+
+=== Herbs
+
+Bonus to gathering for Fiber Artists, Herbalists, and Trappers
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Lavender			| common		| soothing, calming, relaxing, used for skin conditions, digestion and sleep.
+| Kingsfoil			| common		| strong herb good for fighting off infections 
+| Watermint			| common		| diluting and hydrating component, excellent for antidotes and burns
+| Firebloom			| uncommon		| warming, useful in mixtures to keep away the cold or chills
+| Heartrose			| rare			| used for purification, balancing, and for helping with diseases
+|===
+
+=== Fibers
+
+Bonus to gathering for Fiber Artists, Herbalists, and Trappers
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Wool				| common		| warm even when wet, used for protection from elements
+| Leather			| common		| used in armor and protection applications
+| Hemp				| common		| strong fiber from hemp plants, used in construction of ropes and sailcloth
+| Cotton			| uncommon		| naturally absorbent.  useful for clothing, cleaning, and bandages
+| Silk				| rare			| very strong fiber from silkworms, useful in clothing and herbal applications
+|===
+
+
+=== Binders
+
+Bonus to gathering for Alchemists and Ritualists
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Tallow			| common		| very important for candles and long lasting effects
+| Clay				| common		| stabilizing agent used to slow or cancel reactions
+| Pitch				| common		| used when sealing things in, literally or spiritually
+| Saltpeter			| uncommon		| important in gunpowders or offensive mixtures
+| Purified Salt		| rare			| protective compound commonly used in creation of circles and wardings
+|===
+
+=== Edibles
+
+Bonus to gathering for Cooks and Trappers
+
+[cols="1,^1,5",options="header"]
+|===
+| Name				| Rarity 		| Description and Uses
+| Meat				| common		| birds, fish, and other small animals
+| Fruit				| common		| fruit that is a little under or over ripe
+| Vegetable			| common		| onions, corn, potatoes, carrots
+| Cooking Spices	| common		| sage, rosemary, pepper, thyme, saffron, cardamom, tarragon
+| Prime Meat		| uncommon		| beef, deer, pork, seafood
+| Ripe Fruit		| uncommon		| fruit that is just the right amount of ripe
+| Pristine Fruit 	| rare			| specially picked and preserved fruits
+| Scarce Meat		| rare			| unusual animal meats
+|===
+
+end::components-list[]
+
+
+
+tag::quick[]
+
+end::quick[]
+
+
+tag::full[]
+
+end::full[]

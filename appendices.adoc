@@ -1,0 +1,120 @@
+tag::destiny-deck[]
+
+=== Destiny Deck
+
+The Destiny Deck is a tool for characters in the world of Lost Colonies to use as well as a tool for the players of the larp to use.  It serves as both a roleplaying prop as well as a game effect randomizer.  It can be used for divination in a purely roleplay sense much like a tarot deck might be used and you can also play card games with it.  There are a total of forty-two cards in a Destiny Deck.  Seven major arcana, seven element cards, twenty-one spirit cards, and seven spirit court cards.  The cards are valued +0, +1, +1, and +3 respectively for the purpose of random result determination.  Typically a player will pull three cards and add them together to determine the random result- This is referred to in the Rules in other locations as a Destiny Draw. In general, the higher the value of your result, the more likely you are to succeed. Certain abilities, skills, and items will modify either how you draw, or directly alter the value of the final total. You may only benefit from a maximum of two static(flat number increase) bonuses and two redraw-related bonuses on any given Destiny Draw.
+
+
+=== Major Arcana Cards
+
+The Major Arcana have nearly full card art with the name of the Major Arcana across the top and no corner markings.  For the purpose of determining a result it is valued at +0.  An example Major Arcana card, "The Dragon" is pictured to the right.  
+
+*The Fool* -- Associated with the element of Air and with the attributes of new adventure, enthusiasm, passion, immaturity, spontaneity, and a carefree attitude.  
+
+*Strength* -- Associated with the element of Earth and with the attributes of control, courage, fortitude, resolution, action, defiance, zeal, fervor, and heroism. 
+
+*The Sun* -- Associated with the element of Fire and with the attributes of satisfaction, contentment, success, love, joy, and warmth. 
+
+*The Dragon* -- Associated with the element of Water and with the attributes of wisdom, common sense, serenity, education, foresight, purity, and virtue. 
+
+*The Hermit* -- Associated with the element of Wood and with the attributes of knowledge, inner strength, prudence, discretion, vigilance, patience, and withdrawal. 
+
+*The Empresses* -- Associated with the element of Metal and with the attributes of worldly power, confidence, wealth, authority, leadership, maturity, and willingness to listen to counsel. 
+
+*The Ritualist* -- Associated with the element of Qi and with the attributes of originality, creativity, free will, imagination, skill, willpower, craft, guile, deception, and trickery.  
+
+=== Element Cards 
+
+Each of these cards represent one of the seven elements.  Each element card includes a symbol inside a heptagon and has the element's symbol pictured once in each corner. When pulling this card for the purpose of determining a bonus it is valued at +1.  An example Element Card, "Qi" is pictured to the right. 
+
+*Air* -- An up pointed triangle with crossed line.  Represents freedom, balance, energy, movement, power, and weather. Opposition with Earth. 
+
+*Earth* -- A down pointed triangle with crossed line. Represents strength, stability, safety, healing, resistance, and resilience. Opposition with Air. 
+
+*Fire* -- An up pointed triangle.  Represents chaos, destruction, purification, renewal, speed, anger, and transformation. Opposition with Water. 
+
+*Water* -- A down pointed triangle.  Represents cleansing, relentlessness, smoothing, calm, progress of time, and nourishment. Opposition with Fire. 
+
+*Wood* -- A reversed V shape.  Represents growth, harmony, peace, connections, nature, patience, and longevity.  Opposition with Metal. 
+
+*Metal* -- A down pointed V.  Represents protection, support, accomplishment, wealth, prosperity, and success. Opposition with Wood. 
+
+*Qi* -- A circle with a dot inside. Represents life, spirit, family, community, music, willpower, and revelations. Qi has no opposition element.    
+
+==== Spirit Cards
+
+The Spirit Cards each represent one of the twenty-one spirits that have been recognized as the most commonly available spirits.  Each Spirit card includes a single circle with the icon of the spirit in it.  The name of the spirit is also included in a scroll.  In the corner is a single element symbol that the spirit is associated with.  When pulling this card for the purpose of determining a bonus it is valued at +1.  An example Spirit Card, "Raven", is pictured to the right.  
+
+.Spirit Card associations
+|===
+| Spirit 		| Element 	| Association
+
+| Butterfly  	|	Air  	|	freedom, bounty, rebirth  
+| Eagle  		|	Air  	|	strength, perception, protection  
+| Grasshopper  	|	Air  	|	learning, community, evasion  
+| Ant  			|	Earth	|	teamwork, ambition, purpose  
+| Badger 		|	Earth	|	cleverness, protection, ingenuity  
+| Bear 			|	Earth	|	ferocity, protection, strength  
+| Fox  			|	Fire 	|	intelligence, mischief, playfulness  
+| Salamander  	|	Fire 	|	magic, adaptation, hiding  
+| Squirrel  	|	Fire 	|	speed, secrets, bounty  
+| Beaver 		|	Water	|	teamwork, construction, defense  
+| Fish  		|	Water	|	fortune, change, knowledge  
+| Raven  		|	Water	|	perception, cleverness, mischief  
+| Owl  			|	Wood 	|	wisdom, knowledge, individuality  
+| Skunk  		|	Wood 	|	protection, power, defense  
+| Turtle  		|	Wood 	|	healing, patience, wisdom  
+| Panther  		|	Metal	|	prowess, wisdom, magic  
+| Snake  		|	Metal	|	secrets, patience, cleverness  
+| Wolf  		|	Metal	|	teamwork, loyalty, compassion  
+| Coyote  		|	Qi  	|	luck, mischief, cleverness  
+| Deer  		|	Qi  	|	grace, speed, dexterity  
+| Spider  		|	Qi  	|	deception, patience, precision    
+|===
+
+The Spirit Court Cards each have three spirit symbols in circles and three element symbols in the corner.  There are seven spirit courts. When pulling this card for the purpose of determining a bonus it is valued at +3.  An example Spirit Court Card, “Community”, is pictured to the right.
+
+Community 
+
+* Squirrel (Fire) 
+* Ant (Earth) 
+* Beaver (Water) 
+
+Freedom 
+
+* Butteryfly (Air) 
+* Deer (Qi) 
+* Skunk (Wood) 
+
+Intellect 
+
+* Badger (Earth) 
+* Panther (Metal) 
+* Spider (Qi) 
+
+Leadership 
+
+* Eagle (Air) 
+* Wolf (Metal) 
+* Owl (Wood) 
+
+Magic 
+
+* Grasshopper (Air) 
+* Salamander (Fire) 
+* Fish (Water) 
+
+Mischief 
+
+* Fox (Fire) 
+* Coyote (Qi) 
+* Raven (Water) 
+
+Protection 
+
+* Bear (Earth) 
+* Snake (Metal)
+* Turtle (Wood)
+
+
+end::destiny-deck[]

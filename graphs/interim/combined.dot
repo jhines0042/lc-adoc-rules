@@ -1,0 +1,2580 @@
+digraph G {
+  rankdir="LR"
+  splines=spline
+
+  { rank=same; "Academics Guild"; "Medicus Guild"; "Ritualist Guild"; "Crafting Guild"; "Explorers Guild"; "Acquisitions Guild"; "Military Orders" }
+/*
+  tag::letter-header[]
+
+== A
+
+  end::letter-header[]
+*/
+
+"Advanced Treatment" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Treatment</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>];
+
+"Advanced Treatment Military" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Treatment</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>];
+
+/*
+  tag::advanced-treatment[]
+
+=== Advanced Treatment
+
+*Reqs:* Focus 7, First Aid
+
+_Tend Extremities_ [Always] You may use your First Aid Roleplay time to remove the Smashed Limb and Slow effects by calling, “Remove X” where X is the the effect.
+
+_Bone Adjustment_ [Once per Rest] You may finish a First Aid Roleplay in 5 seconds that heals one damage and removes the Smashed Limb effect from a single target.
+
+  end::advanced-treatment[]
+
+*/
+
+"Apprentice Alchemist I" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist I</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>];
+
+"Apprentice Alchemist II" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist II</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>];
+
+"Apprentice Alchemist III" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist III</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 11</TD></TR>
+</TABLE>>];
+
+/*
+  tag::alchemy[]
+
+=== Alchemy
+
+  end::alchemy[]
+
+tag::apprentice-alchemist-i[]
+
+=== Apprentice Alchemist I
+
+*Reqs:* Focus 3
+
+_First Principles_ [Always, Crafting] You can complete rank one Alchemical recipes.
+
+_Apprentice Duties_ [Always, Gathering] You may gather Mineral and Binder Components.
+
+end::apprentice-alchemist-i[]
+
+tag::apprentice-alchemist-ii[]
+
+=== Apprentice Alchemist II
+
+*Reqs:* Focus 7
+
+_Advanced Principles_ [Always, Crafting] You can complete rank two Alchemical recipes.
+
+_Resource Management_ [Once Per Event] You may contact the Quartermaster or Guildmaster to gain a random Mineral or Binder Component.
+
+end::apprentice-alchemist-ii[]
+
+tag::apprentice-alchemist-iii[]
+
+=== Apprentice Alchemist III
+
+*Reqs:* Focus 11
+
+_Final Theorems_ [Always, Crafting] You can complete rank three Alchemical recipes.
+
+_Distiller's Eye_ [Always, Gathering] When drawing cards to determine Mineral or Binder component gathering results, you may discard one of the cards and draw again to replace it. You must take the second result.
+
+end::apprentice-alchemist-iii[]
+*/
+
+"Alchemical Expert" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Alchemical Expert</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 13, Wits 3</TD></TR>
+</TABLE>>];
+
+"Master Alchemist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Alchemist</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 15, Wits 6</TD></TR>
+</TABLE>>];
+
+/*
+tag::alchemical-expert[]
+
+=== Alchemical Expert
+
+*Reqs:* Focus 13, Wits 3, Apprentice Alchemist II
+
+_Fancy Retort_ [Always, Gathering] You may gain a +2 bonus when making a Destiny Deck draw for gathering Mineral or Binder materials.
+
+_Advanced Alembic_ [Once Per Rest, Crafting] You may replace one uncommon component in an alchemical recipe with a common component of the same class.
+
+_Reclaim Residue_ [NPC Shift] At the completion of an NPC Shift you may contact the Quartermaster or Guildmaster to gain a random Mineral or Binder Component.
+
+end::alchemical-expert[]
+
+tag::master-alchemist[]
+
+=== Master Alchemist
+
+*Reqs:* Focus 15, Wits 11, Alchemical Expert
+
+_Master's Crucible_ [Always, Crafting] You may perform an alchemical Recipe twice at the same time, expending twice the materials for twice the output.
+
+_Clever Substitution_ [Once Per Rest, Crafting] You may replace one rare component in an alchemical Recipe with a common or uncommon component of the same type.
+
+_Leftover Alchemy_ [Once Per Rest, Crafting] You may roleplay searching among your possessions for five seconds to "find in your pocket" any Rank 1 alchemical Recipe you know and have the materials for. If you spend a point of Grit, you may instead "find" one of any Rank 2 alchemy Recipe you know. The item must be used within 1 minute or it is lost.
+
+
+end::master-alchemist[]
+
+*/
+
+"Alchemical Experimenter" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Alchemical Experimenter</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 17, Wits 9</TD></TR>
+</TABLE>>];
+
+"Alchemical Innovator" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Alchemical Innovator</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 20, Wits 12</TD></TR>
+</TABLE>>];
+
+/*
+tag::alchemical-experimenter[]
+
+=== Alchemical Experimenter
+
+*Reqs:* Focus 17, Wits 9, Apprentice Alchemist III
+
+_Alchemical Method_ [Experimentation] You may choose to discard and redraw one card when making Destiny Deck draws for Alchemical Experimentation.
+
+_Critical Safeguard_ [Experimentation] You may choose to gain an Injury point in exchange for preventing the negative consequences of an Experimentation for one other person involved.
+
+end::alchemical-experimenter[]
+
+tag::alchemical-innovator[]
+
+=== Alchemical Innovator
+
+*Reqs:* Focus 20, Wits 12, Alchemical Experimenter
+
+_Improve and Refine_ [Experimentation] You gain a +2 bonus when making a Destiny Deck draw for Alchemical Experimentation.
+
+_Enhanced Safeguards_ [Experimentation] You may use the talent Critical Safeguard up to three times in one Experimentation.
+
+_Path to Discovery (Alchemy)_ [Quest] You may begin a quest to establish a new Alchemical recipe. The nature of the recipe must be approved by the Directors, and you may not have more than one unique recipe in progress at a time. If the Directors accept your proposal they will set out for you the conditions of the quest, which will require a significant investment in roleplay time and materials. Unique recipes are subject to change per Directors' discretion.
+end::alchemical-innovator[]
+
+*/
+
+"Apothecary" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apothecary</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::apothecary[]
+
+=== Apothecary
+
+*Reqs:* Essence 7, First Aid
+
+_Practiced Medicine_ [Always] Your roleplay for First Aid is reduced to 40 seconds.
+
+_Emergency Aid_ [Once Per Rest] You may finish the First Aid Roleplay immediately by calling "Aid".
+
+_Battlefield Carry_ [Always] You no longer have to move at a walking pace when moving an Incapacitated character.
+
+end::apothecary[]
+*/
+
+
+"Archaeology" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Archaeology</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>];
+/*
+tag::archaeology[]
+
+=== Archaeology
+
+*Reqs:* Wits 11, either Specimen Collection or Research
+
+[Quest] You may perform Archaeological Dig Quests, available from the Quartermaster. A standard dig takes 120 minutes of effort that can be divided up among multiple characters to a minimum of 20 minutes per character. At least half of the characters involved (rounding up) must have the skill Archeology. Everyone who participates will be considered to have completed the Quest.
+
+end::archaeology[]
+*/
+
+
+"Assembly Line" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Assembly Line</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::assembly-line[]
+
+=== Assembly Line
+
+*Reqs:* Harmony 11, Advanced Production
+
+_By The Numbers_ [Always, Crafting] By gathering at least 3 people with a common _Crafting_ skill together in a location, and having them all craft the same item, you can decrease the time it takes for all of them to produce those items.  Cut crafting time in half for each participant.  The character managing the _Assembly Line_ may not craft anything.
+
+_Maximum Output_ [Once Per Event] You may gain the benefits of _Personal Supply_ and _Advanced Supply_ an additional time this event, at any time during the Event.
+end::assembly-line[]
+*/
+
+/*
+  tag::letter-header[]
+
+== B
+
+  end::letter-header[]
+*/
+
+"Banner Bearer" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Banner Bearer</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 11</TD></TR>
+</TABLE>>];
+
+/*
+
+tag::banner-bearer[]
+
+=== Banner Bearer
+
+*Reqs:* Resolve 11, Sergeant, Approve Banner Prop
+
+[Once Per Rest] The user of this skill may raise a banner that instills confidence in all who see it. While the banner is upright and visible, if a character would progress to the second stage of a Mental Effect they may call “Immune.” Players must be sure they can see the banner before calling, “Immune.” If the Banner Bearer is reduced to Incapacitated, they must remove the banner from the field and it may not return except through Staff permission. Only the bearer can move the banner and they must remain within 10 feet of it at all times or the effect ends. It is recommended that the Banner Bearer remind players of this ability before a Scene begins.
+
+end::banner-bearer[]
+
+*/
+
+
+/*
+  tag::letter-header[]
+
+== C
+
+  end::letter-header[]
+*/
+
+"Captain" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Captain</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 13, Resolve 7</TD></TR>
+</TABLE>>];
+
+/*
+
+tag::captain[]
+
+=== Captain
+
+*Reqs:* Focus 13, Resolve 7, Sergeant
+
+_Captain Formations_ [Always, Crafting] You can organize up to 5 chosen allies into a special formation. You may organize any formation listed below that you also possess the required skill for. You may later call the formation and you and the chosen allies gain the benefits listed. A character can only benefit from one formation at a time, and you must be in the scene to activate the formation.
+
+* *Aegis Formation - Inspire Courage:* Choose one Mental Effect. Once during the next Scene, the members of the formation may call a Mental Save against the chosen effect. This ability is lost at the end of the next Scene if not used.
+** Roleplay: Practice planning defenses and camaraderie.
+* *Vanguard Formation - Advanced Melee Style:* Gain 1 Grit Point which can only be spent to deliver any Advanced Strike with a melee weapon even if the character does not have an Advanced Strike skill. The Grit Point is lost at the end of the next Scene if not used.
+** Roleplay: Practice breaking through lines as a group.
+* *Sharpshooter Formation - Advanced Ranged Style:* Gain 1 Grit Point which can only be spent to deliver any Advanced Strike with a ranged weapon even if the character does not have an Advanced Strike skill.  The Grit Point is lost at the end of the next Scene if not used.
+** Roleplay: Practice sharpshooting.
+* *Specialist Formation - Weapon Specialist:* For the next Scene, the entire formation gains the benefit of one Weapon Specialist skill the Captain has. This ability is lost at the end of the next Scene.
+** Roleplay: Practice shooting and lecturing with the chosen weapon type.
+* *Medic Formation - Clinic:* All members of the formation may assist other characters with First Aid to reduce the Roleplay as if they had the First Aid skill. This ability is lost at the end of the next Scene.
+** Roleplay: Practice bandaging, lecturing on anatomy, and/or proper battlefield prioritization.
+
+_Improved Sergeant Formations_ [Always, Crafting] Your Sergeant Formations may contain up to 10 people.
+
+_Path to Discovery (Formations)_ [Quest, Crafting] You may begin a quest to develop a new formation. The nature of the formation must be approved by the Directors, and you may not have more than one formation in progress at a time. If the Directors accept your proposal they will set out for you the conditions of the quest, which will require a significant investment in roleplay time and materials. Unique formations are subject to change per Directors' discretion.
+
+end::captain[]
+*/
+
+"Cartography" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Cartography</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+
+"Cartography Explorers" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Cartography</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::cartography[]
+
+=== Cartography
+
+*Reqs:* Resolve 3
+
+_Cartography_ [Quest] You may perform Mapping Quests, available from the Quartermaster. A standard mapping takes 120 minutes of effort that can be divided up among multiple characters to a minimum of 20 minutes per character. At least half of the characters involved (rounding up) must have the skill Cartography . Everyone who participates will be considered to have completed the Quest.
+
+_Research Basics_ [Always] You can determine the relative Research value of items.
+
+end::cartography[]
+*/
+
+
+"Commerce" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Commerce</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>];
+/*
+tag::commerce[]
+
+=== Commerce
+
+*Reqs:* Wits 3
+
+_Quartermaster’s Connection_ [Always, Quest] You gain access to the ability to obtain and complete Commerce Quests from the Quartermaster. Commerce Quests reward you financially for completing them, and also reward build to a number of participants including yourself, as listed on the card. You must complete your current Commerce quest to obtain a new one. 
+
+_Market Watch_ [Once Per Event] You will gain rumors and insight into supply and demand of the resources of the Colony on your rumors sheet at Check-in. 
+
+end::commerce[]
+*/
+
+
+"Cooking" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Cooking</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>];
+
+"Master Chef" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Chef</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 11, Harmony 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::cooking[]
+
+=== Cooking
+
+*Reqs:* Agility 3
+
+_Cook_ [Always, Crafting] You may complete Cooking Recipes.
+
+_Foraging_ [Gathering] You may gather Food and Herbal components.
+
+end::cooking[]
+
+tag::master-chef[]
+
+=== Master Chef
+
+*Reqs:* Agility 11, Harmony 7
+
+_Fine Cuisine_ [Always, Crafting] You may complete Master Chef Recipes.
+
+_Iron Stomach_ [Always] You can spend a Physical Save to prevent yourself from being poisoned or harmed by items you consume.
+
+end::master-chef[]
+
+
+*/
+
+"Clinic" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Clinic</TD></TR>
+  <TR><TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>];
+
+/*
+  tag::clinic[]
+
+=== Clinic
+
+*Reqs:* Wits 11, one of Advanced Treatement, Medicinal Remedies, or Remove Poison
+
+[Once Per Rest] You may spend 1 minute preparing a small area, roughly 10 feet by 10 feet, 10’x10’, as a field Clinic. Props are encouraged but not required. All uses of the First Aid skill in this area heal two hit points per use instead of one.  This area remains active as long as the props remain set up or a person with the Triage skill remains in the area, and active combat does not occur within the area of the Clinic.
+
+end::clinic[]
+
+*/
+
+"Ciphers" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ciphers</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::ciphers[]
+
+=== Ciphers
+
+*Reqs:* Wits 11
+
+[Always] You may write secret messages. To accomplish this, you must write out a note on paper.  Fold this paper so that the written message is not visible.  On the outside of this note you must write the following statement:  "OOG: Requires Ciphers to Decode" along with your card number and your signature.
+
+end::ciphers[]
+*/
+
+"Creature Handling" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Creature Handling</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>];
+/*
+tag::creature-handling[]
+
+=== Creature Handling
+
+*Reqs:* Agility 3
+
+_Animal Insight_ [Always] You may determine the status of an animal or creature including:
+
+* Its current health level (healthy, wounded, dying, dead)
+* Its mood (Friendly, Neutral, Aggressive)
+* Its nature (natural or not)
+
+You may call this skill by studying the creature for 30 seconds and then calling "Insight", and asking the creature the relevant question.
+
+_Influence Mood_ [Once Per Rest] You may attempt to sway the mood of up to 4 creatures by one step.  Aggressive or Frightened creatures can become Neutral and Neutral creatures can become either Frightened or Friendly depending on the nature of the roleplay.  The creature(s) will react to the closest player; to use this skill, the player should step between the creature and any other players, spread their hands wide with open palms.  To make the creature more friendly use words like "calm", "understand" and "help".  To make the creature less friendly use "angry", "threat", or "danger".  Note that there may be environmental or situational modifiers that complicate this skil.
+
+
+end::creature-handling[]
+*/
+
+/*
+  tag::letter-header[]
+
+== D
+
+  end::letter-header[]
+*/
+
+"Devices" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Devices</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+/*
+tag::devices[]
+
+=== Devices
+
+*Reqs:* Agility 7
+
+_Device Manipulation_ [Always] When you encounter a lock or other device that can be opened or defeated, there will be a difficulty number listed. In order defeat the device you must spend one minute of roleplay time, then draw one card from the Destiny Deck. Add the value of this card to your Agility score. If the total exceeds the difficulty then the device is defeated. If not you may spend another minute roleplaying to draw a second card adding it to the first and check again. If you need to keep going you have one more attempt after yet another minute to draw a third card. If after three minutes, and three card draws, the device is not defeated then you must suffer the listed consequence on the lock or device card.
+
+_Quick Crack_ [Once Per Rest] You may draw all three cards at once after completing one minute of role play.
+
+end::devices[]
+*/
+
+"Doctor" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Doctor</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::doctor[]
+
+=== Doctor
+
+*Reqs:* Essence 11, Apothecary
+
+_Advanced Care_ [Always] Your roleplay for First Aid is reduced to 20 seconds. You may spend a Grit Point when treating someone to raise their Injury Limit in the Scene to 5 and removing the Exhausted condition if they have already gained it.
+
+_Urgent Healing_ [Once Per Rest] You may finish the First Aid Roleplay immediately.  This usage stacks with Apothecary.
+
+_Improved Battlefield Carry_ [Always] You may carry two Incapacitated targets simultaneously when using Battlefield Carry.
+
+end::doctor[]
+*/
+
+"Dissect" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Dissect</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::dissect[]
+
+=== Dissect
+
+*Reqs:* Focus 7, Expert Application
+
+[Always] Roleplay the dissection of a plant, a dead animal, or a dead person. After 30 seconds of roleplay you gain one or more Components or Item Cards depending on the situation and the Narrator running the scene. Some NPCs will be carrying cards to give out upon being dissected, others may not.
+
+end::dissect[]
+*/
+
+"Dowsing" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Dowsing</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::dowsing[]
+
+=== Dowsing
+
+*Reqs:* Essence 7, Orienteering
+
+[Once Per Rest] Locate a Ley Line to grant a bonus to Rituals or Crafting that occurs in that location.  A total of 12 minutes of roleplay by characters with the Dowsing skill is required to find a single Ley Line. When the above roleplay is done, you may establish circle no larger than six feet in diameter. Rituals and Crafting that occur within that circle gain the following benefit: "Choose one of the least rare Components used in the recipe. It is not expended." This effect lasts for one hour.
+
+end::dowsing[]
+*/
+
+/*
+  tag::letter-header[]
+
+== E
+
+  end::letter-header[]
+*/
+
+"Expert Application" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Expert Application</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::expert-application[]
+
+=== Expert Application
+
+*Reqs:* Focus 3
+
+_Quick Application_ [Always] When you are applying a Healing Poultice to another character, double the rate of healing.
+
+_Leftover Poultice_ [Once per Rest] You may produce a Healing Poultice without requiring Components. Quick Poultices are never written on Item Cards and expire at the end of the scene in which they are made if unused.
+
+end::expert-application[]
+*/
+
+
+/*
+  tag::letter-header[]
+
+== F
+
+  end::letter-header[]
+*/
+
+"Fiber Arts" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Fiber Arts</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>];
+
+"Master Weaver" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Weaver</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::fiber-arts[]
+
+=== Fiber Arts
+
+*Reqs:* Focus 3
+
+_Weave and Sew_ [Always, Crafting] You can complete Fiber Arts Recipes.
+
+_Wool Gathering_ [Gathering] You can gather Herbal and Fiber components.
+
+end::fiber-arts[]
+
+tag::master-weaver[]
+
+=== Master Weaver
+
+*Reqs:* Focus 11, Resolve 7
+
+_Made to Fit_ [Always, Crafting] You can complete Master Weaver Recipes.
+
+_Measure Twice, Cut Once_ [Once per Rest] when using a Fiber Arts Recipe Item you may use it twice within a scene while only consuming one of the item's uses.
+
+end::master-weaver[]
+
+*/
+
+"First Aid" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">First Aid</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>];
+
+"First Aid Military" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">First Aid</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::first-aid[]
+
+=== First Aid
+
+*Reqs:* Essence 3
+
+_Diagnose_ [Always] You may perform 5 seconds of roleplay examining a body and declare, “Diagnose.” Once done, you may ask what the target's current and maximum Hit Points are and what other negative effects they are under.
+
+_First Aid_ [Always] You may perform a 1 minute roleplay to restore 1 Hit Point on a single target within arms reach. This will also remove the Incapacitated condition if it exists. If another player with First Aid assists you, you may reduce the roleplay by 5 seconds, to a minimum of 10 seconds.
+
+end::first-aid[]
+*/
+
+/*
+  tag::letter-header[]
+
+== G
+
+  end::letter-header[]
+*/
+
+
+"Games" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Games</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>];
+/*
+tag::games[]
+
+=== Games
+
+*Reqs:* Focus 3
+
+[Always] While Resting, you may play a game with 1 to 5 other characters. All characters in the game cut the time required for their Rest in half. All players who participate in the game also regain 1 grit point when the rest time is completed. To qualify as a game there must be at least one prop used by all involved and the level of physical exertion must be low.
+
+end::games[]
+*/
+
+/*
+  tag::letter-header[]
+
+== H
+
+=== Herbalism
+
+  end::letter-header[]
+*/
+
+
+"Apprentice Herbalist I" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist I</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 3</TD></TR>
+</TABLE>>];
+
+"Apprentice Herbalist II" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist II</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>];
+
+"Apprentice Herbalist III" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist III</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::apprentice-herbalist-i[]
+
+=== Apprentice Herbalist I
+
+*Reqs:* Harmony 3
+
+_Basic Botanicals_ [Always, Crafting] You can complete rank one Herbalism recipes.
+
+_Harvestry_ [Gathering] You may gather Herb and Fiber Components.
+
+end::apprentice-herbalist-i[]
+
+tag::apprentice-herbalist-ii[]
+
+=== Apprentice Herbalist II
+
+*Reqs:* Harmony 7, Apprentice Herbalist I
+
+_Improved Botanicals_ [Always, Crafting] You can complete rank two herbal recipes.
+
+_Herbal Stockpile_ [Once Per Event] you may contact the Quartermaster or Guildmaster to gain a random Herb or Fiber Component.
+
+end::apprentice-herbalist-ii[]
+
+tag::apprentice-herbalist-iii[]
+
+=== Apprentice Herbalist III
+
+*Reqs:* Harmony 11, Apprentice Herbalist II
+
+_Mortar Mastery_ [Always, Crafting] You can complete rank three herbal recipes.
+
+_Sickle Skills_ [Gathering]  When drawing cards to determine Herb or Fiber gathering results you may discard one of the cards and draw again to replace it. You must take the second result.
+
+end::apprentice-herbalist-iii[]
+*/
+
+"Herbalism Expert" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Herbalism Expert</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 13, Essence 3</TD></TR>
+</TABLE>>];
+
+"Master Herbalist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Herbalist</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 15, Essence 6</TD></TR>
+</TABLE>>];
+
+/*
+tag::herbalism-expert[]
+
+=== Herbalism Expert
+
+*Reqs:* Harmony 13, Essence 3, Apprentice Herbalist II
+
+_Nature's Bounty_ [Gathering] You may gain a +2 bonus when making a Destiny Deck draw for Herbal or Fiber Components.
+
+_Pharmacology_ [Once per Rest] You may replace one uncommon component in an Herbalism recipe with a common component of the same class.
+
+_Reclaim Roots_ [NPC Shift] At the completion of an NPC Shift you may contact the Quartermaster or Guildmaster to gain a random Herb or Fiber Component
+
+end::herbalism-expert[]
+
+tag::master-herbalist[]
+
+=== Master Herbalist
+
+*Reqs:* Harmony 15, Essence, Herbalism Expert
+
+_Perfect Pestle_ [Always, Crafting] You may perform an Herbalism Recipe twice at the same time, expending twice the materials for twice the output.
+
+_Secret Spices_ [Once per Rest] You may replace one rare component in an Herbalism Recipe with a common or uncommon component of the same type.
+
+_Leftover Herbals_ [Once per Rest] You may roleplay searching among your possessions for five seconds to "find in your pocket" any Rank 1 herbal Recipe you know and have the materials for. If you spend a point of Grit, you may instead "find" one of any Rank 2 Herbalism Recipe you know. The item must be used within 1 minute or it is lost.
+
+end::master-herbalist[]
+
+*/
+
+"Herbalism Experimenter" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Herbalism Experimenter</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 17, Essence 9</TD></TR>
+</TABLE>>];
+
+"Herbalism Innovator" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Herbalism Innovator</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 20, Essence 12</TD></TR>
+</TABLE>>];
+
+/*
+tag::herbalism-experimenter[]
+
+=== Herbalism Experimenter
+
+*Reqs:* Harmony 17, Essence 9, Apprentice Herbalist III
+
+Botanical Method: [Experimentation] You may redraw one card when making Destiny Deck draws for Herbalism Experimentation
+
+_Critical Safeguard_ [Experimentation] You may choose to gain an Injury point in exchange for preventing the negative consequences of an Experimentation for one other person involved.
+
+end::herbalism-experimenter[]
+
+tag::herbalism-innovator[]
+
+=== Herbalism Innovator
+
+*Reqs:* Harmony 20, Essence 12, Herbalism Experimenter
+
+_Materia Medica_ [Experimentation] You gain a +2 bonus when making a Destiny Deck draw for Herbalism Experimentation.
+
+_Enhanced Safeguards_ [Experimentation] You may use the talent Critical Safeguard up to three times in one Experimentation.
+
+_Path to Discovery (Herbalism)_ [Quest] You may begin a quest to establish a new Herbalism recipe. The nature of the recipe must be approved by the Directors, and you may not have more than one unique recipe in progress at a time. If the Directors accept your proposal they will set out for you the conditions of the quest, which will require a significant investment in roleplay time and materials. Unique recipes are subject to change per Directors' discretion.
+
+end::herbalism-innovator[]
+
+*/
+
+
+
+/*
+  tag::letter-header[]
+
+== I
+
+  end::letter-header[]
+*/
+
+
+
+"Import Export" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Import Export</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+/*
+tag::import-export[]
+
+=== Import / Export
+
+*Reqs:* Resolve 3
+
+_Port Connections_ [Always] You gain access to a special Goods selection, of large purchase of commodities and other items that are independent of the normal Quartermaster Supply. See the Quartermaster to see what is for sale. 
+
+_Trading Partners_ [One Per Event, Quest] You may return an Unfinished Commerce Quest to the Quartermaster and select a new Quest instead. 
+
+end::import-export[]
+*/
+
+
+"Inspire Courage" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Inspire Courage</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::inspire-courage[]
+
+=== Inspire Courage
+
+*Reqs:* Essence 3
+
+[Once per Rest] you may use this skill to grant up to five people an Extra Mental Save.  You can roleplay this skill by any of the following means:
+
+* A rousing speech of at least 30 seconds duration
+* An inspiring song of at least 30 seconds duration
+* A heroic deed appropriate for the scene at marshals discretion
+
+end::inspire-courage[]
+*/
+
+
+"Inventory" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Inventory</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>];
+/*
+tag::inventory[]
+
+=== Inventory
+
+*Reqs:* Wits 7, Appraise
+
+_Safe Storage_ [Always] Player may keep any amount of item cards in a separate pocket on their person for the purpose of trade. This can be any number of cards of any number, size, or value. Their knowledge of what they have in storage allows them to conduct trade with the goods. As the goods are not actually on your person, they cannot be affected by anything happening to you personally. You may only move goods out of this pocket in relative safety or by spending one Grit per item you wish to suddenly produce.
+
+_Strike a Deal_ [Once Per Rest] you may convert 5 Component item cards of the same value or rarity into any one item of the next value or rarity up.  Excludes Premium and Unique. Basic Logistics and Advanced Logistics may not be used for this purpose.
+
+_Merchant's Insight_ [Always] You can determine the relative research value of items.
+
+end::inventory[]
+*/
+
+/*
+  tag::letter-header[]
+
+== L
+
+  end::letter-header[]
+*/
+
+
+"Basic Logistics" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Logistics</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>];
+
+"Advanced Logistics" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Logistics</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::basic-logistics[]
+
+=== Basic Logistics
+
+*Reqs:* Strength 3
+
+[Once per Rest] You may use this skill in place of a single common Component to represent having been prepared enough to have brought that Component along with you. This Component will never be written on a card and it expires at the end of the scene. No more than one use of Basic Logistics can be applied to a single action.
+
+end::basic-logistics[]
+
+tag::advanced-logistics[]
+
+=== Advanced Logistics
+
+*Reqs:* Strength 7, Basic Logistics
+
+[Once per Rest] You may use this skill in place of a single common or uncommon Component to represent having been prepared enough to have brought that Component along with you. This Component will never be written on a card and it expires at the end of the scene. No more than one use of Advanced Logistics can be applied to a single action.
+
+end::advanced-logistics[]
+*/
+
+"Lore" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Lore</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>];
+/*
+tag::lore[]
+
+=== Lore
+
+*Reqs:* Wits 3
+
+Narrator: You are versed in the study of books.  You may ask questions of a scene Narrator to determine if some fact available in the books you have studied may be pertinent to the current scene.
+
+Item: You can determine the relative Research value of items.
+
+
+end::lore[]
+*/
+
+
+/*
+  tag::letter-header[]
+
+== M
+
+  end::letter-header[]
+*/
+
+"Medicinal Remedies" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Medicinal Remedies</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>];
+
+/*
+  tag::medicinal-remedies[]
+
+=== Medicinal Remedies
+
+*Reqs:* Focus 7, First Aid
+
+_Purifying Treatment_ [Always] You may use your First Aid roleplay time to remove the Sickened effect or one Mental Effect by calling, “Remove X” where X is the effect.
+
+_Rapid Soothe_ [Once Per Rest] You may finish a First Aid Roleplay in 5 seconds that heals one damage and either removes the Sickened effect or removes one Mental Effect, from a single target.
+
+  end::medicinal-remedies[]
+
+*/
+
+
+"Mining" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Mining</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::mining[]
+
+=== Mining
+
+*Reqs:* Strength 3
+
+_Rock Farmer_ [Gathering] You may gather Metals and Minerals. Add +2 to the results of the Destiny Deck draw when gathering Metals or Minerals.
+
+_Rock Tumbler_ [Crafting] You may use the Metal Trade Goods and Mineral Trade Goods recipes from the Smithing Recipes list
+
+end::mining[]
+*/
+
+
+
+
+/*
+  tag::letter-header[]
+
+== O
+
+  end::letter-header[]
+*/
+
+"Orienteering" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Orienteering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+
+"Orienteering Military" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Orienteering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::orienteering[]
+
+=== Orienteering
+
+*Reqs:* Resolve 3
+[Always]  You are skilled enough at navigating in the wilderness that when you have a map, your time walking somewhere counts as Rest time for you and up to 3 other characters.
+
+end::orienteering[]
+*/
+
+
+/*
+  tag::letter-header[]
+
+== P
+
+  end::letter-header[]
+*/
+
+"Basic Production" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Production</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 3</TD></TR>
+</TABLE>>];
+
+"Advanced Production" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Production</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::basic-production[]
+
+=== Basic Production
+
+*Reqs:* Harmony 3
+
+_Trade Goods_ [Always, Crafting] You may complete basic Production recipes for crafting Trade goods out of matching materials.
+
+_Busy Hands_ [NPC Shift, Crafting] Choose one basic production recipe or Rank 1 recipe your character knows. Your character will accomplish the crafting of it during your NPC shift. You must have all necessary materials.
+
+_Personal Supply_ [Once Per Event] You may create for free one use of a Rank 1 consumable item you know. You must choose the item within your first hour of play.
+
+end::basic-production[]
+
+tag::advanced-production[]
+
+=== Advanced Production
+
+*Reqs:* Harmony 7, Basic Production
+
+_Advanced Trade Goods_ [Always, Crafting] You may complete Advanced Production recipes for crafting more valuable Trade goods out of matching materials.
+
+_With My Eyes Closed_ [NPC Shift, Crafting] Choose one basic or advanced production recipe, or Rank 1 recipe your character knows. Your character will accomplish the crafting of it during your NPC shift. You must have all necessary materials. Stacks with Busy Hands.
+
+_Advanced Supply_ [Once Per Event] You may create for free one use of a Rank 1 or 2 consumable item you know. You must choose the item within your first hour of play. Stacks with Personal Supply.
+
+end::advanced-production[]
+*/
+
+
+/*
+  tag::letter-header[]
+
+== R
+
+  end::letter-header[]
+*/
+
+
+"Remove Poison" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Remove Poison</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::remove-poison[]
+
+=== Remove Poison
+
+*Reqs:* Essence 7, First Aid
+
+_Toxin Care_ [Always] You are able to recognize that someone has the Poisoned Condition. While you are tending to a Poisoned character their Poison will not progress to more severe levels.
+
+_Antidote_ [Always, Crafting] You may request the instructions on a remedy for a particular Poison. Each Remedy's instructions can be different. By following the necessary recipe you can cure the target of the poison.
+
+end::remove-poison[]
+*/
+
+
+"Research" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Research</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>];
+/*
+tag::research[]
+
+=== Research
+
+*Reqs:* Wits 7, Lore
+
+_Artifact Research_ [Once Per Rest] You may exchange a number of Items with Research values (excluding “Known” items) with the head of the Explorers Guild to gain a piece of knowledge. The quality of the knowledge you gain is based on the total Research value of the Items that you turn in.
+
+* Known = 0
+* Notable = 1
+* Significant = 3
+* Revelatatory = 7
+
+_Interview_ [Always] You may spend 10 minutes discussing the basics of a Skill a target knows. For the next four hours, you may act as if you possessed that skill for purposes of knowledge (I'm not a Blacksmith, however I spoke to...). You may possess a maximum of 3 skills in this way at a time.
+
+end::research[]
+*/
+
+
+/*
+  tag::rituals[]
+
+=== Rituals
+
+  end::rituals[]
+*/
+
+"Initiate Rituals" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Initiate ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>];
+
+"Adept Rituals" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Adept ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 7, Resolve 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 7, Agility 3</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 7, Wits 3</TD></TR>
+</TABLE>>];
+
+"Master Rituals" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" colspan="2" bgcolor="cornsilk">Master ...</TD></TR>
+  <TR><TD ALIGN="LEFT">... Binding Rituals</TD><TD ALIGN="LEFT">Essence 11, Resolve 7</TD></TR>
+  <TR><TD ALIGN="LEFT">... Forces Rituals</TD><TD ALIGN="LEFT">Essence 11, Agility 7</TD></TR>
+  <TR><TD ALIGN="LEFT">... Spirits Rituals</TD><TD ALIGN="LEFT">Essence 11, Wits 7</TD></TR>
+</TABLE>>];
+
+
+/*
+tag::initiate-binding-rituals[]
+
+=== Initiate Binding Rituals
+
+*Reqs:* Essence 3
+
+_Initiate Binding_ [Always, Crafting] You gain access to Rank 1 Binding Rituals.
+
+_Wardworthy Gathering_ [Gathering] You may gather Binders and Minerals.
+
+end::initiate-binding-rituals[]
+
+tag::adept-binding-rituals[]
+
+=== Adept Binding Rituals
+
+*Reqs:* Essence 7, Resolve 3, Initiate Binding Rituals
+
+[Always, Crafting] You gain access to Rank 2 Binding Rituals.
+
+end::adept-binding-rituals[]
+
+tag::master-binding-rituals[]
+
+=== Master Binding Rituals
+
+*Reqs:* Essence 11, Resolve 7, Adept Binding Rituals
+
+[Always, Crafting]  You gain access to Rank 3 Binding Rituals.
+
+end::master-binding-rituals[]
+
+
+
+tag::initiate-forces-rituals[]
+
+=== Initiate Forces Rituals
+
+*Reqs:* Essence 3
+
+_Initiate Forces_ [Always, Crafting]  You gain access to Rank 1 forces Rituals.
+
+_Ritual Gathering_ [Gathering] You may gather Binders and Minerals
+
+end::initiate-forces-rituals[]
+
+tag::adept-forces-rituals[]
+
+=== Adept Forces Rituals
+
+*Reqs:* Essence 7, Resolve 3, Initiate Forces Rituals
+
+[Always, Crafting]  You gain access to Rank 2 Forces Rituals.
+
+end::adept-forces-rituals[]
+
+tag::master-forces-rituals[]
+
+=== Master Forces Rituals
+
+*Reqs:* Essence 11, Resolve 7, Adept Forces Rituals
+
+[Always, Crafting]  You gain access to Rank 3 Forces Rituals.
+
+end::master-forces-rituals[]
+
+
+
+tag::initiate-spirit-rituals[]
+
+=== Initiate Spirit Rituals
+
+*Reqs:* Essence 3
+
+_Initiate Spirits_ [Always, Crafting]  You gain access to Rank 1 Spirit Rituals
+
+_Ritual Gathering_ [Gathering] You may gather Binders and Minerals
+
+end::initiate-spirit-rituals[]
+
+tag::adept-spirit-rituals[]
+
+=== Adept Spirit Rituals
+
+*Reqs:* Essence 7, Resolve 3, Initiate Spirit Rituals
+
+[Always, Crafting]  You gain access to Rank 2 Spirit Rituals
+
+end::adept-spirit-rituals[]
+
+tag::master-spirit-rituals[]
+
+=== Master Spirit Rituals
+
+*Reqs:* Essence 11, Resolve 7, Adept spirit Rituals
+
+[Always, Crafting]  You gain access to Rank 3 Spirit Rituals
+
+end::master-spirit-rituals[]
+*/
+
+"Ritual Linking" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Linking</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Harmony 11</TD></TR>
+</TABLE>>];
+
+"Ritual Quickening" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Quickening</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Focus 11</TD></TR>
+</TABLE>>];
+
+"Ritual Empowerment" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Ritual Empowerment</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 13, Strength 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::ritual-linking[]
+
+=== Ritual Linking
+
+*Reqs:* Essence 13, Harmony 11, Any Adept Rituals
+
+[Once Per Rest, Crafting] You may increase the casting time of a ritual that gives a Blessing by one minute and expend one additional Component to include additional people based on the rarity of the Component. If you expend a Common, add one person. If you expend an Uncommon, add two people. If you expend a Rare, add 3 people. If you expend a Unique, add 10 people. This cannot be used on Self-Only Blessings.
+
+
+end::ritual-linking[]
+
+
+tag::ritual-quickening[]
+
+=== Ritual Quickening
+
+*Reqs:* Essence 13, Focus 11, Any Adept Rituals
+
+[Always, Crafting] You may have other ritualists assist in performing a ritual you are conducting to reduce the casting time so long as they are capable of performing the same type of ritual, ie assisting in a Forces ritual requires people who can perform Forces rituals. For each person assisting the time required is reduced by one minute, minimum of one minute.
+
+
+end::ritual-quickening[]
+
+
+tag::ritual-empowerment[]
+
+=== Ritual Empowerment
+
+*Reqs:* Essence 13, Strength 11, Any Adept Rituals
+
+[Always, Crafting] When you perform a ritual that has a numeric effect you may double the casting time of the ritual to increase a numerical value by one.
+
+end::ritual-empowerment[]
+
+*/
+
+
+"Initiate Thaumaturgist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Initiate Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 15, Wits 6</TD></TR>
+</TABLE>>];
+
+"Adept Thaumaturgist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Adept Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 17, Wits 9</TD></TR>
+</TABLE>>];
+
+"Master Thaumaturgist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Thaumaturgist</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 20, Wits 12</TD></TR>
+</TABLE>>];
+
+/*
+tag::initiate-thaumaturgist[]
+
+=== Initiate Thaumaturgist
+
+*Reqs:* Essence 15, Wits 6
+
+_Ritual Remainders_ [NPC Shift]  At the end of your NPC Shift you may contact the Quartermaster or Guildmaster to gain a random Mineral or Binder Component
+
+_Ritual Efficiency_ [Always, Crafting] When performing a ritual you know, you may increase the casting time by one minute and spend a point of grit to lower the rarity of one required component by one level, to a minimum of Common.
+
+end::initiate-thaumaturgist[]
+
+tag::adept-thaumaturgist[]
+
+=== Adept Thaumaturgist
+
+*Reqs:* Essence 17, Wits 9, Initiate Thaumaturgist
+
+Gain the corresponding bonus if you have the following skills:
+
+'''
+*Adept Binding Rituals:*
+
+* You may spend 10 minutes expanding your spiritual self to an item. So long as the chosen item is visible on your person you may have two Blessings upon you at once. If the item is Sundered you lose access to the second Blessing until it is repaired.
+
+'''
+*Adept Forces Rituals:*
+
+* When you finish a Forces ritual that has an immediate effect, you may store the effect upon you as a Blessing, and release the effect later with ten seconds of Roleplay.
+
+'''
+*Adept Spirit Rituals:*
+
+* Whenever you perform a ritual that requires the expenditure of a Spirit Token, Make a Destiny Draw. If the drawn total is 4 or higher you do not lose the Spirit Token.
+
+end::adept-thaumaturgist[]
+
+tag::master-thaumaturgist[]
+
+=== Master Thaumaturgist
+
+*Reqs:* Essence 20, Wits 12, Adept Thaumaturgist
+
+Gain the corresponding bonus if you have the following skills:
+
+'''
+*Master Binding Rituals:*
+
+* [Crafting] You may craft an object using the craft wand ritual. This object now counts as the prop for all Binding rituals you cast.
+* [Once Per Event] When you would gain an Injury point to as the cost for a skill you may destroy your imbued object instead of gaining the Injury Point.
+
+'''
+*Master Forces Rituals:*
+
+* [Once Per Rest, Crafting] When you are doing a Forces Ritual, if you are struck by a physical effect or damage, you can add 1 minute to the ritual casting time to gain a Free Physical Save to use immediately. If you stop the ritual before completing it after using this ability you become Exhausted.
+* [Once Per Rest] If you are struck by an undefended elemental effect while performing a Forces Ritual you may gain an Injury to complete the ritual immediately. This only works with known, non-experimentation rituals.
+
+'''
+*Master Spirit Rituals:*
+
+* [Always] Whenever you expend a Blessing, you may choose an additional target within arms reach to gain the effect.
+* [Once per Event] When you expend a Blessing, you may gain an Injury Point to grant the effect of the expended Blessing to all targets within arms reach.
+
+end::master-thaumaturgist[]
+
+*/
+
+/*
+  tag::letter-header[]
+
+== S
+
+  end::letter-header[]
+*/
+
+
+
+"Sergeant" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sergeant</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7, Resolve 3</TD></TR>
+</TABLE>>];
+
+/*
+
+tag::sergeant[]
+
+=== Sergeant
+
+*Reqs:* Focus 7, Resolve 3
+
+_Sergeant Formations_ [Always, Crafting] You can organize up to 5 chosen allies into a special formation. You may organize any formation listed below that you also possess the required skill for. You may later call the formation and you and the chosen allies gain the benefits listed. A character can only benefit from one formation at a time, and you must be in the scene to activate the formation.
+
+* *Infiltration Formation - Sneak*: All members of the formation may perform a 1 min RP within cover to become Hidden once. This ability is lost at the end of the next Scene if not used.
+** Roleplay: Practice sneaking through brush or from cover to cover.
+* *Militia Formation - Basic Melee Style:* Gain 1 Grit Point which can only be spent to deliver any Basic Strike with a melee weapon even if the character does not have a Basic Strike skill. The Grit Point is lost at the end of the next Scene if not used.
+** Roleplay: Practice sparring.
+* *Gunline Formation - Basic Ranged Style:* Gain 1 Grit Point which can only be spent to deliver any Basic Strike with a ranged weapon even if the character does not have a Basic Strike skill. The Grit Point is lost at the end of the next Scene if not used.
+** Roleplay: Practice firing in coordinated volleys.
+* *Rescue Formation - First Aid:* All members of the formation may carry Incapacitated characters while moving at full speed. This ability is lost at the end of the Scene.
+** Roleplay: Practice bandaging, lecturing on anatomy, and/or proper battlefield prioritization.
+* *Patrol Formation - Tracking and Alertness*: All members of the formation may use the talent _Spot Hidden_ once. This ability is lost at the end of the next Scene.
+Roleplay: Practice patrolling an area and taking note of activity.
+* *Weapons Inspection - Any Crafting Skill:*  Once during the next Scene, the members of the formation may call Physical Save against the Sunder effect. This ability is lost at the end of the next Scene if not used.
+** Roleplay: Practice inspecting and maintaining weapons and gear.
+
+
+end::sergeant[]
+
+*/
+
+"Semaphores" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Semaphores</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::semaphores[]
+
+=== Semaphores
+
+*Reqs:* Agility 7
+
+[Always] Either you, or a designated player volunteer, may put on a White Headband to go out of game and deliver a message to a location within line of sight.  A character with the skill Semaphore must be available on the receiving end.  Special Note: Because the process of sending messages by flags is not quick, time does not stop during this process.  Return messages may be sent.  If you go yourself you _MUST_ return to your starting location before removing your White Headband and going back in game.
+
+end::semaphores[]
+*/
+
+
+"Sleight of Hand" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sleight of Hand</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>];
+/*
+tag::sleight-of-hand[]
+
+=== Sleight of Hand
+
+*Reqs:* Agility 3
+
+[Always] You may interact with NPCs sent out with clearly marked pickpocket targets hanging off of them in the form of colored clothespins. If you choose, you may attempt to remove these targets for a chance at a reward.
+
+end::sleight-of-hand[]
+*/
+
+
+
+"Blacksmith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Blacksmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>];
+
+"Weaponsmith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Weaponsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 7</TD></TR>
+</TABLE>>];
+
+"Armorer" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Armorer</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>];
+
+"Gunsmith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Gunsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+
+"Brightsmith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Brightsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>];
+
+"Heavy Engineering" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Heavy Engineering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 11, Resolve 7</TD></TR>
+</TABLE>>];
+
+"Artisan Smith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Artisan Smith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 11, Harmony 7</TD></TR>
+</TABLE>>];
+
+"Master Smith" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Smith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 20, Harmony 12</TD></TR>
+</TABLE>>];
+
+/*
+  tag::smithing[]
+
+=== Smithing
+
+  end::smithing[]
+
+tag::blacksmith[]
+
+=== Blacksmith
+
+*Reqs:* Strength 3
+
+_Smithy Basics_ [Always, Crafting] You can complete Blacksmithing recipes.
+
+_Panning and Smelting_ [Gathering] You may gather Metals and Minerals.
+
+end::blacksmith[]
+
+tag::weaponsmith[]
+
+=== Weapon Smith
+
+*Reqs:* Strength 7, Blacksmith
+
+_Weapons of War_ [Always, Crafting] You can complete Weaponsmithing recipes.
+_Safe Hands_ [Once Per Rest] If your weapon would be Sundered you may call "Weapon Smith" to continue using it at full functionality. It retains the Broken condition, you merely ignore it for the duration of this scene. Should it be Sundered again, it will be permanently lost or require Experimentation to repair.
+
+end::weaponsmith[]
+
+tag::armorer[]
+
+=== Armorer
+
+*Reqs:* Resolve 7, Blacksmith
+
+_Suits of Steel_ [Always, Crafting] You can complete Armorer recipes.
+_Safety First_ [Once Per Rest] If you are wearing armor or a smithing apron, You gain a free Physical Save against an environmental damage effect.
+
+end::armorer[]
+
+tag::gunsmith[]
+
+=== Gunsmith
+
+*Reqs:* Agility 7, Blacksmith
+
+_Powder and Lead_ [Always, Crafting] You can complete Gunsmith recipes.
+
+_Spare Rounds_ [Once Per Rest] You may spend a point of Grit to instantly apply any Gunsmith procedure you know to one of your own weapons. The effects of this procedure expire at the end of the scene or when the weapon leaves your possession.
+
+end::gunsmith[]
+
+tag::brightsmith[]
+
+=== Brightsmith
+
+*Reqs:* Focus 7, Blacksmith
+
+_Precision Work_ [Always, Crafting] You can complete Brightsmith recipes.
+
+_Crafter's Eye_ [Experimentation] You may redraw one card when making a Destiny Deck draw while experimenting on any Smithing Recipe.
+
+end::brightsmith[]
+
+tag::artisan-smith[]
+
+=== Artisan Smith
+
+*Reqs:* Focus 11, Harmony 7, one of Weaponsmith, Armorer, Gunsmith, Brightsmith
+
+_Prototype Design_ [Experimentation] You may gain a +2 bonus when making a Destiny Deck draw for experimenting on Smithing Recipes.
+
+_Upkeep Armory_ [Once Per Rest] Pick a single Smithing recipe you can perform. You may expend double the normal materials and triple the time to perform the procedure on up to five armaments at once. All of the target armaments must be present at the same time.
+
+end::artisan-smith[]
+
+tag::heavy-engineering[]
+
+=== Heavy Engineering
+
+*Reqs:* Strength 11, Resolve 7, one of Weaponsmith, Armorer, Gunsmith, Brightsmith
+
+_The Big Guns_ [Always, Crafting] You can complete Engineering recipes, which include large scale projects and field weaponry.
+
+_Spot Weld_ [Once Per Rest] You may substitute an uncommon metal for a common ingredient in any Smithing recipe.
+
+end::heavy-engineering[]
+
+tag::master-smith[]
+
+=== Master Smith
+
+*Reqs:* Strength 11, Harmony 11, Blacksmith and one of Heavy Engineering or Artisan Smith
+
+_Refine Ore_ [Always] You may combine four metals of the same type and quality into a single “refined” material, which counts as one rarity higher. A material created by this talent cannot be used again with this talent.
+
+_Mineralogy_ [Once Per Rest] You can treat a single non-Metal component as one level higher for smithing recipes.
+
+_Path to Discovery (Smithing)_ [Quest] You may begin a quest to develop a new Smithing recipe. The nature of the recipe must be approved by the Directors, and you may not have more than one unique recipe in progress at a time. If the Directors accept your proposal they will set out for you the conditions of the quest, which will require a significant investment in roleplay time and materials. Unique recipes are subject to change per Directors' discretion.
+end::master-smith[]
+
+*/
+
+
+"Smuggle" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Smuggle</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>];
+/*
+tag::smuggle[]
+
+=== Smuggle
+
+*Reqs:* Resolve 7, Import Export
+
+_Black Market_ [Always] You gain access to a limited Goods selection of rare items, finished goods, and other rarities for a very high price. See the Quartermaster for the list of available items. 
+
+_Perfectly Legitimate Business_ [Always, Quest] You gain access to the ability to obtain and complete Smuggling Commerce Quests. These will require strange, rare, and unusual items to complete, and will reward you with build now, and a reward at next Event you attend. The form of your reward is unknown but you are guaranteed to receive a payment. You may only have one of these Quests at a time, and it counts as a Commerce Quest. 
+
+end::smuggle[]
+*/
+
+
+"Sneak" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sneak</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::sneak[]
+
+=== Sneak
+
+*Reqs:* Agility 7
+
+Hide: You may gain the Hidden condition.  
+
+include::../chapter-05.adoc[tags=hidden]
+
+Sneak Attack: [Once per Rest] While Hidden, you may make a Surprise Attack.  Your weapon does +2 damage on this strike and this attack may not be defended, called as "Surprise", followed by your total damage (For example, "Surprise, 3 Damage").  Doing this removes your Hidden condition and you must remove your Yellow Headband if you had one on. If you ended your Hidden through this Talent, you must spend a point of Grit to re-enter Hidden with Stealth.
+
+end::sneak[]
+*/
+
+"Sniper" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sniper</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+
+
+"Specimen Collection" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Specimen Collection</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>];
+
+/*
+tag::specimen-collection[]
+
+=== Specimen Collection
+
+*Reqs:* Resolve 7, Cartography
+
+Quest: You can visit the Quartermaster and collect a Specimen Collection Quest from those available.  According to the Quest card’s requirements, gather a team to go out collecting the resource. You may require the use of skills such as Tracking and Alertness or Dissect to complete the quest.
+
+end::specimen-collection[]
+*/
+
+
+"Surgery" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Surgery</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::surgery[]
+
+=== Surgery
+
+*Reqs:* Focus 11, Dissect
+
+[Always, Crafting] You may follow a Surgery Plan to perform surgeries on living animals and people. Anesthesia is highly recommended.
+
+end::surgery[]
+*/
+
+/*
+  tag::letter-header[]
+
+== T
+
+  end::letter-header[]
+*/
+
+
+"Tracking and Alertness" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Tracking and Alertness</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 7</TD></TR>
+</TABLE>>];
+/*
+tag::tracking-and-alertness[]
+
+=== Tracking and Alertness
+
+*Reqs:* Wits 7, Trapping and Foraging
+
+_Tracking_ [Once Per Rest] You may ask a single question of the Narrator or Marshal of the given scene about any beings who may have left tracks in an area you are about to enter.
+_Spot Hidden_ [Once Per Rest] You may see people who are Hidden (Yellow Headband or arm in front of face).
+_Quick Reflexes_ [Always] You may spend a point of Grit to negate the effects of a Sneak Attack. You still take the normal damage of the strike.
+
+end::tracking-and-alertness[]
+*/
+
+
+"Trapping and Foraging" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Trapping and Foraging</TD></TR>
+  <TR> <TD ALIGN="LEFT">Wits 3</TD></TR>
+</TABLE>>];
+/*
+tag::trapping-and-foraging[]
+
+=== Trapping and Foraging
+
+*Reqs:* Wits 3
+
+_Live Off the Land_ [Gathering] You may gather Food, Fiber and Herbal Components using a special gathering table.
+
+_Always Searching_ [NPC Shift] At the end of your NPC shift you may request a random Food, Fiber or Herbal Component from the Quartermaster or your Guildmaster.
+
+_Trapper_ [Once Per Rest] This skill may be used to affect an area to alter the circumstances of a scenario by preparing traps, snares, or other ambushes. You must have arrived at the location first, or hidden long enough to prepare the traps. A Marshal may require a Destiny Draw to determine the outcome, and the intended  effect may not be the actual outcome.
+
+end::trapping-and-foraging[]
+
+tag::trapping-and-foraging-table[]
+
+==== Trapping and Foraging Table
+
+The following table lists the rewards you can expect for Trapping and Foraging. You may choose anything from the table that is at or below the value drawn from the Destiny Deck
+
+[cols="1,3"]
+|===
+^| Value Drawn          ^| Reward  
+| 0 to 2                | 1 Common Food Component
+| 3 to 4                | 1 Uncommon Food Component or 2 Common Components of any type obtainable by this skill.
+| 4 to 5                | 1 Uncommon Component or 2 Common Components, of any type obtainable.
+| 6 to 9                | 1 Rare Component, of any type obtainable.
+|===
+
+end::trapping-and-foraging-table[]
+
+*/
+
+"Tycoon" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Tycoon</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>];
+
+/*
+tag::tycoon[]
+
+=== Tycoon
+
+*Reqs:* Focus 11, Inventory
+
+_Special Order_ [Once Per Rest] You may contact supplies through the Quartermaster to obtain an Item Card called “Bundle for X” where X is the name of a single Ritual or Recipe. The Item Card counts as all of the required Components to complete that single Ritual or Recipe once. The price for this item will be at a significant premium. Within the next 15 minutes, you will gain the item. 
+
+
+_Credit Line_ [Always, Quest] You may have two Commerce Quests active at the same time. 
+
+end::tycoon[]
+
+
+
+/*
+  tag::letter-header[]
+
+== W
+
+=== Weapons and Armor
+  end::letter-header[]
+*/
+
+"Armor Training" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Armor Training</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>];
+
+/*
+tag::armor-training[]
+
+=== Armor Training
+
+*Reqs:* Resolve 3
+
+[Always] While wearing Armor, you gain an extra Physical Save and increase your Injury Limit to 4.
+
+end::armor-training[]
+
+*/
+
+"Basic Strikes" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Strikes</TD></TR>
+  <TR> <TD ALIGN="LEFT">None</TD></TR>
+</TABLE>>];
+
+"Advanced Strikes" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Strikes</TD></TR>
+  <TR> <TD ALIGN="LEFT">None</TD></TR>
+</TABLE>>];
+
+"Basic Styles" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Basic Combat Styles</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 3</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>];
+
+"Advanced Styles" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Advanced Combat Styles</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 7</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+
+"Masterful Strike" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Masterful Strike</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 13, Wits 3</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 13, Wits 3</TD></TR>
+</TABLE>>];
+
+"Weapon Specialist" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Weapon Specialist</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 11 or Strength 11</TD></TR>
+</TABLE>>];
+
+"Sniper" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sniper</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 11</TD></TR>
+</TABLE>>];
+
+
+/*
+
+include::choice-skills.adoc[tag=combat-style]
+
+*/
+
+"Wilderness Survival" [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Wilderness Survival</TD></TR>
+  <TR><TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>];
+/*
+tag::wilderness-survival[]
+
+=== Wilderness Survival
+
+*Reqs:* Agility 7, Animal Handling
+
+[Once Per Rest] You get one Save that may be applied against any Natural Environmental effect in a scene. You may spend a point of Grit to grant a save against the effect for everyone within 5 feet of you.
+
+end::wilderness-survival[]
+*/
+
+/*
+
+== Removed Skills
+
+The following skills have been removed.  If your character still has these skills, please see a Staff member to get the new versions.
+
+tag::weapon-training[]
+
+=== Weapon Training (Deprecated)
+
+This skill has been removed. Please see a Staff member to get the new versions.
+
+end::weapon-training[]
+
+tag::weapon-finesse[]
+
+=== Weapon Finesse (Deprecated)
+
+This skill has been removed. Please see a Staff member to get the new versions.
+
+end::weapon-finesse[]
+
+tag::weapon-mastery[]
+
+=== Weapon Mastery (Deprecated)
+
+This skill has been removed. Please see a Staff member to get the new versions.
+
+end::weapon-mastery[]
+
+tag::splint-injuries[]
+
+=== Splint Injuries (Deprecated)
+
+This skill has been removed. Please see a Staff member to get the new versions.
+
+end::splint-injuries[]
+/*
+
+tag::combat-style[]
+:arg: *
+
+tag::basic-combat-style[]
+tag::basic-melee-style-header[]
+=== Basic Melee Styles
+
+*Reqs:* Strength 3
+
+Choose one of the listed styles when you take the skill. By performing the Roleplay your next melee strike within 3 seconds may deliver a Basic Strike.
+
+end::basic-melee-style-header[]
+
+tag::basic-melee-style-flourish[]
+* Flourish -- Spin your weapon for 5 seconds.
+end::basic-melee-style-flourish[]
+
+tag::basic-melee-style-advance[]
+* Advance -- Take 10 steps forward. No running.
+end::basic-melee-style-advance[]
+
+tag::basic-melee-style-counter[]
+* Counter -- Block 5 attacks.
+end::basic-melee-style-counter[]
+
+tag::basic-melee-style-stand[]
+* Stand -- Plant your feet and do not move them for 5 seconds.
+end::basic-melee-style-stand[]
+
+tag::basic-ranged-style-header[]
+=== Basic Ranged Styles
+
+*Reqs:* Agility 3
+
+Choose one of the listed styles when you take the skill. By performing the Roleplay your next ranged strike within 3 seconds may deliver a Basic Strike.
+
+end::basic-ranged-style-header[]
+
+tag::basic-ranged-style-quickdraw[]
+* Quickdraw -- Pistols Only. Do not touch your weapon for 10 seconds and then draw your gun.
+end::basic-ranged-style-quickdraw[]
+
+tag::basic-ranged-style-marksman[]
+* Marksman -- Aim for 10 seconds.
+end::basic-ranged-style-marksman[]
+
+tag::basic-ranged-style-volley[]
+* Volley -- Fire 4 times.
+end::basic-ranged-style-volley[]
+
+tag::basic-ranged-style-support[]
+* Support -- Choose 1 ally and RP 10 seconds teaming up. Whenever the chosen ally makes a non-damage call you may call a Basic Strike. This style cannot be used again for 10 seconds after a Basic Strike.
+end::basic-ranged-style-support[]
+
+tag::basic-ranged-style-overwatch[]
+* Overwatch -- Choose 1 ally and RP 10 seconds teaming up. Whenever the chosen ally is targeted by a non-damage call, your next shot may deliver a Basic Strike. This style cannot be used again for 10 seconds after a Basic Strike.
+end::basic-ranged-style-overwatch[]
+end::basic-combat-style[]
+
+
+tag::advanced-combat-style[]
+tag::advanced-melee-style-header[]
+=== Advanced Melee Styles
+
+*Reqs:* Strength 7, Basic Combat Style of same kind
+
+Choose a Basic Melee Style that you have. You now only have to do the Roleplay listed below when delivering a Basic Melee Strike. You may also perform Advance Strikes by performing the Roleplay listed in the Basic Melee Styles skill.
+
+end::advanced-melee-style-header[]
+
+tag::advanced-melee-style-flourish[]
+* Flourish -- Spin your weapon for 3 seconds for Basic Strike, 5 seconds for Advanced Strike.
+end::advanced-melee-style-flourish[]
+
+tag::advanced-melee-style-advance[]
+* Advance -- No running. Take 5 steps forward for Basic Strike, 10 steps forward for Advanced Strike.
+end::advanced-melee-style-advance[]
+
+tag::advanced-melee-style-counter[]
+* Counter -- Block 3 attacks for Basic Strike.  Block 5 attacks for Advanced Strike.
+end::advanced-melee-style-counter[]
+
+tag::advanced-melee-style-stand[]
+* Stand -- Plant your feet and do not move them for 3 seconds for Basic Strike, 5 seconds for Advanced Strike.
+end::advanced-melee-style-stand[]
+
+tag::advanced-ranged-style-header[]
+=== Advanced Melee Styles
+
+*Reqs:* Agility 7, Basic Ranged Style of same kind
+
+Choose a Basic Range Style that you have. You now only have to do the Roleplay listed below when delivering a Basic Strike. You may also perform Advanced Strikes by performing the Roleplay listed in the Basic Range Styles skill.
+
+end::advanced-ranged-style-header[]
+
+tag::advanced-ranged-style-quickdraw[]
+* Quickdraw -- Pistols Only. Do not touch your weapon for 5 seconds and then draw your gun for a Basic Strike, 10 seconds for and Advanced Strike
+end::advanced-ranged-style-quickdraw[]
+
+tag::advanced-ranged-style-marksman[]
+* Marksman -- Aim for 5 seconds for a Basic Strike, 10 seconds for an Advanced Strike
+end::advanced-ranged-style-marksman[]
+
+tag::advanced-ranged-style-volley[]
+* Volley -- Fire 2 times for a Basic Strike, 4 for an Advanced Strike.
+end::advanced-ranged-style-volley[]
+
+tag::advanced-ranged-style-support[]
+* Support -- Choose 1 ally and RP 5 seconds teaming up. Whenever the chosen ally makes a non-damage call you may call a Basic or Advanced Strike. This style cannot be used again for 5 seconds after a Basic Strike or for 10 seconds after an Advanced Strike.
+end::advanced-ranged-style-support[]
+
+tag::advanced-ranged-style-overwatch[]
+* Overwatch -- Choose 1 ally and RP 5 seconds teaming up. Whenever the chosen ally is targeted by a non-damage call, your next shot may deliver a Basic or Advanced Strike. This style cannot be used again for 5 seconds after a Basic Strike or for 10 seconds after an Advanced Strike.
+end::advanced-ranged-style-overwatch[]
+end::advanced-combat-style[]
+
+
+
+tag::master-combat-skills[]
+
+tag::masterful-strike[]
+
+=== Masterful Strike
+
+*Reqs:* Strength or Agility 11, Advanced Melee or Range Style, and Advanced Strike
+
+Choose an Advanced Melee or Range Style and Advanced Strike that you have. You now can deliver Advanced Strikes after the roleplay requirements for a Basic Strike are met for that chosen combination.
+
+end::masterful-strike[]
+
+tag::weapon-specialist[]
+
+=== Weapon Specialist
+
+*Reqs:* Strength 11 and Advanced Melee Style or Agility 11 and Advanced Range Style
+
+Choose one weapon type from the list below. You gain the associated benefit:
+
+* Pistols --  Auto-Hit attacks in close range deal +1 damage.
+* Long Guns --  You may perform a 5 second RP planting your feet and gain +1 base damage with Long Guns so long as you do not move.
+* Shotguns --  You may combine the Effects of two Basic Strikes into one Effect call. If you are combining a damage call with an effect call, the damage portion of the call must be declared after the effect portion.
+* Small Weapons --  Attacks made when you are behind the target’s back deal +1 damage.
+* Medium Weapons --  After using an Advanced Strike, you may deliver a Basic Strike within the next 3 seconds.
+* Large Weapons --  After using an Advanced Strike, you may repeat the Strike within the next 3 seconds.
+* Fist Weapons --  Your Fist Weapons may now block melee weapons. You may also deliver Basic Strikes once with each hand when you would deliver a Basic Strike.
+* Thrown Weapons --  After using a Basic Strike, you may deliver the same Basic Strike at a seperate target.
+
+end::weapon-specialist[]
+
+tag::sniper[]
+=== Sniper
+
+*Reqs:* Resolve 11, Advanced Range Style
+
+You may perform a 10 second aiming roleplay to deliver your next Basic or Advanced Strike with a Ranged or Thrown Weapon as an Auto-Hit attack.
+
+end::sniper[]
+
+end::master-combat-skills[]
+
+
+
+tag::strikes[]
+
+== Strikes
+
+Any character may expend a Grit Point in order to call any Strike call they have access to without using a melee or range style skill. You may not call multiple Strikes within the same call unless a rule specifically allows it. Below are the Basic Strikes that all characters have access to without purchasing skills:
+
+=== Free Basic Strikes
+
+* +1 damage
+* Shove
+
+tag::basic-strike[]
+
+=== Basic Strike
+
+*Reqs:* Strength 7 or Agility 7
+
+Choose one call from the list below. You now have access to to that call as a Basic Strike.
+
+* Trip
+* Disarm
+* Slow
+
+end::basic-strike[]
+
+tag::advanced-strike[]
+
+=== Advanced Strike
+
+*Reqs:* Strength 11 or Agility 11 and one Basic Strike
+
+Choose one call from the list below. You now have access to to that call as an Advanced Strike.
+
+* +2 damage
+* Smash
+* Repel. Large Weapons and Shotguns only.
+* Sunder {Object}. No Small Weapons or Pistols.
+
+end::advanced-strike[]
+
+end::strikes[]
+
+
+
+end::combat-style[]
+*/"Medicus Guild" [shape=rectangle]
+"Medicus Guild" -> { "Herbalism", "Physician" }
+
+"Herbalism" -> "Apprentice Herbalist I" -> "Apprentice Herbalist II" -> "Apprentice Herbalist III"
+  "Apprentice Herbalist II" -> "Herbalism Expert" -> "Master Herbalist"
+  "Apprentice Herbalist III" -> "Herbalism Experimenter" -> "Herbalism Innovator"
+
+"Physician" -> "First Aid"
+  "First Aid" -> "Apothecary" -> "Doctor"
+  "First Aid" -> { "Remove Poison", "Advanced Treatment", "Medicinal Remedies" }
+  { "Remove Poison", "Advanced Treatment", "Medicinal Remedies" } -> "Clinic" [ style="dashed" ]
+
+"Physician" -> "Expert Application" -> "Dissect" -> "Surgery"
+
+/* tag::medicus-header[]
+
+== Medicus Guild
+
+Members of the Medicus Guild are trained in all methods of healing and caring for people. Specifically, they are trained as physicians and herbalists.
+
+end::medicus-header[]
+
+tag::medicus-graph[]
+
+image::Medicus-graph.png[]
+
+end::medicus-graph[]
+
+tag::medicus-detailed[]
+
+=== First Aid
+
+include::all-skills.adoc[leveloffset=+1,tags=first-aid]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-treatment]
+include::all-skills.adoc[leveloffset=+1,tags=medicinal-remedies]
+include::all-skills.adoc[leveloffset=+1,tags=remove-poison]
+include::all-skills.adoc[leveloffset=+1,tags=apothecary]
+include::all-skills.adoc[leveloffset=+1,tags=clinic]
+include::all-skills.adoc[leveloffset=+1,tags=doctor]
+
+=== Surgery
+
+include::all-skills.adoc[leveloffset=+1,tags=expert-application]
+include::all-skills.adoc[leveloffset=+1,tags=dissect]
+include::all-skills.adoc[leveloffset=+1,tags=surgery]
+
+=== Herbalism 
+
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-i]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-ii]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-iii]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-expert]
+include::all-skills.adoc[leveloffset=+1,tags=master-herbalist]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-experimenter]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-innovator]
+
+end::medicus-detailed[]
+*/
+
+
+
+
+
+
+"Ritualist Guild" [shape=rectangle]
+"Ritualist Guild" -> "Rituals" 
+
+"Rituals" -> "Initiate Rituals" -> "Adept Rituals" -> "Master Rituals"
+
+  "Master Rituals" -> "Initiate Thaumaturgist" [style=dashed]
+
+  "Initiate Thaumaturgist" -> "Adept Thaumaturgist" -> "Master Thaumaturgist"
+
+  "Adept Rituals" -> "Ritual Linking"
+  "Adept Rituals" -> "Ritual Quickening"
+  "Adept Rituals" -> "Ritual Empowerment"
+
+
+/* tag::ritualist-header[]
+
+== Ritualist Guild
+
+The Ritualist Guild studies the mystical and spiritual realms of the world.  These guild members can harness forces to bring about beneficial or harmful effects.
+
+end::ritualist-header[]
+
+tag::ritualist-graph[]
+
+image::Ritualist-graph.png[]
+
+end::ritualist-graph[]
+
+tag::ritualist-detailed[]
+
+=== Initiate Rituals 
+
+include::all-skills.adoc[leveloffset=+1,tags=initiate-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=initiate-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=initiate-spirit-rituals]
+
+=== Adept Rituals
+
+include::all-skills.adoc[leveloffset=+1,tags=adept-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=adept-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=adept-spirit-rituals]
+
+=== Master Rituals
+
+include::all-skills.adoc[leveloffset=+1,tags=master-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=master-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=master-spirit-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-linking]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-quickening]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-empowerment]
+
+=== Thaumaturgist
+
+include::all-skills.adoc[leveloffset=+1,tags=initiate-thaumaturgist]
+include::all-skills.adoc[leveloffset=+1,tags=adept-thaumaturgist]
+include::all-skills.adoc[leveloffset=+1,tags=master-thaumaturgist]
+
+
+
+end::ritualist-detailed[]
+*/
+
+
+"Crafting Guild" [shape=rectangle]
+"Crafting Guild" -> { "Logistics", "Production", "Smithing", "Alchemy" }
+
+"Logistics" -> { "Cooking", "Fiber Arts", "Mining" }
+"Logistics" -> "Basic Logistics" -> "Advanced Logistics"
+  "Cooking" -> "Master Chef"
+  "Fiber Arts" -> "Master Weaver"
+
+"Production" -> "Basic Production" -> "Advanced Production" -> "Assembly Line"
+
+"Smithing" -> "Blacksmith" -> { "Weaponsmith", "Gunsmith", "Armorer", "Brightsmith" } 
+  { "Weaponsmith", "Gunsmith", "Armorer", "Brightsmith" } -> { "Heavy Engineering", "Artisan Smith" } -> "Master Smith" [ style=dashed ]
+
+"Alchemy" -> "Apprentice Alchemist I" -> "Apprentice Alchemist II" -> "Apprentice Alchemist III" 
+  "Apprentice Alchemist II" -> "Alchemical Expert" -> "Master Alchemist"
+  "Apprentice Alchemist III" -> "Alchemical Experimenter" -> "Alchemical Innovator"
+
+
+/* tag::crafting-header[]
+
+== Crafting Guild
+
+This guild makes weapons, armor, and tools. They are also responsible for repairing the wagons, buildings, or anything else that can be hammered back into shape.  
+
+end::crafting-header[]
+
+tag::crafting-graph[]
+
+image::Crafting-graph.png[]
+
+end::crafting-graph[]
+
+tag::crafting-detailed[]
+
+=== Smithing
+
+include::all-skills.adoc[leveloffset=+1,tags=blacksmith]
+include::all-skills.adoc[leveloffset=+1,tags=armorer]
+include::all-skills.adoc[leveloffset=+1,tags=gunsmith]
+include::all-skills.adoc[leveloffset=+1,tags=brightsmith]
+include::all-skills.adoc[leveloffset=+1,tags=weaponsmith]
+include::all-skills.adoc[leveloffset=+1,tags=heavy-engineering]
+include::all-skills.adoc[leveloffset=+1,tags=artisan-smith]
+include::all-skills.adoc[leveloffset=+1,tags=master-smith]
+
+=== Crafting
+
+include::all-skills.adoc[leveloffset=+1,tags=cooking]
+include::all-skills.adoc[leveloffset=+1,tags=master-chef]
+include::all-skills.adoc[leveloffset=+1,tags=fiber-arts]
+include::all-skills.adoc[leveloffset=+1,tags=master-weaver]
+
+=== Production 
+
+include::all-skills.adoc[leveloffset=+1,tags=basic-logistics]
+include::all-skills.adoc[leveloffset=+1,tags=basic-production]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-logistics]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-production]
+include::all-skills.adoc[leveloffset=+1,tags=assembly-line]
+
+=== Alchemy
+
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-i]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-ii]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-iii]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-expert]
+include::all-skills.adoc[leveloffset=+1,tags=master-alchemist]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-experimenter]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-innovator]
+
+
+
+end::crafting-detailed[]
+*/
+
+
+
+"Explorers Guild" [shape=rectangle]
+"Explorers Guild" -> { "Scholar", "Survival" }
+
+"Survival" -> "Creature Handling" -> "Wilderness Survival"
+"Survival" -> "Trapping and Foraging" -> "Tracking and Alertness"
+"Survival" -> "Orienteering" -> "Dowsing" 
+"Survival" -> "Sneak" [style=invis]
+  "Orienteering" -> "Semaphores"
+
+"Scholar" -> "Cartography" -> "Specimen Collection"
+"Scholar" -> "Lore" -> "Research"
+  "Specimen Collection" -> "Archaeology" [ style=dashed ]
+  "Research" -> "Archaeology" [ style=dashed ]
+  "Research" -> "Ciphers" [ style=invis ]
+
+
+/* tag::explorers-header[]
+
+== Explorers Guild
+
+These intrepid adventurers forge their way into the world for the admiration and brilliance of discovery. They live by their measurements, maps, and drive for the unknown.  The world is theirs to explore.
+
+Explorers Guild members are also expected to seek out training from other guilds and are often seen training along side the Military Orders.
+
+
+end::explorers-header[]
+
+tag::explorers-graph[]
+
+image::Explorers-graph.png[]
+
+end::explorers-graph[]
+
+tag::explorers-detailed[]
+
+=== Exploration
+
+include::all-skills.adoc[leveloffset=+1,tags=cartography]
+include::all-skills.adoc[leveloffset=+1,tags=ciphers]
+include::all-skills.adoc[leveloffset=+1,tags=dowsing]
+include::all-skills.adoc[leveloffset=+1,tags=orienteering]
+include::all-skills.adoc[leveloffset=+1,tags=semaphores]
+
+=== Survival
+
+include::all-skills.adoc[leveloffset=+1,tags=creature-handling]
+include::all-skills.adoc[leveloffset=+1,tags=tracking-and-alertness]
+include::all-skills.adoc[leveloffset=+1,tags=trapping-and-foraging]
+include::all-skills.adoc[leveloffset=+1,tags=sneak]
+include::all-skills.adoc[leveloffset=+1,tags=wilderness-survival]
+
+end::explorers-detailed[]
+*/
+
+
+
+"Acquisitions Guild" [shape=rectangle]
+"Acquisitions Guild" -> { "Merchant", "Rogue" }
+
+"Merchant" -> "Commerce"
+"Merchant" -> "Import Export" -> "Smuggle"
+  "Commerce" -> "Inventory" -> "Tycoon"
+
+"Rogue" -> { "Sneak", "Sleight of Hand", "Devices", "Games", "Ciphers" }
+  "Sleight of Hand" -> "Devices" [ style=invis ]
+  "Rogue" -> "Games" -> "Sneak" -> "Ciphers" [ style=invis ]
+  
+  
+/* tag::acquisitions-header[]
+
+== Acquisitions Guild
+
+The Acquisitions Guild is focused on commerce and collection of treasures from the new world of Torakand.  The best of these treasures are shipped home to Sobukand to be sold to wealthy investors.  These patrons will, in return, fund the continuation and expansion of the Colony.  
+
+end::acquisitions-header[]
+
+tag::acquisitions-graph[]
+
+image::Acquisitions-graph.png[]
+
+end::acquisitions-graph[]
+
+tag::acquisitions-detailed[]
+
+=== Business
+
+include::all-skills.adoc[leveloffset=+1,tags=commerce]
+include::all-skills.adoc[leveloffset=+1,tags=import-export]
+include::all-skills.adoc[leveloffset=+1,tags=inventory]
+include::all-skills.adoc[leveloffset=+1,tags=smuggle]
+include::all-skills.adoc[leveloffset=+1,tags=tycoon]
+include::all-skills.adoc[leveloffset=+1,tags=ciphers]
+
+=== City Wise
+
+include::all-skills.adoc[leveloffset=+1,tags=games]
+include::all-skills.adoc[leveloffset=+1,tags=sleight-of-hand]
+include::all-skills.adoc[leveloffset=+1,tags=devices]
+include::all-skills.adoc[leveloffset=+1,tags=sneak]
+
+
+
+end::acquisitions-detailed[]
+*/
+
+
+
+"Military Orders" [shape=rectangle]
+"Military Orders" -> { "All Styles", "Formations", "Misc Military" }
+
+"Formations" -> "Inspire Courage" -> "Sergeant" -> "Captain"
+  "Sergeant" -> "Banner Bearer"
+"Misc Military" -> "Orienteering Military" -> "Semaphores"
+"Misc Military" -> "First Aid Military" -> "Advanced Treatment Military"
+
+/* tag::military-header[]
+
+== Military Orders
+
+The Military Orders protect and defend Flint and the expeditions.  They are generally armed with swords and shields or with polearms.  For every five members in a unit, at least one member will be armed with a long gun.  The guard are generally considered to be infantry and are capable of traveling over long distances.
+
+end::military-header[]
+
+tag::military-graph[]
+
+image::Military-graph.png[]
+
+end::military-graph[]
+
+tag::military-detailed[]
+
+=== Basic Training
+
+include::all-skills.adoc[leveloffset=+1,tags=orienteering]
+include::all-skills.adoc[leveloffset=+1,tags=semaphores]
+include::all-skills.adoc[leveloffset=+1,tags=first-aid]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-treatment]
+
+=== Leadership
+
+include::all-skills.adoc[leveloffset=+1,tags=inspire-courage]
+include::all-skills.adoc[leveloffset=+1,tags=sergeant]
+include::all-skills.adoc[leveloffset=+1,tags=banner-bearer]
+include::all-skills.adoc[leveloffset=+1,tags=captain]
+
+include::choice-skills.adoc[leveloffset=+1,tag=strikes]
+
+include::choice-skills.adoc[leveloffset=+1,tag=basic-combat-style]
+
+include::choice-skills.adoc[leveloffset=+1,tag=advanced-combat-style]
+
+include::choice-skills.adoc[leveloffset=+1,tag=master-combat-skills]
+
+include::all-skills.adoc[leveloffset=+1,tags=armor-training]
+
+
+
+end::military-detailed[]
+*/
+
+
+
+
+"All Styles" -> "Basic Styles" [ style=invis ]
+  "Basic Styles" -> "Advanced Styles" 
+  "Advanced Styles" -> { "Weapon Specialist", "Sniper" }
+  "Advanced Styles" -> "Masterful Strike"
+"All Styles" -> "Basic Strikes" [ style=invis ]
+  "Basic Strikes" -> "Advanced Strikes" -> "Masterful Strike"
+
+"All Styles" -> "Armor Training" [ style=invis ]
+
+/*
+tag::all-styles[]
+
+include::choice-skills.adoc[tag=combat-style]
+
+include::all-skills.adoc[tag=armor-training]
+
+end::all-styles[]
+*/
+
+}

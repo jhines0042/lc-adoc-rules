@@ -1,0 +1,83 @@
+= Cooking Recipes
+:notitle:
+
+== Cooking Recipes
+
+The following entries represent those recipes that are readily known by the Cooks and Master Chefs of Torakand.
+
+=== Cooking Recipes
+
+==== Food Trade Goods
+*Rank:* Cooking +
+*Materials:* Any 2 Food Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Food Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Food Components into appropriate Food trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Herbal Trade Goods
+*Rank:* Cooking +
+*Materials:* Any 2 Herbal Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Herbal Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Herbal Components into appropriate Herbal trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Pack Lunch
+*Skill:* Cooking +
+*Materials:* Three Common Edibles, One Uncommon Edibles +
+*Type:* Creation +
+*Creates:* 1 Lunch (serves 3) +
+*Time:* 6 minutes
+ 
+_With this item, you can call for a short rest anywhere. The rest takes 15 minutes, and if uninterrupted, restores the use of abilities as normal, and restores anyone at 0 Grit to 1 Grit. You can only benefit from this effect once per day._
+
+[cols="1,5"]
+|===
+| *Item* 		| Pack Lunch
+| *Qty* 		| 1 Lunch (serves 3)
+| *Type*		| Creation
+| *Effect*		| With this item, you can call for a short rest anywhere. The rest takes 15 minutes, and if uninterrupted, restores the use of abilities as normal, and restores anyone at 0 Grit to 1 Grit. You can only benefit from this effect once per day. 
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Feast
+*Skill:* Cooking +
+*Materials:* Three different common Edibles, one Uncommon Edible, one Rare Edible, plus one Edible per additional guest +
+*Type:* Procedure +
+*Creates:* 1 Meal (serves 5*) +
+*Time:* 12 minutes
+ 
+_This massive meal serves up to 5 people, plus one for each additional Edible added. As long as people spend at least a half hour uninterrupted enjoying this meal, they remove all remaining damage, restore their Grit to full, and may remove one Injury they are recovering from. You may only benefit from one Feast per event. If you write up a card for this item fill in the number of people that this Feast serves._
+
+<<<
+
+==== Fresh Cordial
+*Skill:* Cooking +
+*Materials:* 2 of any Fruit +
+*Type:* Creation +
+*Creates:* 1 Drink +
+*Time:* 2 minutes
+ 
+_This refreshing drink increases the next source of Grit Recovery the target receives by 1._
+
+[cols="1,5"]
+|===
+| *Item* 		| Fresh Cordial
+| *Qty* 		| 1
+| *Type*		| Creation
+| *Effect*		| Next Grit recovery is increased by 1.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+

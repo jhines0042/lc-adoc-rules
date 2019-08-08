@@ -1,0 +1,111 @@
+tag::added[]
+
+== Changes v0.9.3 March, 2019: Year Two
+
+* Feldland Regional Skills now has Initiate Spirit Rituals
+* Kairn Handia Regional Skills now has Initiate Binding Rituals
+* Fixed requirements for Alchemical Experimenter (copy paste error)
+* Soldier Background skill changed to Basic Melee or Ranged Style
+* Spiritualist Background skill changed to Initiate Spirit Rituals
+* Added new Background Exiled with the skill Wilderness Survival
+* Changed Appraise to Commerce and updated the rules for Commerce, Import Export, and Smuggle
+* Addede the Tycoon skill to Acquisitions
+
+end::added[]
+
+tag::old-changes[]
+
+== Changes v0.9.2 March, 2019: Year Two
+
+* Academics Guild has been broken up: Alchemy moved to the Crafting Guild and everything else moved to the Explorers Guild
+* Streamlined the Injury system wording
+* Added Talents as the term that refers to the parts of a Skill
+* Added Tags to all Skills and Talents to help clarify what each is capable of and when
+
+== Changes in v0.9.1, October, 2018: Year One
+
+* Added "mod" to the glossary
+* Fixed Secondary Attribute graph to read "Grit" instead of "Quick Rest"
+* Included gathering skills on the Initiate Ritual skills (oversight)
+* Fixed a few more instances of Quick Rest
+* Various formatting corrections
+* Corrected pre-requisite for the *smith skills to be Blacksmith
+* Adjusted the prices for Appraise to be more in line with the gathering rules
+* Added Components list
+
+== Changes in v0.9.0, October, 2018: Year One
+
+* Herbalism, Alchemy, and Rituals skills overhauled
+* Master Weaver and Master Chef skills added
+* Silversmith renamed to Brightsmith
+* Added Cartography to the Explorer's Guild
+* Changed Alchemy to be based on Focus and Wits
+* Changed Herbalism to be based on Harmony and Essence 
+
+== Changes in v0.8.8, August, 2018: Alpha
+
+* Hit point cap reduced from 20 to 15. 
+* Changed number of Physical and Metal Saves gained
+* Added additional status effects
+** Broken
+** Disarm {X}
+** Fear
+** Intimidated
+** Panicked
+** Poisoned
+** Repel
+** Shove
+** Slow
+** Smash {Limb}
+** Stun
+** Trip
+** Sunder
+* Rename "Quick Rest" to "Grit"
+* Replace Weapon Training, Weapon Finesse, Weapon Mastery with Combat Styles and Combat Strike skills
+* Auto-Hit
+* Area Effects
+* Unstoppable Effects
+* Major changes to First Aid and additional skills on that tree
+* Changes to the specific wording of Injuries and how to heal them
+* Removed Splint Injuries skill
+* Added Apothecary, Doctor, Advanced Treatment, Medicinal Remedies skills
+* Removed the concept of all Skills having Ranks -- except for things like Apprentice Alchemist I, II, and III though.
+
+== Changes in v0.8.7, July, 2018: Alpha
+
+* Added notes in character creation to make it easier to find important details
+* Change from "Alpha" to "Year One" Designation for Rulebooks
+* Fixed Skills for each Region to match the Character Sheet
+* Updated Sobukand Map
+* Added Healer background which gains First Aid as a skill
+* Educated background now gains Lore as a skill
+* Added the Mining Skill description
+* Added the Mining Skill to the Crafting Guild
+* Animal Handling renamed to Creature Handling and improved
+* Rules for being Hidden moved from the Sneak skill to Chapter 5
+* Skill chart for Import/Export fixed to have Resolve as the prerequisite
+* Initiate skills renamed to Rituals Initiate for clarity
+* Changed the pre-requisites for Ancestors, Spirits, Objects, Forces, and Thaumaturge
+* Inventory updated to not work with Basic or Advanced Logistics
+* Basic and Advanced Logistics updated to limit stacking too many of these on one action
+* Long Guns updated to only do base 2 damage
+* Added shield construction wording
+* Adjusted weapon lengths to match our categories
+* All "once per scene" skills should now read "once per Rest"
+
+== Changes in v0.8.6, June, 2018: Alpha
+
+* Added Builder, Soldier, and Spiritualist Background 
+* The order of the steps in character creation
+* Characters start with 3 skills now
+* Complete overhaul of the Guilds and Military Orders
+* Reworked many skills
+
+end::old-changes[]
+
+
+tag::todo[]
+
+
+end::todo[]
+

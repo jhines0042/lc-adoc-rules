@@ -1,0 +1,41 @@
+BEGIN{
+	if (ARGC != 1) {
+		print("This script takes exactly one parameter. 1: name of node");
+		exit(1);
+	}
+
+	void travel_out(graph_t _g, node_t _n, edge_t _e, int _d, graph_t _s){
+		_e = fstout(_n);
+		if(_d == 2) {
+			_s = subg(_g, _n.name);
+		}
+		if(_d > 2) {
+			clone(_s, _n);
+		}
+		while (_e != NULL) {
+			if(_d > 2) {
+				clone(_s, _e);
+			}
+			
+			travel_out(_g, _e.head, NULL, _d + 1, _s);
+			_e = nxtout(_e);
+		}
+	}
+
+}
+
+BEG_G {
+	graph_t g = graph("G", "S");
+	g.rankdir = "LR";
+	g.splines = "line";
+	g.size = "7.5,4.5";
+}
+
+
+N [name==ARGV[0]] {
+	travel_out(g, $, NULL, 1);
+}
+
+END_G {
+	$O = g;
+}

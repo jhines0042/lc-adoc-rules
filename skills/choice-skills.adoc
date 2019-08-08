@@ -1,0 +1,210 @@
+/*
+
+tag::combat-style[]
+:arg: *
+
+tag::basic-combat-style[]
+tag::basic-melee-style-header[]
+=== Basic Melee Styles
+
+*Reqs:* Strength 3
+
+Choose one of the listed styles when you take the skill. By performing the Roleplay your next melee strike within 3 seconds may deliver a Basic Strike.
+
+end::basic-melee-style-header[]
+
+tag::basic-melee-style-flourish[]
+* Flourish -- Spin your weapon for 5 seconds.
+end::basic-melee-style-flourish[]
+
+tag::basic-melee-style-advance[]
+* Advance -- Take 10 steps forward. No running.
+end::basic-melee-style-advance[]
+
+tag::basic-melee-style-counter[]
+* Counter -- Block 5 attacks.
+end::basic-melee-style-counter[]
+
+tag::basic-melee-style-stand[]
+* Stand -- Plant your feet and do not move them for 5 seconds.
+end::basic-melee-style-stand[]
+
+tag::basic-ranged-style-header[]
+=== Basic Ranged Styles
+
+*Reqs:* Agility 3
+
+Choose one of the listed styles when you take the skill. By performing the Roleplay your next ranged strike within 3 seconds may deliver a Basic Strike.
+
+end::basic-ranged-style-header[]
+
+tag::basic-ranged-style-quickdraw[]
+* Quickdraw -- Pistols Only. Do not touch your weapon for 10 seconds and then draw your gun.
+end::basic-ranged-style-quickdraw[]
+
+tag::basic-ranged-style-marksman[]
+* Marksman -- Aim for 10 seconds.
+end::basic-ranged-style-marksman[]
+
+tag::basic-ranged-style-volley[]
+* Volley -- Fire 4 times.
+end::basic-ranged-style-volley[]
+
+tag::basic-ranged-style-support[]
+* Support -- Choose 1 ally and RP 10 seconds teaming up. Whenever the chosen ally makes a non-damage call you may call a Basic Strike. This style cannot be used again for 10 seconds after a Basic Strike.
+end::basic-ranged-style-support[]
+
+tag::basic-ranged-style-overwatch[]
+* Overwatch -- Choose 1 ally and RP 10 seconds teaming up. Whenever the chosen ally is targeted by a non-damage call, your next shot may deliver a Basic Strike. This style cannot be used again for 10 seconds after a Basic Strike.
+end::basic-ranged-style-overwatch[]
+end::basic-combat-style[]
+
+
+tag::advanced-combat-style[]
+tag::advanced-melee-style-header[]
+=== Advanced Melee Styles
+
+*Reqs:* Strength 7, Basic Combat Style of same kind
+
+Choose a Basic Melee Style that you have. You now only have to do the Roleplay listed below when delivering a Basic Melee Strike. You may also perform Advance Strikes by performing the Roleplay listed in the Basic Melee Styles skill.
+
+end::advanced-melee-style-header[]
+
+tag::advanced-melee-style-flourish[]
+* Flourish -- Spin your weapon for 3 seconds for Basic Strike, 5 seconds for Advanced Strike.
+end::advanced-melee-style-flourish[]
+
+tag::advanced-melee-style-advance[]
+* Advance -- No running. Take 5 steps forward for Basic Strike, 10 steps forward for Advanced Strike.
+end::advanced-melee-style-advance[]
+
+tag::advanced-melee-style-counter[]
+* Counter -- Block 3 attacks for Basic Strike.  Block 5 attacks for Advanced Strike.
+end::advanced-melee-style-counter[]
+
+tag::advanced-melee-style-stand[]
+* Stand -- Plant your feet and do not move them for 3 seconds for Basic Strike, 5 seconds for Advanced Strike.
+end::advanced-melee-style-stand[]
+
+tag::advanced-ranged-style-header[]
+=== Advanced Melee Styles
+
+*Reqs:* Agility 7, Basic Ranged Style of same kind
+
+Choose a Basic Range Style that you have. You now only have to do the Roleplay listed below when delivering a Basic Strike. You may also perform Advanced Strikes by performing the Roleplay listed in the Basic Range Styles skill.
+
+end::advanced-ranged-style-header[]
+
+tag::advanced-ranged-style-quickdraw[]
+* Quickdraw -- Pistols Only. Do not touch your weapon for 5 seconds and then draw your gun for a Basic Strike, 10 seconds for and Advanced Strike
+end::advanced-ranged-style-quickdraw[]
+
+tag::advanced-ranged-style-marksman[]
+* Marksman -- Aim for 5 seconds for a Basic Strike, 10 seconds for an Advanced Strike
+end::advanced-ranged-style-marksman[]
+
+tag::advanced-ranged-style-volley[]
+* Volley -- Fire 2 times for a Basic Strike, 4 for an Advanced Strike.
+end::advanced-ranged-style-volley[]
+
+tag::advanced-ranged-style-support[]
+* Support -- Choose 1 ally and RP 5 seconds teaming up. Whenever the chosen ally makes a non-damage call you may call a Basic or Advanced Strike. This style cannot be used again for 5 seconds after a Basic Strike or for 10 seconds after an Advanced Strike.
+end::advanced-ranged-style-support[]
+
+tag::advanced-ranged-style-overwatch[]
+* Overwatch -- Choose 1 ally and RP 5 seconds teaming up. Whenever the chosen ally is targeted by a non-damage call, your next shot may deliver a Basic or Advanced Strike. This style cannot be used again for 5 seconds after a Basic Strike or for 10 seconds after an Advanced Strike.
+end::advanced-ranged-style-overwatch[]
+end::advanced-combat-style[]
+
+
+
+tag::master-combat-skills[]
+
+tag::masterful-strike[]
+
+=== Masterful Strike
+
+*Reqs:* Strength or Agility 11, Advanced Melee or Range Style, and Advanced Strike
+
+Choose an Advanced Melee or Range Style and Advanced Strike that you have. You now can deliver Advanced Strikes after the roleplay requirements for a Basic Strike are met for that chosen combination.
+
+end::masterful-strike[]
+
+tag::weapon-specialist[]
+
+=== Weapon Specialist
+
+*Reqs:* Strength 11 and Advanced Melee Style or Agility 11 and Advanced Range Style
+
+Choose one weapon type from the list below. You gain the associated benefit:
+
+* Pistols --  Auto-Hit attacks in close range deal +1 damage.
+* Long Guns --  You may perform a 5 second RP planting your feet and gain +1 base damage with Long Guns so long as you do not move.
+* Shotguns --  You may combine the Effects of two Basic Strikes into one Effect call. If you are combining a damage call with an effect call, the damage portion of the call must be declared after the effect portion.
+* Small Weapons --  Attacks made when you are behind the target’s back deal +1 damage.
+* Medium Weapons --  After using an Advanced Strike, you may deliver a Basic Strike within the next 3 seconds.
+* Large Weapons --  After using an Advanced Strike, you may repeat the Strike within the next 3 seconds.
+* Fist Weapons --  Your Fist Weapons may now block melee weapons. You may also deliver Basic Strikes once with each hand when you would deliver a Basic Strike.
+* Thrown Weapons --  After using a Basic Strike, you may deliver the same Basic Strike at a seperate target.
+
+end::weapon-specialist[]
+
+tag::sniper[]
+=== Sniper
+
+*Reqs:* Resolve 11, Advanced Range Style
+
+You may perform a 10 second aiming roleplay to deliver your next Basic or Advanced Strike with a Ranged or Thrown Weapon as an Auto-Hit attack.
+
+end::sniper[]
+
+end::master-combat-skills[]
+
+
+
+tag::strikes[]
+
+== Strikes
+
+Any character may expend a Grit Point in order to call any Strike call they have access to without using a melee or range style skill. You may not call multiple Strikes within the same call unless a rule specifically allows it. Below are the Basic Strikes that all characters have access to without purchasing skills:
+
+=== Free Basic Strikes
+
+* +1 damage
+* Shove
+
+tag::basic-strike[]
+
+=== Basic Strike
+
+*Reqs:* Strength 7 or Agility 7
+
+Choose one call from the list below. You now have access to to that call as a Basic Strike.
+
+* Trip
+* Disarm
+* Slow
+
+end::basic-strike[]
+
+tag::advanced-strike[]
+
+=== Advanced Strike
+
+*Reqs:* Strength 11 or Agility 11 and one Basic Strike
+
+Choose one call from the list below. You now have access to to that call as an Advanced Strike.
+
+* +2 damage
+* Smash
+* Repel. Large Weapons and Shotguns only.
+* Sunder {Object}. No Small Weapons or Pistols.
+
+end::advanced-strike[]
+
+end::strikes[]
+
+
+
+end::combat-style[]
+*/

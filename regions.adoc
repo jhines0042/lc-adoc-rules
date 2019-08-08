@@ -1,0 +1,132 @@
+
+<<<
+
+image::Sobukand-map.png[]
+
+<<<
+
+= Regions
+
+Every PC started their life living on the continent of Sobukand.  Sobukand is currently run as a single empire lead by two empresses.  Before the empire was founded however the land was divided into various kingdoms and the borders of these kingdoms at the formation of the empire were essentially preserved.  These former kingdoms are now called provinces in the official documentation of the empire, but for the purpose of Character creation we call them Regions.  Below you will find the relevant information needed for Character creation.  For more detailed information on an individual Region, please see the supplemental Region Guides available on our website.
+
+IMPORTANT: The Continent of Sobukand is in the Southern Hemisphere, so as you go farther south, the climate gets generally colder.
+
+IMPORTANT: When using clothing inspired by a certain time period or people please be respectful of their cultures.  Do not use real world religious or ceremonial clothing as costuming.  
+
+The Regions in our world are similar geographically or climate wise to locations in the real world.  We used those features when designing the Regions to allow us to offer as much variety in clothing options as possible. This also means that we do not need to reinvent the wheel for all costume designs which should lower the barrier to entry for costuming this larp.  The goal is to be inclusive rather than exclusionary. 
+
+However, we must take great care to treat the real world cultures that inspire our Regions with respect.  *We reserve the right to ask you to modify your costuming if there is a perception of disrespect to a real world culture.* A little bit of research can go a long way to avoiding problems of this nature. 
+
+Not sure if your costume might be cultural appropriation? Ask us! We are happy to review pictures of your costume or its components for you and if we aren't sure we can also ask others in the community to get a consensus. We may also have ideas of how to adjust existing pieces to be more appropriate.
+
+= Northern Regions
+
+The Northern Regions of Sobukand are generally warm and full of a wide variety of plant and animal life. The imperial capital city of Casere was located on a spot of land that most would have considered part of Feldland. This location, while technically in the north, was chosen for its proximity to trade routes between north and south and river access on the Micelburn. 
+
+== Holthar
+
+Clothing: Styles inspired by European cultures from the medieval era through the 18th century. Holthar tends to have styles that are later in this time period.  Additionally, styles inspired by pre-Revolutionary War America are common. Fabrics like cotton, wool, and silk are all readily available through trade.
+
+Geography: Warm and heavily forested 
+
+Skills: _Appraise, Trapping and Foraging, First Aid, Apprentice Herbalism I_
+
+== Teyen
+
+Clothing: Styles inspired by Asian cultures from the 6th century to the 18th century. Silk is locally produced and readily available. Trade also makes cotton and wool easy to obtain.
+
+Geography: Rainforest 
+
+Skills: _Apprentice Herbalism I, Fiber Arts, Remove Poison_ 
+
+== Feldland
+
+Clothing: Lightweight clothing inspired by the Native American tribes from the American Great Plains, the cultures of the Nile river valley of Ancient Egypt, African nomadic tribes, or similar nomadic or river basin cultures. Cotton and linen are the most commonly available fabrics but silk is also available.
+
+Geography: Great plains. Major river floods annually. Large roaming herds of sheep and bison. 
+
+Skills: _Trapping and Foraging, Initiate Spirit Rituals, Creature Handling, Orienteering_
+
+= Southern Regions
+
+The Southern Regions of Sobukand are generally cold and the people who live there are used to a more difficult life.  This leads to a practical problem-solving process. 
+
+== Sorjund
+
+Clothing: Styles inspired by European cultures from the medieval era through the 18th century.  Sorjund tends to have styles that are earlier in this time period.  Additionally, Mongolian, Scottish, Celtic, and Irish inspired clothing is common.  Wool is commonly available with cotton becoming more prevalent in recent decades.
+
+Geography: Cold, tundra, wasteland, swamps, bogs 
+
+Skills: _Apprentice Alchemist I, Blacksmith, Trapping and Foraging, Mining_
+
+== Terradinum
+
+Clothing: Styles range a bit but the clothing is generally in earth tones and is practical for work or for use in subterranean settings.  A wool like fabric is locally available but fabrics from all over are regularly imported.
+
+Geography: Subterranean
+
+Skills: _Appraise, Mining, Gunsmith_
+
+== Kairn Handia
+
+Clothing: Styles are generally made of simple, modest clothing, often with wide belts and sashes.  Wool is the primary fabric with cotton and linen also available.
+
+Geography: Mountaintop
+
+Skills: _Basic Logistics, Initiate Binding Rituals, Wilderness Survival_
+
+= Coastal Regions
+
+These regions are only accessible by ship, and as such, they tend to be the most independent from the empire on a day-to-day basis.  While officially part of the empire (at least according to the empire) the residents of these regions are least impacted in their daily lives by imperial rule. 
+
+== Ziel
+
+Clothing: Styles inspired by sailing cultures from the medieval era through the 18th century. Cotton and silk fabrics are both readily available.
+
+Geography: Rocky coastal port towns
+
+Skills: _Import Export, Inspire Courage, Smuggle_
+
+== Bidawa Hadir
+
+Clothing: Styles include clothing suitable for living and travelling in a desert. This can mean light clothing for the daytime and layers of clothing for night time when it can get very cold in the desert. Head wraps that can cover the face to defend against sandstorms are also common, but they are not worn unless they are needed. Linen and cotton fabrics readily available
+
+Geography: Desert 
+
+Skills: _Orienteering, Basic Production, Dowsing_
+
+== Liber
+
+Clothing: Styles include clothing inspired by traditional Caribbean or Pacific islander styles. Additionally, clothing styles are also imported from Ziel and Teyen because of the frequency of trade that occurs between them.
+
+Geography: Island 
+
+Skills: _Cooking, Import Export, Dissect_
+
+tag::full[]
+
+= Other Regions
+
+Director approval is required to play a Character from one of these Regions.  Marshals and Players who have attended more than six events are allowed to apply for approval for these Regions.  
+
+== Independent Nation
+
+Clothing: Style may be any style allowed for any other Region but the clothing *MUST* be a uniform light grey color.  Minor clothing details may have colors other than grey.  All listed fabric choices available.
+
+Geography: Independent Nation Characters roam the world and have sworn oaths to never own land or settle in one place too long. 
+
+Skills: _First Aid, Inspire Courage, Inventory_
+
+== Flint
+
+Clothing: Styles inspired by early to late American frontier styles. Furs, cotton, linen, wool, and silk all readily available.
+
+Geography: Rolling hills and farmland, some mountains 
+
+Skills: _Pick two skills that are available on any other Regional skill list with Director approval_
+
+end::full[]
+
+tag::quick[]
+
+end::quick[]

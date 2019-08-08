@@ -1,0 +1,30 @@
+= Ancestries
+
+== Aeldin
+Makeup Requirements: Must use pointed ears matching your natural skin color. 
+
+== Alloyim
+Makeup Requirements: May not add any prosthetics or makeup aside from makeup needed for scars or that looks like makeup the Character applied to themselves.
+
+== Bisad
+Makeup Requirements: At least two of the following: fur, whiskers, ears, eyes, tail, or paws much like great cats or domestic ones.  Bisad do not have fur on their faces. 
+
+== Erdenkind
+Makeup Requirements: Must have some area of metallic or mineral colored paint on their face or hands.  This may be in a pattern.
+
+== Faedin
+Makeup Requirements: At least two of the following features: pointed ears, wings, tail, sparkling skin, or patterns of color on the skin including blue, red, or yellow. (Note, Players who choose not to use patterns of blue, red, or yellow on the skin should retain their natural skin tone.) 
+
+== Mamac
+Makeup Requirements: At least two of the following: tusks, horns, forehead bone ridge, skins of hues green. (Note, Players who choose not to use green skin should retain their natural skin tone.)
+
+== Zahnir
+Makeup Requirements: At least two of the following: canine nose, ears, tail, fur, or paws. Zahnir do not have fur on their faces.
+
+tag::full[]
+
+end::full[]
+
+tag::quick[]
+
+end::quick[]

@@ -1,0 +1,28 @@
+= Lost Colonies Larp: Quickstart Rulebook
+Copyright - Torakand Adventures, LLC
+v0.9.3, May, 2019: Year Two
+:imagesdir: images
+:linkcss:
+:toc:
+
+include::acknowledgements.adoc[]
+
+<<<
+
+include::changes.adoc[tags=added]
+
+<<<
+
+include::chapter-01.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-02.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-03.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-04.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-05.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-06.adoc[leveloffset=+1,tags=**;!full]
+
+include::chapter-07.adoc[leveloffset=+1,tags=**;!full]

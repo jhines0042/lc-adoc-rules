@@ -1,0 +1,224 @@
+
+tag::smithing-specialization-light[]
+:arg1: Light Armor
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-light]
+end::smithing-specialization-light[]
+
+tag::smithing-specialization-heavy[]
+:arg1: Heavy Armor
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-heavy]
+end::smithing-specialization-heavy[]
+
+tag::smithing-specialization-shields[]
+:arg1: Shields
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-shields]
+end::smithing-specialization-shields[]
+
+tag::smithing-specialization-small[]
+:arg1: Small Melee
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-small]
+end::smithing-specialization-small[]
+
+tag::smithing-specialization-medium[]
+:arg1: Medium Melee
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-medium]
+end::smithing-specialization-medium[]
+
+tag::smithing-specialization-large[]
+:arg1: Large Melee
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-large]
+end::smithing-specialization-large[]
+
+tag::smithing-specialization-sidearm[]
+:arg1: Sidearm
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-sidearm]
+end::smithing-specialization-sidearm[]
+
+tag::smithing-specialization-longgun[]
+:arg1: Longgun
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-longgun]
+end::smithing-specialization-longgun[]
+
+tag::smithing-specialization-shotgun[]
+:arg1: Shotgun
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-shotgun]
+end::smithing-specialization-shotgun[]
+
+tag::smithing-specialization-thrown[]
+:arg1: Thrown
+include::choice-skills.adoc[tag=smithing-specialization-header]
+
+include::choice-skills.adoc[tag=smithing-specialization-thrown]
+end::smithing-specialization-thrown[]
+
+
+
+tag::weapon-training-small[]
+:arg1: Small Melee
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-small]
+end::weapon-training-small[]
+
+tag::weapon-training-medium[]
+:arg1: Medium Melee
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-medium]
+end::weapon-training-medium[]
+
+tag::weapon-training-large[]
+:arg1: Large Melee
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-large]
+end::weapon-training-large[]
+
+tag::weapon-training-sidearm[]
+:arg1: Sidearm
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-sidearm]
+end::weapon-training-sidearm[]
+
+tag::weapon-training-longgun[]
+:arg1: Longgun
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-longgun]
+end::weapon-training-longgun[]
+
+tag::weapon-training-shotgun[]
+:arg1: Shotgun
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-shotgun]
+end::weapon-training-shotgun[]
+
+tag::weapon-training-thrown[]
+:arg1: Thrown
+include::choice-skills.adoc[tag=weapon-training-header]
+
+include::choice-skills.adoc[tag=weapon-training-thrown]
+end::weapon-training-thrown[]
+
+
+
+
+tag::weapon-finesse-small[]
+:arg1: Small Melee 
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-small]
+end::weapon-finesse-small[]
+
+tag::weapon-finesse-medium[]
+:arg1: Medium Melee 
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-medium]
+end::weapon-finesse-medium[]
+
+tag::weapon-finesse-large[]
+:arg1: Large Melee 
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-large]
+end::weapon-finesse-large[]
+
+tag::weapon-finesse-sidearm[]
+:arg1: Sidearm
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-sidearm]
+end::weapon-finesse-sidearm[]
+
+tag::weapon-finesse-longgun[]
+:arg1: Longgun
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-longgun]
+end::weapon-finesse-longgun[]
+
+tag::weapon-finesse-shotgun[]
+:arg1: Shotgun
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-shotgun]
+end::weapon-finesse-shotgun[]
+
+tag::weapon-finesse-thrown[]
+:arg1: Thrown 
+include::choice-skills.adoc[tag=weapon-finesse-header]
+
+include::choice-skills.adoc[tag=weapon-finesse-thrown]
+end::weapon-finesse-thrown[]
+
+
+
+tag::weapon-mastery-small[]
+:arg1: Small Melee
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-small]
+end::weapon-mastery-small[]
+
+tag::weapon-mastery-medium[]
+:arg1: Medium Melee
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-medium]
+end::weapon-mastery-medium[]
+
+tag::weapon-mastery-large[]
+:arg1: Large Melee
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-large]
+end::weapon-mastery-large[]
+
+tag::weapon-mastery-sidearm[]
+:arg1: Sidearms
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-sidearm]
+end::weapon-mastery-sidearm[]
+
+tag::weapon-mastery-longgun[]
+:arg1: Longguns
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-longgun]
+end::weapon-mastery-longgun[]
+
+tag::weapon-mastery-shotgun[]
+:arg1: Shotguns
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-shotgun]
+end::weapon-mastery-shotgun[]
+
+tag::weapon-mastery-thrown[]
+:arg1: Thrown
+include::choice-skills.adoc[tag=weapon-mastery-header]
+
+include::choice-skills.adoc[tag=weapon-mastery-thrown]
+end::weapon-mastery-thrown[]

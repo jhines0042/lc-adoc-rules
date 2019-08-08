@@ -1,0 +1,125 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+{ rank = same; "Apprentice Herbalist I"; "Apprentice Herbalist II"; "Apprentice Herbalist III" }
+	"Apprentice Herbalist I"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist I</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Herbalist II"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist II</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Herbalist I" -> "Apprentice Herbalist II";
+	"Apprentice Herbalist III"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Apprentice Herbalist III</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Herbalist II" -> "Apprentice Herbalist III";
+	"Herbalism Expert"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Herbalism Expert</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 13, Essence 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Herbalist II" -> "Herbalism Expert";
+	"Herbalism Experimenter"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Herbalism Experimenter</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 17, Essence 9</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Herbalist III" -> "Herbalism Experimenter";
+	"Herbalism Innovator"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Herbalism Innovator</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 20, Essence 12</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Herbalism Experimenter" -> "Herbalism Innovator";
+	"Master Herbalist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Herbalist</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 15, Essence 6</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Herbalism Expert" -> "Master Herbalist";
+	"Expert Application"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Expert Application</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Dissect	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Dissect</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Expert Application" -> Dissect;
+	Surgery	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Surgery</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Dissect -> Surgery;
+	"First Aid"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">First Aid</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Treatment"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Treatment</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"First Aid" -> "Advanced Treatment";
+	Apothecary	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apothecary</TD></TR>
+  <TR><TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"First Aid" -> Apothecary;
+	"Medicinal Remedies"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Medicinal Remedies</TD></TR>
+  <TR><TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"First Aid" -> "Medicinal Remedies";
+	"Remove Poison"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Remove Poison</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"First Aid" -> "Remove Poison";
+	Clinic	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Clinic</TD></TR>
+  <TR><TD ALIGN="LEFT">Wits 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Treatment" -> Clinic	 [style=dashed];
+	Doctor	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Doctor</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Apothecary -> Doctor;
+	"Medicinal Remedies" -> Clinic	 [style=dashed];
+	"Remove Poison" -> Clinic	 [style=dashed];
+}

@@ -1,0 +1,257 @@
+= *Chapter 4: Combat*
+:imagesdir: images
+:linkcss:
+
+Combat can be one of the most exciting and rewarding parts of an event. But there are some rules to follow so that everyone can have a safe and enjoyable time. We use foam weapons to simulate melee combat and we simulate range combat with foam dart guns and bean bags. We also allow for the use of shields. Staff will inspect your weapons at check-in, which takes place at the beginning of each event. Weapons safety checks are crucial to safe play and they are mandatory.
+
+== Combat Authorization
+
+Players who wish to participate in our combat system must qualify and adhere to all safety standards.
+
+* Players must be at least 16 years of age to participate in combat
+* Players must be medically healthy enough
+** If you have a medical reason which may make it unsafe for you to undertake intense physical activity, we highly recommend that you not partake in combat.  We have dedicated non-combat areas and story at every event for this reason. We recognize that this may change from event to event, especially for people with certain conditions, and that no one knows your body as well as you. We trust our Players to make safe decisions about their own bodies and we expect the community to remain respectful and inclusive, which promotes safe play all around.
+* Players must go through a short training class and be able to:
+** Demonstrate knowledge of the legal target areas
+** Demonstrate safe hits following the rules outlined below
+** Demonstrate safe dying pose and how to safely transition to the dying pose
+** Demonstrate safe reaction and quiet behavior during a HOLD
+** Demonstrate how to safely shoot a foam dart gun when their target is too close
+* Authorizations must be renewed annually
+
+=== Base Weapon Damage
+
+* All melee weapons deal 1 point of damage
+* All guns deal 2 points of damage
+
+The verbal calling of base weapon damage is optional. Any attacks that do something other than base weapon damage requires a verbal call along with it.  What you need to say will be specified by the skill you are using.
+
+=== Basic Combat Strikes
+
+Every character has a basic level of understanding of how to defend themselves. In addition to using weapons and armor, every character has access to two offensive abilities called Strikes. You may spend a point of Grit to use a Strike. If a strike does increased damage, you announce your total damage after the effect of the strike. If it would cause an effect, it does so instead of dealing damage. When your weapon makes contact with an opponent you must call the effect it delivers with that hit. The Strikes available to everyone are:
+
+* +1 Damage 
+* Shove
+
+There are Skills that grant new Strikes and other skills that provide the ability to perform combat roleplay that grants repeated access to Strikes. They are detailed later in the rulebook.
+
+tag::full[]
+
+The following parameters are observed for classifying weapons:
+
+* Fists: 12-18 inches, no crossguard and in a non-metallic color
+* Small Melee: 12 to 24 inches
+* Medium Melee: 18 to 42 inches
+* Large Melee: 36 to 63 inches
+* Side Arm: foam dart gun with a maximum length of 12 inches
+* Long Gun: foam dart gun that is longer than 12 inches
+* Shotgun: any foam dart gun that fires more than one dart per trigger pull is automatically considered a shotgun regardless of length
+* Thrown Weapon: Must be entirely made of foam and contain no core or weights.  May be latex or duct tape covered. Flexible tape may be used as a grip point.
+
+end::full[]
+
+=== Legal Target Areas
+
+* Strikes to the Chest, Back, Upper Arms, Forearms, Thighs, Calves, and Buttocks are considered legal hits.
+* Strikes to the Head, Groin, Hands, Wrists, Ankles, and Feet do not count as a hit. You should never purposely swing or aim your physrep at illegal areas. Anyone found repeatedly breaking this rule will have their combat privileges revoked.
+
+=== Lightest Touch
+
+You should always be in control of how hard you swing a melee physrep and where it is going. When attacking someone with melee physreps, you only need to make contact with the person for the hit to count. If at any time you feel like someone is hitting too hard, politely ask them to "pull your blows." or “check your swing”
+
+To help ensure safe and theatrical combat we have the following limitation:  No weapon may be used to hit a person in the same location repeatedly.  After hitting an opponent with a melee weapon, the attacker must attack a different target location, block with the weapon or allow some time to pass before attempting to hit that location again.  Exploiting this rule to avoid getting hit by deliberately blocking with the last hit area results in a valid hit.
+
+If you are hit in the same location repeatedly only the first attack does damage. If at any time you feel like someone is attacking too fast, or two hard, politely ask them to "pull their blows."
+
+=== Thrusting or Stabbing
+
+* Thrusting with your weapon is not allowed unless your weapon has a thrusting tip.
+* If you have created your own boffer weapon, this should consist of about 3 inches (compressed to 2 inches) of squishy foam.
+* You may never thrust with latex weapons.
+
+=== Foam dart guns
+
+You may make reasonable external or internal modifications to your foam dart guns; however, any changes you make must be disclosed to us before they can be used and the physrep must be able to pass a safety inspection. We ask that you paint your physreps to cover any logos or branding, and if you choose to paint them in a realistic fashion, please leave the orange tip partially exposed for safety reasons. You may not use darts that have been modified in any way except with paint or writing to identify who they belong too.
+
+Please check our website for a list of foam dart guns that may be used at the Lost Colonies Larp.
+
+=== Shield use and construction
+
+A shield should be safe - for the person using it, their opponent, and any other items involved in the melee. Shields are defensive props used to block attacks, whether they are melee or projectiles. They cannot be used to attack or "bash" another player. A shield should be under the control of its bearer at all times and should not fly loose in combat. 
+
+Shields may be constructed from wood, plastic, fFoam or aluminum. They must have no sharp protrusions or edges. All edges must be padded with 3/8" pipe foam or thicker. Decoration of a shield is highly encouraged, for both RP and atmosphere purposes. Remember that this is not a high fantasy game, and that unenhanced shields will not protect you from bullets or magical attacks.
+
+Shields should not cover the entirety of the strikeable areas on a player's body and the staff reserves the right to deny the use of a shield should it be deemed too large. 
+
+Maximum dimensions are as follows, and please note that these dimensions include the required padding around all edges: 
+
+Bucklers can have a maximum diameter of 18", if circular, and if a polygonal shape then a maximum of 12" x 16". If polygonal* then the maximum perimeter of the shield should be 56".
+
+Full size shields should have a maximum diameter of 36", if circular. If polygonal* then the maximum dimensions should be 24" x 36", with a maximum perimeter of 113".
+
+*Polygonal refers to any shape of 3 sides or more (triangle, square, etc.) but may be in any shape or number of sides the player desires as long as the overall perimeter (total edge measurement) is at or below the maximums above.
+
+Shields may not be designed to catch weapons.
+
+The staff reserves the right to approve or disallow all phys reps and props on a case-by-case basis, to which shields are no exception.
+
+tag::full[]
+
+=== Combat Styles
+
+Simply stated, a combat style is a personal choice of weapons that you use in a fight. We do not limit the type or number of weapons you use in combat. This is a choice you are free to make and change as often as you like. Over time you may acquire abilities that require a specific length, style, or combination of weapons.
+
+=== Unarmed Fighting
+
+You may use Fist Boffers to physrep for any type of unarmed fighting.
+
+* Fist boffer weapons may not be disarmed.
+* Break Weapon effect used against a Fist boffer results in a Disabled Arm effect instead.
+* Fist boffer weapons do not block or defend against damage or effects delivered to them.
+* Boxing or sparring gloves may not be used for Unarmed Fighting.
+* Fists never do more than 1 damage.
+
+=== Shields vs. Attacks
+
+* Shields negate melee attacks that hit the shield.
+* Shields negate thrown weapon attacks that hit the shield.
+* Shields do not protect against ranged attacks made with guns or spell packets.
+* Shields do not protect against line of sight attacks including fear or social influence.
+
+=== Melee Weapons vs. Attacks
+
+* Melee weapons negate melee attacks that hit them
+* Melee weapons do not protect against ranged attacks made with foam dart guns or spell packets.
+** Do not deliberately use a melee physrep to hit a gun physrep, foam dart, or spell packet.
+* Melee weapons do not protect against line of sight attacks including fear or social influence.
+
+=== Thrown Weapons
+
+All thrown physreps must be made entirely out of foam and not have any weights or cores in them. Thrown weapons may not be used in melee, even if they look like a javelin, spear, hatchet, or dagger. A weapon without a core has a much higher chance to whip or tear, making them unsafe for melee combat.
+
+=== Side Arms and Point Blank Shot
+
+Side arms may not be loaded with more than 6 darts. Side Arms shall not be fired at targets who are closer than three feet from the end of your extended arm.  Instead you may fire the dart at the ground and call "Point Blank Shot" to deliver an attack.
+
+=== Long Guns and Point Blank Shot
+
+Long guns may not be loaded with more than 6 darts. Long guns may not be used to deliver Point Blank Shots.
+
+=== Shotguns
+
+Shotguns apply damage and effects once per activation, NOT per dart.  If a single activation from a shotgun manages to hit multiple targets then each target is affected by one activation. You may not load shotguns with more than 3 activations worth of darts.
+
+=== Foam Dart Guns vs. Attacks
+
+* Gun physreps do not protect against anything.
+* When you get into melee weapon range you must lower your gun to your side.
+* Never make contact with your gun to a melee weapon or to another Player.
+
+SEMI-AUTOMATIC & AUTOMATIC FOAM DART GUNS are prohibited
+
+HIGH CAPACITY High capacity foam dart guns that load more than 6 darts are prohibited
+
+BOWS & PACKET ARCHERY At this point in time, we do not allow real bows and boffer arrows. Boffer bows and packet archery are also not allowed.  You may use a foam dart gun that simulates the design of a bow or crossbow.
+
+SPELLS & PACKET CASTING Spells and spell-like abilities require that you throw a physrep to deal their effect. Spell packets are bean-bags that are no smaller than the human eye socket; approx. 1.5 inches in diameter. They must be filled with biodegradable material that is NOT birdseed or rice and tied or sewn shut.  At this time we recommend using biodegradable airsoft pellets as filling. Clothing, Capes, Shields, and Weapons are all legal targets for spell packets.
+
+end::full[]
+
+=== Basic Combat Effects
+
+include::glossary.adoc[tags=Disarm;Repel;Shove;Sicken;Slow;Smash;Stun;Sunder;Trip]
+
+=== Auto-Hit
+
+There are several skills in the game that allow for the target to be struck automatically just via voice-call. When doing so, you first declare, “Auto-Hit,” then followed by the name of the target, whether their real name or character name, or a relevant descriptor. This is so the target is aware there is a skill being used on them. Then you follow this with the effect being delivered.
+
+Do be aware that this is a larp and there are many players calling effects at times and sometimes the target is distracted. So choose targets carefully and understand that accidents can happen.
+
+=== Area Effects
+
+Some powers are not concentrated into a single blow but a wave or explosion that hits anything and everything in the area. To represent this, Lost Colonies has the Area modifier. When used, the NPC will announce, “All within the sound of my voice,” followed by the effect and any other modifier added. The length of this modifier is intentional to allows players and other staff alike to recognize it and ready themselves to react to the effect. While an NPC is making an Area Effect call they cannot be affected by damage or effect calls until the Area Effect call is completed.
+
+The Area Effect modifier is always assumed to automatically hit the body of any target affected.
+
+=== Unstoppable Effects
+
+Some creatures are so powerful that there is no defense for their powers and blows. To represent this, Lost Colonies has the "Unstoppable" modifier. If an NPC adds the modifier to an effect, for example, "Unstoppable Smash," then if the weapon, bullet, or packet hits there is no defense and the effect goes through. While an NPC is making an Unstoppable Effect call they cannot be affected by damage or effect calls until the Unstoppable Effect call is completed.
+
+tag::wounds-injuries-scars-death[]
+
+== Wounds, Injuries, Scars and Death
+
+=== Incapacitated
+
+When a character is reduced to 0 Hit Points they become Incapacitated. At this point, the character is severely damaged and the player must lie upon the ground until the condition is removed. If it is unsafe to lay down then either take a knee until it is safe or stagger away to a safe spot and then lie down. If it ever becomes unsafe, feel free to move to ensure your safety.
+
+If you are carrying an Incapacitated character, you are under the Slow Effect. Certain skills affect this Slow Effect.
+
+You may spend 5 minutes of roleplay to remove the Incapacitated Effect from yourself.
+
+=== Injuries
+
+Characters suffer Injuries when massive damage is inflicted upon them or when they push their bodies to function when already wounded. There are three ways to gain Injuries and they are divided up into two categories: Voluntary and Involuntary. 
+
+Below is the list of ways a character can gain Injuries:
+
+* *Involuntary:* Being reduced to 0 Hit Points and becoming Incapacitated.
+* *Involuntary:* Taking a total of 10 damage over the course of one Scene.
+* *Voluntary:* Using the Second Wind ability.
+* *Voluntary:* Using a Skill that allows you to gain an Injury for a certain effect.
+
+*A character may only gain Involuntary Injuries once per method during a single scene.* For example, a character that has taken 10 damage, was reduce to 0 Hit Points, and used the Second Wind ability, has accrued 3 Injuries from a single scene. Note that the first two methods are involuntary, but the Second Wind ability is voluntary. This means a character can only be forced to take 2 Injuries per scene unless, but they may choose to take more.
+
+=== Second Wind
+
+This represents a character’s ability to reach deep and find new strength within themself to continue the fight. Second Wind may be used in a variety of ways but regardless the use of Second Wind inflicts 1 Injury on the character.
+
+The uses of Second Wind are as follows:
+
+* Remove Incapacitated from yourself instantly.
+* Remove Exhaustion from yourself. This cannot be used while Incapacitated.
+* Restore all your Hit Points. This cannot be used while Incapacitated or Exhausted.
+
+=== Human Limit
+
+While Lost Colonies is a fantasy setting, the staff and designers wish to enforce a level of realism in combat, preventing characters from fighting indefinitely at full strength. To this effect, once a character gains 2 Injuries in a scene they gain the Exhausted effect which cannot be removed for the remainder of that scene except through the use of Second Wind or through specific items.
+
+After the scene finishes, the Exhausted effect can then be removed as normal by use of certain skills, but any character that has gained any number of Injuries is under a permanent Slow effect until the Injuries are diagnosed at the Triage Center or removed by specific items.
+
+=== Back to Back Fights
+
+It is important to note that the Human Limit rule specifies Injuries gained in a Scene. If the character enters a new Scene while they already have Injuries on them from a previous Scene, then the limit on removing Exhaustion doesn't apply until the character has gained 2 new Injuries in the new Scene.
+
+The permanent Slow effect from undiagnosed Injuries persists throughout all Scenes until treated at the Triage Center.
+
+Example for Back to Back Fights: A character has just finished a terrible fight and has 2 Injuries and permanent Exhaustion from the last Scene. A friend removes the Exhaustion so that the injured character is under only the permanent Slow until the Injuries are treated.  But on the way back to town the group is ambushed and a new Scene begins! The injured character still has 2 Injuries on them, but they have yet to gain 2 Injuries in this new Scene so the original Exhaustion can be removed as normal until Human Limit applies.
+
+=== Healing Injuries
+
+After a Scene in which your character gains one or more Injuries you have the option of trying to heal the Injury. To do this you should report to the Triage area which Staff will designate at the start of event. There the staff will ask you to describe how you received the Injury and you will work with Staff on how you will roleplay the Injury as you recover.
+
+It takes 1 hour of roleplay for a single Injury to recover or 2 hours of roleplay for all Injuries to recover. Staff will record the start time and specific Injury, assist in costuming the Injury with your consent if possible, and then assign a temporary negative status to your character while you are healing. Return to Staff after the required time has passed and they will remove the Injury from your character sheet as well as the negative status.
+
+Alternatively, a player may choose to recover off-screen and NPC for a number of hours equal to 2 hours for 1 Injury point and 4 hours for more than 1 Injury point.
+
+The Staff at Lost Colonies encourage players with an Injured character or a character recovering from an Injury to roleplay the experience. Excellent roleplay may even be rewarded with reduced recovery duration. It is the intent of Staff that Injuries have meaning and weight as well as being the evidence of your adventures. Take this time to tell others of your experiences out in the dangerous world.
+
+=== Scars
+
+Through trials and tribulations, characters grow from their mistakes. In Lost Colonies, they may also grow from their Injuries. When a character is reporting an Injury to Staff at the Triage point, they may choose to permanently convert an Injury into a Scar and work with Staff to create an appropriate story for the Scar. This process has no required roleplay time but is irreversible. *You may not gain more than one Scar per event*
+
+Scars count as permanent Injuries that never leave your character sheet, but in exchange they offer strange and powerful advantages as your body has learned to push itself further than it could before.
+
+=== Final Death
+
+For a character to die, they must have a total of seven Injuries and/or Scars on their character sheet. If your character dies, you are welcome to either start a new Character immediately or play out the remainder of the current event as your spirit form or some mixture. However, spirits cannot linger forever and at the end of the event in which your Character dies the spirit will only return when summoned by an active Character or when staff asks you to return as the spirit of the deceased. After that, we invite you to make a new Character and start a new story in the Lost Colonies.
+
+end::wounds-injuries-scars-death[]
+
+tag::quick[]
+
+end::quick[]
+
+tag::full[]
+
+end::full[]

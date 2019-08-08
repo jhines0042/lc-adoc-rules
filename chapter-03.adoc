@@ -1,0 +1,208 @@
+= *Chapter 3: Character Creation*
+:imagesdir: images
+:linkcss:
+
+== Choose your Ancestry, Region, Background, and Starting Guild
+
+Your character is a multifaceted person, who is bringing valuable knowledge and skills from their homeland to this new colony. Mechanically, your character’s Region, Ancestry, Background, and Starting Guild  determine where they come from, what they look like, what their role was back home, and what they are here to contribute to the colony. These choices are perhaps the most important decisions you will make during character creation. 
+
+
+tag::full[]
+
+* Ancestry indicates the family heritage of your character and what, if any, makeup requirements come with that Ancestry. There is no advantage, disadvantage, or skill that is determined by your Ancestry, it simply determines your character’s appearance and some aspects of your roleplay.
+
+* Region determines where your character hails from and what kind of clothing your character prefers as a result. You will also be able to choose one skill from a list of skills specific to your Region to reflect the impact growing up in that Region had on your character.
+
+* Background reflects how your character lived before joining the colony. This will largely be informed by their previous profession, as well as their level and type of education. You will also be able to choose one skill from a list of skills associated with your profession, to reflect aspects of your training and expertise. 
+
+* The Colony of Flint operates under a guild structure, and every colonist is grouped into a guild based on their skills and interests. Every colonist must be sponsored by a guild to travel to Flint, and as such, you will need to choose a guild to join based on what role you wish to play in the colony. You will also be able to choose one of the many skills associated with your chosen guild at the time of character creation. 
+
+== Choose Your Starting Skills
+
+Based on your Region, Background, and starting Guild, you will begin with 3 skills. As your Character advances they will be able to gain new skills from their Region, Background, and Guild assuming they meet the prerequisites. As you pick your Primary Attributes in the next section please ensure that you meet all prerequisites for your chosen starting skills.
+
+image::character-creation-graph.png[align="center"]
+
+end::full[]
+
+
+== Primary Attributes
+
+Your character has 7 primary attributes, which indicate in a general sense their strengths and weaknesses as a character. The 7 primary attributes are:
+
+*Wits* represent your Character’s intuition, intellect, and problem solving ability. Wits factors into your Character’s Mentals Saves and is a prerequisite for skills that require thinking.   
+
+*Strength* represents your Character’s brawn and ability to do physical activity. Strength factors into Hit Points and is a prerequisite for skills that require physical might.  
+
+*Essence* represents your Character’s inner self, or “internal spark.” Essence factors into Hit Points and is a prerequisite for skills that interact with the spiritual world. 
+
+*Agility* represents your Character’s deftness, grace, and ability to manipulate delicate components. Agility factors into your Character’s Physical Saves and is a prerequisite for skills that require physical dexterity.  
+
+*Resolve* represents your Character’s physical toughness and stamina. Resolve factors into your Character’s Physical Saves and is a prerequisite for skills that require steadfastness of body.  
+
+*Focus* represents your Character’s mental toughness and ability to concentrate. Focus factors into your Character’s Mental Saves and is a prerequisite for skills that require mental dedication.  
+
+*Harmony* represents your Character’s ability to balance Mind, Body, and Soul. It factors into the Secondary Attribute of Grit.
+
+Each attribute has an automatic baseline of 1 point and you have 20 additional points to distribute amongst these attributes as you see fit for a total of 27. At the time of character creation you may have no more than 7 points total in any one attribute. Keep in mind the kind of person your character is, and what personality traits they have cultivated. You should also reference the list of skills associated with your starting guild, as some have prerequisites that you may want to ensure you can easily meet in the future. 
+
+== Secondary Attributes
+
+Secondary attributes are mechanical elements of your character that are calculated based on your chosen primary attributes. After finalizing your Primary Attributes, calculate your Secondary Attributes using the following formulas. 
+
+*Hit Points* (Strength + Essence) / divided by 2, rounded down 
+This is the amount of damage your Character can take before they are incapacitated.  
+
+*Hit Point Cap* (15) 
+Your Character’s Ppermanent Hit Points can never exceed this Hit Point Cap.  All Characters have a starting Hit Point Cap of 15.  Scars may increase this cap but never above 20.
+
+*Physical Saves* (Agility + Resolve) / divided by 10, rounded down + 1
+These saves counter Hit Point damage and Physical Effects that have successfully targeted you. This includes melee weapon strikes, ranged weapon darts, and spell packets causing physical damage or physical effects. 
+
+*Mental Saves* (Wits + Focus) / divided by 10, rounded down + 1
+These saves counter Mental Attacks and Mental Effects delivered within line of sight.  
+
+*Grit* (Harmony) / divided by 5, rounded down + 1 
+Spend a Grit point to immediately refresh one skill as though you had rested. Grit points do not refresh because of a Rest, but there are ways to gain Grit Points back. You may not gain Grit Points above your Grit number. 
+
+*Skills* (Primary Attribute Points) / divided by 10, rounded down + 1
+This is the number of skills that your Character can know.  Scars may increase this number.
+
+image::attributes-graph.png[align="center"]
+
+IMPORTANT: Your starting character should have Twenty Seven (27) total Primary Attribute points and no single Primary Attribute may be greater than 7 or less than 1.
+
+<<<
+
+tag::full[]
+
+include::ancestries.adoc[leveloffset=+1,tags=**;!quick]
+
+end::full[]
+
+tag::quick[]
+
+include::ancestries.adoc[leveloffset=+1,tags=**;!full]
+
+end::quick[]
+
+
+<<<
+
+tag::full[]
+
+include::regions.adoc[leveloffset=+1,tags=**;!quick]
+
+end::full[]
+
+tag::quick[]
+
+include::regions.adoc[leveloffset=+1,tags=**;!full]
+
+end::quick[]
+
+
+<<<
+
+include::backgrounds.adoc[leveloffset=+1,tags=**;*]
+
+
+<<<
+
+tag::full[]
+
+include::guilds.adoc[leveloffset=+1,tags=**;!quick;!detailed]
+
+end::full[]
+
+tag::quick[]
+
+include::guilds.adoc[leveloffset=+1,tags=**;!full;!detailed]
+
+end::quick[]
+
+
+<<<
+
+== Character Advancement
+
+tag::quick[]
+
+For details on Character advancement see the Full Rulebook
+
+end::quick[]
+
+tag::full[]
+
+Characters who participate in Events and accomplish Quests will grow in power.  Lost Colonies measure character growth through
+Build or Build points.  The sections below explain how to earn build and how to spend build to improve a character.
+
+=== How to Earn Build
+Characters earn build for participating in Lost Colonies:
+
+* Characters earn one Build point for attending an Event. 
+* Characters earn Build points for completing Quests.  Some Quests may take multiple Events to complete.
+
+Special cases to earn build
+
+* An Admission ticket to a Lost Colonies Event entitles the Player to play one Character. A Player who has more than one Player Character (commonly called “Alts”) must pay an extra fee per additional Character.  Each additional Character thus paid for also earns the Attendance count and the one Build for attending.
+
+* Players who miss an event (even events that occurred before they joined the larp) may pay for Events they missed, and earn the
+build they would have earned through attendance. This gives new players a way to "catch up" with existing players.  Players who pre-pay for future Events will earn the attendance credit for those Events once the Event has occurred. 
+
+=== Spending Build
+Characters can spend Build to improve their character.  
+
+* Each Build point increases a Primary Attribute by one. Inform a LC storyteller that you wish to spend build and which
+ attribute(s) you want to improve.
+* After raising the attribute the storyteller will recalculate your character's Secondary Attributes. An increase in Primary
+Attributes may result in incresaed Hit Points, Saves, Grit, or an additional Skill Slot.  (Remember that the number of skills is
+based on the sum of the Primary Attributes; every tenth Attribute point will grant an additional Skill Slot.)
+* If a Character earns a Skill Slot, the Player should choose a Skill from the list of skills appropriate for that character.
+Characters should choose new skills from the skill lists for their Region, Background, and Guild(s).  Assuming the Character meets all of the prerequisites for the chosen Skill, the Character learns the Skill and it will be on their character sheet at the start of the next Event. Skills chosen during an Event are not available until the next Event. This is to prevent people from basing Skill choices off of the theme for an Event and gaining an advantage as a result.
+
+Individual Skills may also be improved over time.  If your Character meets the prerequisite for an Improved version of a skill then you may spend time at an Event training to gain the Improved version.  At the end of the Event make a note on your character sheet that you should gain the Improved version and it will be available on your character sheet at the next Event.  You may only improve one skill per Event.  The Improved version will replace the previous version of the skill on your sheet and counts for prerequisite purposes the same as the skill it replaced.
+
+=== Limits on spending build 
+
+* Characters may earn build without limit, but Characters may not spend more Build than six times the number of Events that Character has attended.   
+
+=== Service Points
+
+*  At some point in the future Lost Colonies will publish rules to reward service to the game with Build.
+
+end::full[]
+
+
+== Character Skills
+
+=== What are Skills?
+
+Your character comes to Torakand possessing a number of skills, showing their expertise and talent, and can learn more as part of their adventures. You can make use of these skills in a number of ways. A skill will also list the prerequisites required to obtain that skill, as well as a description of the skill. A skill’s description will contain one or more tags, described below, which explain when, where, and how often a skill can be used. A full list of tags is available below. 
+
+Some skills have multiple named benefits contained within one skill, called talents. These individual talents will have its own set of tags about when and how they can be used as needed.
+
+In order to use a skill or talent within a skill, you simply need to perform the roleplaying described in the skill. Some will require you to specifically call out the name of the skill or talent to produce their effect. This call will be detailed in the description. If a skill or talent grants you an additional Save against a specific effect, you do not need to call anything other than “Save.” You can safely assume to use the most limited applicable save benefit you have first, as long as you take care to not exceed the total number of Saves you have available. 
+
+If an injury or effect temporarily reduces your attributes below the requirements of the skill, you will not lose access to the skill. 
+
+==== Teaching and Learning New Skills
+
+For every ten points of build your character spends they gain a new Skill Slot. A character who has an available Skill Slot or is about to obtain one from the Build spent this event may learn a new Skill. 
+
+In order to learn a Skill, you must possess both the necessary attribute scores, as detailed on the Skill, as well as any pre-requisite skills needed. In order to learn the skill, you must find someone to teach you- either a Guild leader, key NPC, or another character who possesses that Skill. A lesson should take at least fifteen minutes of roleplay, and may be broken up in a series of discussions over the weekend. Once the Lesson is complete write on your character sheet the new skill name below your other skills.  The teacher may also have a quest to teach a skill, if so the player learning the skill can sign the quest card for the teacher.. If the teacher of the skill was another player, they may also gain a one Build Quest for teaching. You may only gain one learning or teaching-related quest per event, regardless of how many skills you teach or lessons you take. 
+
+==== Skills and Knowledge
+
+Your character possesses a number of skills that govern different disciplines, fields of study, and abilities. Regardless of the source of a skill, you may freely assume that you possess an intellectual or academic understanding of any skill you possess, in addition to any knowledge the skill explicitly grants. For example, the Banner Bearer skill would include some knowledge of military parade and procedure, or Gunsmithing with the basic understanding of how gunpowder weapons operate, or the history of guns. In short, you know intellectually what you know how to do, and can ask the Storytellers based on these skills for additional information based on the skills you possess. To use this, you should work into the roleplaying conversation a phrase that clearly indicates your knowledge. For example: “As a Brightsmith do I recall some information about this candelabra?” or “As an alchemist I once did an experiment with a variety of soapstones, do these look familiar to me?”
+
+==== Skill Tags
+
+* *Always*: A skill with this tag is either a passive effect that is always active, or describes an action that you can takes as many times as you wish. 
+* *Once Per Rest*: A skill with this tag may be used once, and afterward cannot be used until your character completes a Rest. You may also spend a point of Grit to gain an additional use of any Once Per Rest skill. 
+* *Once Per Event*: A skill with this tag can only be used Once Per Event, and may not be restored except by specific means. 
+* *NPC Shift*: This is a benefit gained whenever your character completes an NPC shift. This includes the required NPC shift each event, as well as any voluntary shifts.   
+* *Quest*: This is a skill that allows you and a number of others to complete a new kind of Quest. The skill will detail the most basic form of the Quest, and more valuable Quests of the same type may be available as the story continues. 
+* *Gathering*: This skill is usable to gain a benefit  when Gathering resources. 
+* *Crafting*: This skill allows you to complete Crafts or enhance the Crafts you currently know how to complete. 
+* *Experimentation*: This skill’s benefits apply when performing Experimentation on an existing Craft. 

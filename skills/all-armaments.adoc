@@ -1,0 +1,19 @@
+
+"All Styles" -> "Basic Styles" [ style=invis ]
+  "Basic Styles" -> "Advanced Styles" 
+  "Advanced Styles" -> { "Weapon Specialist", "Sniper" }
+  "Advanced Styles" -> "Masterful Strike"
+"All Styles" -> "Basic Strikes" [ style=invis ]
+  "Basic Strikes" -> "Advanced Strikes" -> "Masterful Strike"
+
+"All Styles" -> "Armor Training" [ style=invis ]
+
+/*
+tag::all-styles[]
+
+include::choice-skills.adoc[tag=combat-style]
+
+include::all-skills.adoc[tag=armor-training]
+
+end::all-styles[]
+*/

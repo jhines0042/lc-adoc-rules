@@ -1,0 +1,32 @@
+= *Chapter 6: Reference*
+:imagesdir: images
+:linkcss:
+
+== Skills Reference
+
+tag::quick[]
+
+For a full listing of all skills, please refer to the Full Rulebook
+
+end::quick[]
+
+
+tag::full[]
+
+=== Skills and Knowledge 
+
+Your character possesses a number of skills that govern different disciplines, fields of study, and abilities. Regardless of the source of a skill, you may freely assume that you possess an intellectual or academic understanding of any skill you possess, in addition to any knowledge the skill explicitly grants. For example, the Banner Bearer skill would include some knowledge of military parade and procedure, or Gunsmithing with the basic understanding of how gunpowder weapons operate, or past designs. In short, you know intellectually what you know how to do, and can ask the Storytellers based on these skills for additional information based on the skills you possess.
+
+include::skills/all-skills.adoc[tags=*]
+
+=== Combat Skills
+
+include::skills/choice-skills.adoc[leveloffset=+1,tag=strikes]
+
+include::skills/choice-skills.adoc[leveloffset=+1,tag=basic-combat-style]
+
+include::skills/choice-skills.adoc[leveloffset=+1,tag=advanced-combat-style]
+
+include::skills/choice-skills.adoc[leveloffset=+1,tag=master-combat-skills]
+
+end::full[]

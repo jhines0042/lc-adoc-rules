@@ -1,0 +1,333 @@
+= Alchemy Recipes
+:notitle:
+:imagesdir: images
+
+== Alchemy Recipes
+
+The following entries represent those recipes that are readily known by the Alchemists of Torakand.
+
+=== Apprentice Alchemy Recipes
+
+==== Binder Trade Goods
+*Rank:* Apprentice Alchemist +
+*Materials:* Any 2 Binder Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Binder Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Binder Components into Binder trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Mineral Trade Goods
+*Rank:* Apprentice Alchemist +
+*Materials:* Any 2 Mineral Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Mineral Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Mineral Components into Mineral trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Assay Bottle
+*Rank:* Alchemy, Rank 1 +
+*Materials:*  Binder, minerals +
+*Type:* Creation +
+*Creates:* 1 Dose +
+*Time:* 1 Game period
+
+When a rock sample and water are added to this bottle, the sample will dissolve, and the valuable minerals will separate out.  Pour the bottle through a strainer and reveal what minerals can be mined from the location of the mineral sample. 
+
+
+(_OOG: LC Staff will replace your Assay Bottle with an assay bottle containing the minerals that can be mined at the location of the rock sample._)
+
+Suggested Process: 
+
+. Wash the bottle thoroughly with purified water.  
+. Insert one sample of each of the metals (Copper, Iron, Lead, Steel and Cobalt).  Note that the bottle will only detect metals that it has been "primed" to detect.  If, for example, you don't have a sample of Cobalt, then the Assay Bottle will not detect Cobalt.
+. Boil the bottle over low heat for 5 minutes.
+. Remove the samples. 
+
+
+[quote, Master Miner Kal]
+"You feckless discredit to the profession! You cannot expect anyone to invest in a mine on your word; you have to prepare a standard assay - only then will soeone trust you enough to hire the workers needed to actually mine.  Get out of my sight"
+
+
+[cols="1,5"]
+|===
+| *Item* 		| Assay Bottle
+| *Qty* 		| 1 bottle
+| *Type*		| Durable
+| *Effect*		| Determine the metals present in a rock sample
+| *Expiration*	| None
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<<<
+
+
+==== Base Transmutation
+*Rank:*	Alchemy, Rank 1 +
+*Materials:* 2 Components of the same Material, one Component of the target Material. +
+*Type:* Procedure +
+*Creates:* 1 Transmuted Material +
+*Time:* 2 Minutes
+
+This alchemical process allows you to take two units of any one material and convert it into a different base type for use in a recipe or ritual process. For example, you could convert a specific Herb to a Mineral, or a Fiber to a Metal, while keeping some of the first material’s unique properties. The results or consequences of substituting a different type of material will vary from craft to craft. 
+
+Suggested Process: 
+
+. For flammable materials, distill the material to ash. Otherwise, melt or boil the base materials down to an liquified essence.
+. Add the essence to a batch of cold water, the colder the better. 
+. Heat the sample substance you intend to use as a transmutation framework, before quenching it in cold water. 
+. Apply a condensing agent to the water, shake well, and remove the sample. 
+
+[quote, Grand Distiller Xhatai, 1405]
+Base transmutation serves as the gateway to an entire world of experimentation and alchemical science. However, it is hard to argue that infusing Sulfur into a flower is a bit of a waste of a flower. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Transmuted Material
+| *Qty* 		| 1 Unit
+| *Type*		| Material
+| *Effect*		| Counts as one unit of [Original Material], as well as a unit of [Material Type] 
+| *Expiration*	| N/A
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Binding Bag									
+*Rank:* Alchemy, Rank 1 +
+*Materials:* Any 1 Binder, Any 1 Mineral +
+*Type:* Creation +
+*Creates:* 3 throwable Bags +
+*Time:* 2 minutes
+
+_This creates a series of goo-filled bags that may be thrown at a target. If the packet lands successfully on the target, they must call a Physical Save or suffer Slow. If you miss with the thrown packet, you must call a Physical Save or suffer Slow._
+
+Suggested Process:
+. Flatten the binder to create a sheet you can layer repeatedly. 
+. Sprinkle ground dust between the layers, and place a dollop of water in the center.
+. Quickly roll the layers up to create a bead. If the outer layer breaks, you will make a gigantic mess, so be quick but careful. 
+
+[quote, Brewer Fieldmore , 1515]
+Binding Bags are really more of gelatinous pellet created by suspending the process of the whole thing coming loose between proper layers. Using them in the rain or in the hands of children are not recommended. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Binding Bag
+| *Qty* 		| 3 packets
+| *Type*		| Consumable 
+| *Effect*		| Throw with a packet to cause Slow- a missed throw causes Slow to you.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Create Arcane Implement
+*Rank:* Alchemy, Rank 2 +
+*Materials:* 1 Common, 1 Uncommon, and 1 Rare Material, with least one Binder and one Mineral +
+*Type:* Creation +
+*Creates:* 1 Ritual Implement +
+*Time:* 4 minutes
+ 
+_This item refines materials into a single use Implement for the performance of Forces rituals. When using this implement, you may either gain a +2 on your Destiny Draw, or spend a point of Grit in place of any common or uncommon material in the ritual. This implement may serve as a Wand for rituals that require it._
+
+[cols="1,5"]
+|===
+| *Item:*		| Arcane Implement
+| *Qty:*		| 1
+| *Type:*		| Creation
+| *Effect:*		| A single use implement for Forces Rituals that can gain +2 on a Destiny Draw for a ritual or replace a common or uncommon material. Can be empowered into a Wand. 
+| *Expiration:*	| Current Event
+| *Price:*		| Average
+| *Rarity:*		| Common
+| *Research:*	| Known
+|===
+
+<<<
+
+==== Glowlight Oil
+*Rank:* Alchemy, Rank 1 +
+*Materials:* 1 Pitch, or 1 of any Binder and 1 of any Mineral +
+*Type:* Creation +
+*Creates:* 2 Doses +
+*Time:* 2 Minutes
+
+_This recipe creates a special oil that glows faintly in the dark. When applied to an object it begins to glow with the same light. The light lasts a significant time but is dim and tends to come in a variety of strange colors depending on the source material and stray particles in the mix. The glowing light lasts until it is vigorously wiped off or the luminescence fades fully over time._
+
+OOG: This allows you to attach two thin or one thick glowstick or other similar lighting to an object or prop. The effect lasts until you take the time to remove it or until the glowstick itself fades.) 
+
+Suggested Process: 
+
+. Soften the material to a paste. 
+. Gather the material into a set of small portions, no more than two coins wide. 
+. Apply a suspended catalyst to the material. You may use a dropper or attempt this by hand. If the latter method is used, a bit of dry dirt or stone in the mix is recommended to disperse any excess. 
+. Bottle the mixture quickly before the catalyst ceases being suspended.
+
+[quote, Alchemitrix Mornay, 1530]
+The potency of Glowlight Oil is far less than a torch or or lantern, difficult as best to read by. There are many situations in which this is an asset, not a detriment. In high winds, or when you don’t want to be seen, for example. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Glowlight Oil
+| *Qty* 		| 2 doses
+| *Type*		| Consumable
+| *Effect*		| May apply 2 thin or 1 thick glowstick to an item, lasts until it goes out. 
+| *Expiration*	| Current Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+
+==== Iron Rope
+
+*Rank:* Alchemy, Rank 1 +
+*Materials:*  Binder, Herb +
+*Type:* Creation +
+*Creates:* 1 Dose +
+*Time:* 1 Minutes
+
+_This recipe creates a thick paste that can be applied to rope or string.  The treated section of the rope becomes as hard as iron._
+
+Although the original recipe was created by an alchemist who needed a quickly improvised support for a distilling experiment, the recipe has been extensively used by trappers and theives. 
+
+
+(OOG: Staff will provide some wire to stiffen the rope if a physical representation is needed.)
+
+Suggested Process: 
+
+. Carefully warm the binder; add the herbs & mix
+. Rapidly quench the mixture using any chilled Mineral as a catalyst
+. Bottle in an airtight container; the paste will set when exposed to air. 
+
+[quote, Cyrl the Acquisitions specialist at his trial ] 
+Carrying around a grappling hook in a city makes it pretty obvious that you're going to try to get somewhere you shouldn't.  Carrying a rope and a bottle is much easier to explain.
+
+[cols="1,5"]
+|===
+| *Item* 		| Iron Rope
+| *Qty* 		| 1 dose
+| *Type*		| Consumable
+| *Effect*		| Reinforce a rope with a strong wire
+| *Expiration*	| Scene
+| *Price*		| Average
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+
+<<<
+
+==== Signal Flare								
+*Rank:* Alchemy, Rank 1 +
+*Materials:* Flint or Any 2 Minerals +
+*Type:* Creation +
+*Creates:* One Signal Flare +
+*Time:* 2 minutes
+
+_This creates a colorful flare in the sky, allowing the user to send a short, simple message to a target in the same scene, as per the Send Message ability of the skill Semaphore, by donning a white headband and moving out of game to deliver the message. If the target receiving the message has the skill, they may send a reply for free._
+
+Suggested Process: 
+. Powder and section the minerals into a booster and the actual payload, making sure the second section has a far finer ground than the first. 
+. Carefully wrap the combination in a disposable tube- paper, wood, or reeds are all valid choices. 
+. Attach a fuse to the base of the tube. 
+
+[quote, Marshal Kanton, 1556]
+An army with enough Flares almost inevitably has a few left at the end for their victory celebration- because they will be the victors. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Signal Flare
+| *Qty* 		| 1 Flare
+| *Type*		| Consumable 
+| *Effect*		| Fire to don a white headband to pass a short message to an ally of your choice.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Reload Bag
+
+*Rank:* Alchemy, Rank 1 +
+*Materials:*  Sulfur, Saltpeter, Fiber +
+*Type:* Creation +
+*Creates:* 1 item +
+*Time:* 10  Minutes
+
+Creates a bag that can be used to salvage ammunition. The bag is filled with gunpowder and waddign. Apprendtic alchemists are given a Reload Bag and sent out to collect musket balls from the battlefield; the collected bag full of ammunition is returned to the musketeers who can withdraw bullet, powder and wadding ready for reload.
+
+OOG: _This is merely a way for non-combatants to participate in combat scenarios and to reduce the effort needed to recover nerf dars and police the site._
+
+Suggested Process: 
+
+. Acquire a normal bag with tight seams
+. Fill the bag with component materials
+. Scavenge ammunitions into the bag
+. Turn the bag over to your friendly musketeer.
+
+[quote, Major Cyril the Stern]
+"Yes, technically "getting gutshot" does count as collecting ammunition, but I think you're going to find it difficult to move the ammunition from your belly to the bag.  Next time, use your hands.. . "
+
+[cols="1,5"]
+|===
+| *Item* 		| Reload Bag
+| *Qty* 		| 1 
+| *Type*		| Durable
+| *Effect*		| Recycles ammunition
+| *Expiration*	| Durable; reusable
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+
+==== Ultimate Container
+*Rank:* Alchemy, Rank 1 +
+*Materials:* 1 Pitch, 1 Chalk +
+*Type:* Creation +
+*Creates:* 1 Doses +
+*Time:* 20  Minutes
+
+This recipe prepares a container to hold volatile ingredients (flammables, acids, bases, etc.)  Herbalists use the same container to hold potions that can be dangerous.  When the container is prepared according to this recipe, the contents will be stable. When the seal on the container is broken, it cannot be re-used.  (Foolish apprentices have tried to re-use an ultimate container.  They tend to die suddenly and in unexpected company.)
+
+OOG: _The simple version is safe; the more advanced versions are serious opportunities for creativity.  NOTE: LC Staff reserve the right to veto any creative implementation that might damage the game, other players enjoyment of the game or other players._
+
+Suggested Process: 
+
+. Wash the container thoroughly with purified water and allow to dry
+. Coat the container with chalk thoroghly
+. Form the ptich into a ball and use the ball of ptich to remove teh chalk, ensuring that you don' ttouch the interior of the container - only the pitch and the chalk.
+. Fill the container carefully and seal the container so that it doesn't containany air; air will degrade the preparation and potentially lead to an unexpected failure. 
+
+[quote, Last words of Terwheg, alchemical student]
+"Absolutely - don't worry the fluid in the vial is perfectly safe - you can  carry it without any concern at all. I have several of them in my pocket right now...."
+
+[cols="1,5"]
+|===
+| *Item* 		| Ultimate Contaier
+| *Qty* 		| 1 use
+| *Type*		| Consumable
+| *Effect*		| Safely contain unsafe substances
+| *Expiration*	| One Use
+| *Price*		| Average
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+

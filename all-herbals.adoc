@@ -1,0 +1,235 @@
+= Herbalist Recipes
+:notitle:
+
+== Herbalist Recipes
+
+The following entries represent those recipes that are readily known by the Herbalists of Torakand.
+
+=== Apprentice Herbalist Recipes
+
+==== Herbal Trade Goods
+*Rank:* Apprentice Herbalist +
+*Materials:* Any 2 Herbal Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Herbal Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Herbal Components into Herbal trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Fiber Trade Goods
+*Rank:* Apprentice Herbalist +
+*Materials:* Any 2 Fiber Components +
+*Type:* Creation +
+*Creates:* 1 Shipment of Fiber Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines Fiber Components into Fiber trade goods. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+==== Healing Poultice
+*Rank:* Herbalism, Rank 1 +
+*Materials:* Any 1 Herb, Any 1 Fiber +
+*Type:* Creation +
+*Creates:* 2 Healing Poultices +
+*Time:* 2 minutes
+
+_This creates a fast-acting healing bandage that can be applied. It can restore up to 10 Body points at a rate of 1 point every 10 seconds. The poultice’s effect ends if the subject moves or takes damage._
+
+Recommended Process:
+
+. Lay out clean cloth (boiled if necessary)
+. Chop the healing herbs to expose the properties.
+. Mash the herbs together with a thickening agent to make a paste.
+. Apply paste to the the laid out cloth. 
+. Tie or fold together for later use.
+
+[quote, Rye the Gardener, 1601]
+When you’ve been at war for ages, the one piece of medical knowledge that gets passed around and kept is how to keep your soldiers fighting, or at least alive. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Healing Poultice
+| *Qty* 		| 2 Uses
+| *Type*		| Consumable 
+| *Effect*		| Restores 1 Body every 10 sec, max of 10. Ends on movement or damage.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Leadheart Elixir
+*Rank:* Herbalism, Rank 1 +
+*Materials:* 1 Watermint or Any 2 Herbs +
+*Type:* Creation +
+*Creates:* 1 Dose +
+*Time:* 2 minutes
+
+_This potion grants the imbiber one Mental Save that can only be used to prevent a Mental Ailment from advancing to it more severe state. It lasts for 12 hours or until used. It tends to make the drinker a bit dull and flat in their emotional affect._
+
+Suggested Process: 
+
+. Dice the herb very finely.
+. Place into a small vial with a small bit of oil or fat at the top. 
+. Shake vigorously and skim off the top layer. 
+. Repeat until you have enough of the sediment at the bottom to ensure a proper cloudiness, then seal. 
+
+[quote, Historian Thews, 1593]
+Legend has it nobles would have their drinks replaced with Leadheart Elixir before going out on the battlefield. Whether by their superiors or by their underlings, the record fails to show. Neither group wanted them to flee at the sight of blood, I imagine. 
+
+[cols="1,5"]
+|===
+| *Item* 		| Leadheart Elixir
+| *Qty* 		| 1 Dose
+| *Type*		| Consumable 
+| *Effect*		| Gain a free Mental Save against a Mental Ailment advancing. Lasts 12 hours or until used.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Last Stand Brew
+*Rank:* Herbalism, Rank 1 +
+*Materials:* 1 Lavender or 2 of any other Herb +
+*Type:* Creation +
+*Creates:* 1 Dose +
+*Time:* 2 minutes +
+
+_This creates one dose of a special compound that lets you ignore the negative effects of a single Injury for the duration of the scene. Once the scene has concluded, you will immediately become incapacitated, suffering an Injury as normal if it is your first incapacitation this scene._
+
+[cols="1,5"]
+|===
+| *Item* 		| Last Stand Brew
+| *Qty* 		| 1 Dose
+| *Type*		| Consumable 
+| *Effect*		| Ignore a single injury’s effects for a fight, automatically become incapacitated at the end of the scene.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+
+==== Explorers Friend
+*Rank:* Herbalism, Rank 1 +
+*Materials:* One Watermint, One of any Fiber +
+*Type:* Creation
+*Creates:* 2 Doses
+*Time:* 2 minutes
+
+_This recipe creates a compound that can be administered to a person, granting an additional Physical Save against an effect with Poison in the name, a poisonous effect in the environment, or any effect that would cause Sicken. This lasts for 12 hours or until the save is used._
+ 
+[cols="1,5"]
+|===
+| *Item* 		| Explorer’s Friend
+| *Qty* 		| 2 Unses
+| *Type*		| Consumable 
+| *Effect*		| Gives a save against the first effect of something toxic or poisonous, or an effect that would cause Sicken.
+| *Expiration*	| This Event
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Herbalist's Examination
+
+*Rank:* Herbalism, Rank 1 +
+*Materials:* Heartrose, 1 other herb
+*Type:* Creation +
+*Creates:* 1 pill+
+*Time:* 2 minutes
+
+Creates a pill. When the pill is added to a potion, the potion will change color to indicate whether the potion is safe to drink.  Although this _can_ be used to detect poison, in civilized communties it has much more use in research and experimentation.  Herbalist's Examination is also frequently used on sea voyages to detect spoiled food and drink
+
+
+Recommended Process:
+
+. Grind herbs into a course powder
+. Combine herbs with a solvent, forming a thick paste
+. Shape the paste into a pill and dry slowly.
+
+[quote, Medicus Merle]
+"All too many students forget that the distinction between a potion and a poison is the dosage. Dilute
+this correctly and your patient will pay you with gratitude for a cure. Dilute it insufficiently and
+you'll find that you're paying for the patient's funeral.  I used to make students sample their own
+potions, but there were problems......"
+
+[cols="1,5"]
+|===
+| *Item* 		| Herbalists Examination
+| *Qty* 		| 2 Uses
+| *Type*		| Creation
+| *Effect*		| Detects food/beverage that is unsafe to consume.
+| *Expiration*	| One Use
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Animal Cookies
+
+*Rank:* Herbalism, Rank 1 +
+*Materials:* binder, herb, meat or grain
+*Type:* Creation +
+*Creates:* 5 cookies
+*Time:* 30 minutes
+
+This recipe generates mall biscuits that can be used to assist witht he Creature Handling skill.  There
+are separate variations for carnivores (using meat as an ingredient) or herbivores (using grain as an
+ingredient). Omnivores will consume either variation.  There are also different variations to calm the
+animal (use lavender as the herb) or to make the animal more aggressive (use firebloom as the herb).
+Note that possessing these cookies *does not grant the skill*; it makes the skill easier.  
+
+
+_OOG: an be reprsented by a biscuit, cookie or poker chip, depending on the rules at the site._
+
+Recommended Process:
+
+. Mix dry ingredients into normal cookie dough; add we ingredients and bake
+
+[quote, Metagarn the shepher]
+"Who's a good snellygaster??! You are!! Yes, You are!! Yes, this is for you, nom nom...."
+
+[cols="1,5"]
+|===
+| *Item* 		| Animal Cookie
+| *Qty* 		| 5 cookies
+| *Type*		| Creation
+| *Effect*		| Assists in Creature Handling
+| *Expiration*	| One Use
+| *Price*		| Cheap
+| *Rarity*		| Common 
+| *Research*	| Known
+|=== 
+
+<<<
+
+==== Create Spiritual Implement
+*Rank:* Herbalism Rank 2 +
+*Materials:* 1 Common, 1 Uncommon, and 1 Rare Material, with least one Herb and one Fiber. +
+*Type:* Creation +
+*Creates:* 1 Ritual Implement +
+*Time:* 4 minutes
+ 
+_This item refines materials into a single use Implement for the performance of Spirits rituals. When using this implement, you may either gain a +2 on your Destiny Draw, or spend a point of Grit in place of any common or uncommon material in the ritual. This implement may serve as a Wand for rituals that require it. _
+
+[cols="1,5"]
+|===
+| *Item:*		| Spiritual Implement
+| *Qty:*		| 1
+| *Type:*		| Creation
+| *Effect:*		| A single use implement for Spirits Rituals that can gain +2 on a Destiny Draw for a ritual or replace a common or uncommon material. Can be empowered into a Wand. 
+| *Price:*		| Average
+| *Rarity:*		| Common
+| *Research:*	| Known
+|===

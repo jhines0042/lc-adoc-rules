@@ -1,0 +1,40 @@
+digraph G {
+  rankdir="TB"
+  splines=spline
+  node [ shape=record ]
+
+First [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="7">
+  <TR>
+    <TD PORT="ancestry">Ancestry</TD>
+    <TD PORT="region">Region</TD>
+    <TD PORT="guild">Starting Guild</TD>
+    <TD PORT="background">Background</TD>
+  </TR>
+</TABLE>
+>];
+
+Skills [shape=plaintext; label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="10" CELLPADDING="7">
+  <TR>
+    <TD PORT="region">Region Skill</TD>
+    <TD PORT="guild">Region or Guild Skill</TD>
+    <TD PORT="background">Background Skill</TD>
+  </TR>
+</TABLE>
+>];
+
+Primary [label="Primary Attributes (27 points)"]
+
+First:region -> Skills:region 
+First:background -> Skills:background
+First:guild -> Skills:guild [style=dashed]
+First:region -> Skills:guild [style=dashed]
+
+Skills:region -> Primary
+Skills:background -> Primary
+Skills:guild -> Primary
+Primary -> "Secondary Attributes"
+
+
+}

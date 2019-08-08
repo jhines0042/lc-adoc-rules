@@ -1,0 +1,182 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+{ rank = same; "Apprentice Alchemist I"; "Apprentice Alchemist II"; "Apprentice Alchemist III" }
+	Cooking	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Cooking</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Master Chef"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Chef</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 11, Harmony 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Cooking -> "Master Chef";
+	"Fiber Arts"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Fiber Arts</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Master Weaver"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Weaver</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Fiber Arts" -> "Master Weaver";
+	"Basic Logistics"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Logistics</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Logistics"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Logistics</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Logistics" -> "Advanced Logistics";
+	Mining	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Mining</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Production"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Production</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Production"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Production</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Production" -> "Advanced Production";
+	"Assembly Line"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Assembly Line</TD></TR>
+  <TR> <TD ALIGN="LEFT">Harmony 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Production" -> "Assembly Line";
+	Blacksmith	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Blacksmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Weaponsmith	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Weaponsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Blacksmith -> Weaponsmith;
+	Armorer	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Armorer</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Blacksmith -> Armorer;
+	Gunsmith	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Gunsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Blacksmith -> Gunsmith;
+	Brightsmith	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Brightsmith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Blacksmith -> Brightsmith;
+	"Heavy Engineering"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Heavy Engineering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 11, Resolve 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Weaponsmith -> "Heavy Engineering"	 [style=dashed];
+	"Artisan Smith"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Artisan Smith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 11, Harmony 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Weaponsmith -> "Artisan Smith"	 [style=dashed];
+	"Master Smith"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Smith</TD></TR>
+  <TR> <TD ALIGN="LEFT">Strength 20, Harmony 12</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Heavy Engineering" -> "Master Smith"	 [style=dashed];
+	"Artisan Smith" -> "Master Smith"	 [style=dashed];
+	Armorer -> "Heavy Engineering"	 [style=dashed];
+	Armorer -> "Artisan Smith"	 [style=dashed];
+	Gunsmith -> "Heavy Engineering"	 [style=dashed];
+	Gunsmith -> "Artisan Smith"	 [style=dashed];
+	Brightsmith -> "Heavy Engineering"	 [style=dashed];
+	Brightsmith -> "Artisan Smith"	 [style=dashed];
+	"Apprentice Alchemist I"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist I</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Alchemist II"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist II</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Alchemist I" -> "Apprentice Alchemist II";
+	"Apprentice Alchemist III"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Apprentice Alchemist III</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Alchemist II" -> "Apprentice Alchemist III";
+	"Alchemical Expert"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Alchemical Expert</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 13, Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Alchemist II" -> "Alchemical Expert";
+	"Alchemical Experimenter"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Alchemical Experimenter</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 17, Wits 9</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Apprentice Alchemist III" -> "Alchemical Experimenter";
+	"Alchemical Innovator"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD bgcolor="cornsilk">Alchemical Innovator</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 20, Wits 12</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Alchemical Experimenter" -> "Alchemical Innovator";
+	"Master Alchemist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Master Alchemist</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 15, Wits 6</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Alchemical Expert" -> "Master Alchemist";
+}

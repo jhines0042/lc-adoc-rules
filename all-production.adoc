@@ -1,0 +1,40 @@
+= Production Recipes
+:notitle:
+
+== Production Recipes
+
+The following entries represent those recipes that are readily known by the Crafters of Torakand.
+
+=== Untrained Production Recipes
+
+==== Rudimentary Trade Goods
+*Rank:* Untrained +
+*Materials:* Any 4 Components of the same Type +
+*Type:* Creation +
+*Creates:* 1 Shipment of Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines materials into appropriate trade goods. The trade good retains the type of the Component used. For example: using Metal components will produce a Metal Trade Good. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+=== Basic Production Recipes
+
+==== Average Trade Goods
+*Rank:* Basic Production +
+*Materials:* Any 3 Components of the same Type +
+*Type:* Creation +
+*Creates:* 1 Shipment of Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines materials into appropriate trade goods. The trade good retains the type of the Component used. For example: using Fiber components will produce a Fiber Trade Good. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._
+
+
+=== Advanced Production Recipes
+
+==== Expensive Trade Goods
+*Rank:* Advanced Production +
+*Materials:* Any 2 Components of the same Type +
+*Type:* Creation +
+*Creates:* 1 Shipment of Trade Goods +
+*Time:* 10 minutes
+ 
+_This recipe refines materials into appropriate trade goods. The trade good retains the type of the Component used. For example: using Mineral components will produce a Mineral Trade Good. These items will always trade for a standard value with the Quartermaster. Delivering certain quantities of requested Trade Goods may be useful when completing Commerce Quests with the Quartermaster. The description of the Trade Good is up to the player crafting the item as long as it does not attempt to replicate, or masquerade, as another Item. Trade Good Items have no game mechanical benefits._

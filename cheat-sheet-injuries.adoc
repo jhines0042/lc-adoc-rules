@@ -1,0 +1,4 @@
+= Injury Cheat Sheet
+:notitle:
+
+include::chapter-05.adoc[tag=wounds-injuries-scars-death]

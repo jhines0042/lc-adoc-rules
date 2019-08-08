@@ -1,0 +1,116 @@
+strict digraph G {
+	graph [rankdir=LR,
+		size="7.5,8",
+		splines=line
+	];
+	"Armor Training"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Armor Training</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Strikes"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Basic Strikes</TD></TR>
+  <TR> <TD ALIGN="LEFT">None</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Strikes"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Strikes</TD></TR>
+  <TR> <TD ALIGN="LEFT">None</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Strikes" -> "Advanced Strikes";
+	"Masterful Strike"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Masterful Strike</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 13, Wits 3</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 13, Wits 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Strikes" -> "Masterful Strike";
+	"Basic Styles"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Basic Combat Styles</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 3</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Styles"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" COLSPAN="2" bgcolor="cornsilk">Advanced Combat Styles</TD></TR>
+  <TR><TD ALIGN="LEFT">Melee</TD><TD ALIGN="LEFT">Strength 7</TD></TR>
+  <TR><TD ALIGN="LEFT">Ranged</TD><TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Basic Styles" -> "Advanced Styles";
+	"Advanced Styles" -> "Masterful Strike";
+	Sniper	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sniper</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Styles" -> Sniper;
+	"Weapon Specialist"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Weapon Specialist</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 11 or Strength 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Styles" -> "Weapon Specialist";
+	"Inspire Courage"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Inspire Courage</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Sergeant	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Sergeant</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 7, Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Inspire Courage" -> Sergeant;
+	"Banner Bearer"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Banner Bearer</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 11</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Sergeant -> "Banner Bearer";
+	Captain	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Captain</TD></TR>
+  <TR> <TD ALIGN="LEFT">Focus 13, Resolve 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Sergeant -> Captain;
+	"First Aid Military"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">First Aid</TD></TR>
+  <TR> <TD ALIGN="LEFT">Essence 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Advanced Treatment Military"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Advanced Treatment</TD></TR>
+  <TR><TD ALIGN="LEFT">Focus 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"First Aid Military" -> "Advanced Treatment Military";
+	"Orienteering Military"	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Orienteering</TD></TR>
+  <TR> <TD ALIGN="LEFT">Resolve 3</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	Semaphores	 [label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD ALIGN="LEFT" bgcolor="cornsilk">Semaphores</TD></TR>
+  <TR> <TD ALIGN="LEFT">Agility 7</TD></TR>
+</TABLE>>,
+		shape=plaintext];
+	"Orienteering Military" -> Semaphores;
+}

@@ -1,0 +1,127 @@
+
+tag::weapon-training[]
+:arg1: *
+tag::weapon-training-header[]
+
+=== Weapon Training {arg1}
+
+*Rank:* 1 +
+*Reqs:* Strength 3 for Melee Weapons, Agility 3 for Ranged Weapons
+
+Choose a specific weapon type from the list below.  You may use the listed benefit when wielding a weapon of that type:
+
+end::weapon-training-header[]
+
+tag::weapon-training-small[]
+* small melee -- vitals attack, once per scene you may auto hit with a 2 damage melee attack.
+end::weapon-training-small[]
+
+tag::weapon-training-medium[]
+* medium melee -- disarm, once per scene you may call disarm after making contact with your weapon on a targets arm as you would with a normal strike.  The target must drop their grip on whatever is being held by that arm’s hand.
+end::weapon-training-medium[]
+
+tag::weapon-training-large[]
+* large melee -- push back, once per scene you may call push back and the target must retreat outside of your weapons’ reach.
+end::weapon-training-large[]
+
+tag::weapon-training-sidearm[]
+* sidearm -- pistol whip, once per scene name a target that is close to auto hit with a 2 damage melee attack.  Do not actually swing your sidearm at anyone.
+end::weapon-training-sidearm[]
+
+tag::weapon-training-longgun[]
+* long gun -- called shot, once per scene name a target that is distant to auto hit them with your weapon. When calling this skill, you must say "Called Shot", clearly define your target by name or description, and then discharge a single loaded dart. 
+end::weapon-training-longgun[]
+
+tag::weapon-training-shotgun[]
+* shotgun -- shield break, once per scene you may shoot a shield to give it the broken condition.
+end::weapon-training-shotgun[]
+
+tag::weapon-training-thrown[]
+* thrown --  Pommel Shot, once per scene, you may throw a thrown weapon to cause a 15 second Stun.
+end::weapon-training-thrown[]
+end::weapon-training[]
+
+tag::weapon-finesse[]
+:arg1: *
+tag::weapon-finesse-header[]
+
+=== Weapon Finesse {arg1}
+
+*Rank:* 2 +
+*Reqs:* Strength 7 for Melee Weapons, Agility 7 for Ranged Weapons
+
+Choose a specific weapon type from the list below.  You may use the listed benefit when wielding a weapon of that type:
+
+end::weapon-finesse-header[]
+
+tag::weapon-finesse-small[]
+* small melee -- 
+end::weapon-finesse-small[]
+
+tag::weapon-finesse-medium[]
+* medium melee -- 
+end::weapon-finesse-medium[]
+
+tag::weapon-finesse-large[]
+* large melee -- 
+end::weapon-finesse-large[]
+
+tag::weapon-finesse-sidearm[]
+* sidearm -- 
+end::weapon-finesse-sidearm[]
+
+tag::weapon-finesse-longgun[]
+* long gun -- 
+end::weapon-finesse-longgun[]
+
+tag::weapon-finesse-shotgun[]
+* shotgun -- 
+end::weapon-finesse-shotgun[]
+
+tag::weapon-finesse-thrown[]
+* thrown -- 
+end::weapon-finesse-thrown[]
+end::weapon-finesse[]
+
+
+tag::weapon-mastery[]
+:arg1: *
+tag::weapon-mastery-header[]
+
+=== Weapon Mastery {arg1}
+
+*Rank:* 3 +
+*Reqs:* Strength 11 for Melee Weapons, Agility 11 for Ranged Weapons
+
+Choose a specific weapon type from the list below.  You may use the listed benefit when wielding a weapon of that type:
+
+end::weapon-mastery-header[]
+
+tag::weapon-mastery-small[]
+* small melee -- 
+end::weapon-mastery-small[]
+
+tag::weapon-mastery-medium[]
+* medium melee -- 
+end::weapon-mastery-medium[]
+
+tag::weapon-mastery-large[]
+* large melee -- 
+end::weapon-mastery-large[]
+
+tag::weapon-mastery-sidearm[]
+* sidearm -- 
+end::weapon-mastery-sidearm[]
+
+tag::weapon-mastery-longgun[]
+* long gun -- 
+end::weapon-mastery-longgun[]
+
+tag::weapon-mastery-shotgun[]
+* shotgun -- 
+end::weapon-mastery-shotgun[]
+
+tag::weapon-mastery-thrown[]
+* thrown -- 
+end::weapon-mastery-thrown[]
+end::weapon-mastery[]
